@@ -48,5 +48,5 @@ Module 5: [Data wrangling and processing](https://github.com/datacarpentry/wrang
 
 **Day 2 Afternoon**
 
-Module 5: [R for data analysis and visualization](https://github.com/datacarpentry/R-genomics)
+Module 6: [R for data analysis and visualization](https://github.com/datacarpentry/R-genomics)
 - importing data in to R and using it for analysis and visualization
