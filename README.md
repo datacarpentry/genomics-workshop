@@ -26,11 +26,6 @@ Module 1: [Data organization and management](https://github.com/datacarpentry/or
 - keep raw data raw
 - metadata
 
-* [Introduction to the command line](https://github.com/datacarpentry/shell-genomics)
-* 
-* 
-* 
-
 Module 2: [Working with genomics file types](https://github.com/datacarpentry/knowyourdata-genomics)  
 - idea is that you can look at the data and understand how it's structured and how to use it
 
