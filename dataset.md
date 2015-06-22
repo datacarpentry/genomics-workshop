@@ -58,6 +58,5 @@ Data package:
 - still working on this
 
 Data files in the data package (still working on this)
-- SRR098042  - FASTQ files of ZDB172-SE single end reads
+- [SRR098042](https://www.dropbox.com/s/8opgx4zqh8krda8/SRR098042.fastq?dl=0) - FASTQ files of ZDB172-SE single end reads (300MB)
 - SRR098043  - FASTQ files of ZDB172-PE paired end reads
-
