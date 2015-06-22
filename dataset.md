@@ -55,19 +55,9 @@ going to be using in this workshop. You don't need to download the data to your
 computer. We're going to be using it in the cloud or on a High Performance Computer.
 
 Data package:
+- still working on this
 
-
-Data files in the data package
+Data files in the data package (still working on this)
 - SRR098042  - FASTQ files of ZDB172-SE single end reads
 - SRR098043  - FASTQ files of ZDB172-PE paired end reads
 
-
-
-
-
-
-
-
-would click on the name of the dataset under Run, for
-instance 'SRR098042'. That takes you to the SRA Run Browser. There are gray tabs at the top under
-the dataset name. Click on 'Download'.
