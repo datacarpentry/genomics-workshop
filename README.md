@@ -19,24 +19,18 @@ for analysis.
 
 **Day 1 Morning**
 
-Module 1: [Data organization and management](https://github.com/datacarpentry/organization-genomics)
-- Setting up the project
-- folder organization
-- naming schemes
-- keep raw data raw
-- metadata
+Module 1: [Workshop Introduction](http://www.datacarpentry.org/introduction-genomics)
+- Overview of the workshop
+- Introducing the dataset and questions
+- Genomic data in the NCBI SRA database
 
-Module 2: [Working with genomics file types](https://github.com/datacarpentry/knowyourdata-genomics)  
-- idea is that you can look at the data and understand how it's structured and how to use it
+Module 2: [Using cloud computing for genomics](https://github.com/datacarpentry/cloud-genomics)  
+- understand what cloud computing is and why it's useful
+- log in to remote computing resources
 
 **Day 1 Afternoon**
 
-Module 3: [Using cloud computing for genomics](https://github.com/datacarpentry/cloud-genomics)  
-- log in to the cloud
-- transfer some small data - maybe get it from a public repository
-- maybe transfer data from local computer
-
-Module 4: [Introduction to the command line](https://github.com/datacarpentry/shell-genomics)  
+Module 3: [Introduction to the command line](https://github.com/datacarpentry/shell-genomics)  
 - command line 
 
 **Day 2 Morning**
