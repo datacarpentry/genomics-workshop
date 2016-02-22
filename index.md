@@ -32,8 +32,10 @@ One dataset will be used throughout the workshop. We will start by introducing t
 In this workshop we're using data from Blount et al 2012 paper from Dr. Richard Lenski's Long Term Evolution Experiment.  
 
 - [Overview of the dataset](http://www.datacarpentry.org/introduction-genomics/01-intro-to-dataset.html)
+<!--
 - [Data for command line and data wrangling lessons]()
 - [Data for R lesson]()
+-->
 
 ### Amazon instance for workshop
 
@@ -41,38 +43,37 @@ All the software and data used in the workshop is on an Amazon AMI.
 
 If you want to run your instance of the server used for this workshop, launch a t2.medium instance with AMI **ami-6516b30e**, available under "Community AMIs" in the Amazon EC2 Managemant Console. 
 
-### Preliminary schedule
+[Information on how to launch an instance](https://github.com/datacarpentry/cloud-genomics/blob/gh-pages/lessons/1.logging-onto-cloud.md)
 
-**Day 1 Morning**
+### Workshop overview
+
+**Day 1**
 
 Module 1: [Workshop Introduction](http://www.datacarpentry.org/introduction-genomics)
 
-- Overview of the workshop
-- Introducing the dataset and questions
-- Genomic data in the NCBI SRA database
+- [Overview of the workshop](http://www.datacarpentry.org/introduction-genomics/00-workshop-overview.html)
+- [Introducing the dataset and questions](http://www.datacarpentry.org/introduction-genomics/01-intro-to-dataset.html)
+- [Genomic data in the NCBI SRA database](http://www.datacarpentry.org/introduction-genomics/02-examining-sra-runtable.html)
 
-Module 2: [Using cloud computing for genomics](https://github.com/datacarpentry/cloud-genomics)  
+Module 2: [Using cloud computing for genomics](https://jasonjwilliamsny.github.io/cloud-genomics/)  
 
 - understand what cloud computing is and why it's useful
 - log in to remote computing resources
 
-**Day 1 Afternoon**
 
-Module 3: [Introduction to the command line](https://github.com/datacarpentry/shell-genomics)  
+Module 3: [Introduction to the command line](http://www.datacarpentry.org/shell-genomics/lessons/)  
 
-- command line 
+- [The file system](http://www.datacarpentry.org/shell-genomics/lessons/01_the_filesystem.html)
+- [Searching files](http://www.datacarpentry.org/shell-genomics/lessons/02_searching_files.html)
 
-**Day 2 Morning**
+Module 4: Data wrangling and processing
 
-Module 5: [Data wrangling and processing](https://github.com/datacarpentry/wrangling-genomics)  
+- [Project Setup](https://github.com/datacarpentry/organization-genomics/blob/gh-pages/lessons/01_intro_organization.md)
+- [Quality control of NGS data](https://github.com/JasonJWilliamsNY/wrangling-genomics/blob/gh-pages/lessons/00-readQC.md)
+- [Automating a workflow](https://github.com/JasonJWilliamsNY/wrangling-genomics/blob/gh-pages/lessons/01-automating_a_workflow.md)
+- [Variant calling workflow](https://github.com/JasonJWilliamsNY/wrangling-genomics/blob/gh-pages/lessons/02-variant-calling-workflow.md) **Optional lesson**
 
-- running FastQC
-- running Trimmomatic
-- running FastQC to look at changes
-
-**Day 2 Afternoon**
-
-Module 6: [R for data analysis and visualization](https://github.com/datacarpentry/R-genomics)
+Module 5: [R for data analysis and visualization](https://github.com/datacarpentry/R-genomics)
 
 - importing data in to R and using it for analysis and visualization
 
