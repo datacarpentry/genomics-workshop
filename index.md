@@ -32,10 +32,7 @@ One dataset will be used throughout the workshop. We will start by introducing t
 In this workshop we're using data from Blount et al 2012 paper from Dr. Richard Lenski's Long Term Evolution Experiment.  
 
 - [Overview of the dataset](http://www.datacarpentry.org/introduction-genomics/01-intro-to-dataset.html)
-<!--
-- [Data for command line and data wrangling lessons]()
-- [Data for R lesson]()
--->
+
 
 ### Amazon instance for workshop
 
