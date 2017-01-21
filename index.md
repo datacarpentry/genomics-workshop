@@ -38,7 +38,7 @@ In this workshop we're using data from Blount et al 2012 paper from Dr. Richard 
 
 All the software and data used in the workshop is on an Amazon AMI.
 
-If you want to run your instance of the server used for this workshop, launch a t2.medium instance with AMI **ami-6516b30e**, available under "Community AMIs" in the Amazon EC2 Managemant Console. 
+If you want to run your instance of the server used for this workshop, launch a t2.medium instance with AMI in the **N. Virginia** region **ami-6516b30e**, available under "Community AMIs" in the Amazon EC2 Management Console. 
 
 [Information on how to launch an instance](https://github.com/datacarpentry/cloud-genomics/blob/gh-pages/lessons/1.logging-onto-cloud.md)
 
