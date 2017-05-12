@@ -168,6 +168,38 @@ bioinformatics pipelines, and visualization using R **VERIFY THIS**.
 
 > ## Topics
 >
+> **Module 1:** [Introduction & Using cloud/cluster computing for genomics](https://github.com/hbc/dc_2016_04/blob/master/lessons/01_intro_and_cloud_setup.md)
+> 
+> - workshop introduction
+> - understand what cloud computing is and why it's useful
+> - log in to remote computing resources
+> 
+> **Module 2:** Introduction to the command line
+> 
+> - [The filesystem](https://github.com/hbc/dc_2016_04/blob/master/lessons/02_the_filesystem.md)
+> - [Searching files](https://github.com/hbc/dc_2016_04/blob/master/lessons/03_searching_files.md)
+> - [Loops and shell scripts](https://github.com/hbc/dc_2016_04/blob/master/lessons/04_loops_and_scripts.md)
+>
+> **Module 3:** Planning your project and Knowing your data
+>
+> - [Project planning](https://github.com/hbc/dc_2016_04/blob/master/lessons/05_planning-genomics.md)
+> - [Introducing the dataset and questions](https://github.com/hbc/dc_2016_04/blob/master/lessons/06_intro-to-dataset.md)
+> - [Genomic data in the NCBI SRA database](https://github.com/hbc/dc_2016_04/blob/master/lessons/06_intro-to-dataset.md#accessing-the-original-archived-data)
+>
+> **Module 4:** Data wrangling and processing
+> 
+> - [Quality control of NGS data](https://github.com/hbc/dc_2016_04/blob/master/lessons/07_read_qc.md)
+> - [Variant calling workflow](https://github.com/hbc/dc_2016_04/blob/master/lessons/08_variant-calling-workflow.md)
+> - [Automating a workflow](https://github.com/hbc/dc_2016_04/blob/master/lessons/09_automating_workflow.md)
+>
+> **Module 5:** [R for data analysis and visualization](http://www.datacarpentry.org/R-genomics/)
+>
+> - [Introduction to R](http://www.datacarpentry.org/R-genomics/01-intro-to-R.html)
+> - [Starting with data](http://www.datacarpentry.org/R-genomics/02-starting-with-data.html)
+> - [Working with data frames](http://www.datacarpentry.org/R-genomics/03-data-frames.html)
+> - [Manipulating and analyzing data with dplyr](http://www.datacarpentry.org/R-genomics/04-dplyr.html)
+> - [Visualization with ggplot2](http://www.datacarpentry.org/R-genomics/05-data-visualization.html)
+>
 {: .solution}
 
 > ## Schedule
