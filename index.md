@@ -20,6 +20,13 @@ The focus of this workshop will be on working with genomics data and data manage
 > - [Overview of the dataset](http://www.datacarpentry.org/introduction-genomics/01-intro-to-dataset.html)
 {: .prereq}
 
+## Teaching Platforms
+In its current form, the workshop can be run on pre-imaged AWS instances, Cyverse instances, or data & directories built on a local compute cluster.
+
+> ## Platforms Details
+>
+{: .solution}
+
 ### Amazon instance for workshop
 
 All the software and data used in the workshop is on an Amazon AMI.
@@ -30,8 +37,9 @@ If you want to run your instance of the server used for this workshop, launch a 
 
 ## Workshop overview
 
-**There are two versions of this workshop.** 
+**There are three versions of this workshop.** 
 
+<!--- temporarily remove
 <table>
 <tr>
 
@@ -58,10 +66,21 @@ bioinformatics pipelines. </td></tr>
 
 </tr>
 </table>
+---->
 
-> ## Genomics workshop with R Schedule
+### Genomics workshop with R
+
+This version includes an introduction to R and analysis of metadata, an
+introduction to the command line, and bioinformatics analysis at the command line
+
+> ## Topics
 >
 {: .solution}
+
+> ## Schedule
+>
+{: .solution}
+
 
 ### Genomics workshop with pipelines
 
@@ -69,7 +88,25 @@ This version includes an introduction to the command line, bioinformatics
 analysis at the command line and the development and automation of 
 bioinformatics pipelines.
 
-> ## Genomics workshop with pipelines Schedule
+> ## Topics
+>
+{: .solution}
+
+> ## Schedule
+>
+{: .solution}
+
+### Genomics Workshop with Pipelines and R
+
+This version includes an introduction to the command line, bioinformatics 
+analysis at the command line, the development and automation of 
+bioinformatics pipelines, and visualization using R **VERIFY THIS**.
+
+> ## Topics
+>
+{: .solution}
+
+> ## Schedule
 >
 {: .solution}
 
