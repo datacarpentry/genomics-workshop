@@ -23,7 +23,7 @@ The focus of this workshop will be on working with genomics data and data manage
 ## Teaching Platforms
 In its current form, the workshop can be run on pre-imaged AWS instances, Cyverse instances, or data & directories built on a local compute cluster.
 
-> ### Platforms Details
+> ## Platforms Details
 >
 > #### Amazon instance for workshop
 > 
@@ -79,7 +79,7 @@ bioinformatics pipelines. </td></tr>
 This 2-day version includes an introduction to R and analysis of metadata, an
 introduction to the command line, and bioinformatics analysis at the command line
 
-> ### Topics
+> ## Topics
 >
 > **Module 1:** [Workshop Introduction](http://www.datacarpentry.org/introduction-genomics)
 > 
@@ -117,7 +117,7 @@ introduction to the command line, and bioinformatics analysis at the command lin
 > 
 {: .solution}
 
-> ### Schedule
+> ## Schedule
 >
 {: .solution}
 
@@ -128,7 +128,7 @@ This 2-day version includes an introduction to the command line, bioinformatics
 analysis at the command line and the development and automation of 
 bioinformatics pipelines.
 
-> ### Topics
+> ## Topics
 >
 > **Module 1:** [Introduction & Using cloud/cluster computing for genomics](https://github.com/hbc/dc_2016_04/blob/master/lessons/01_intro_and_cloud_setup.md)
 > 
@@ -156,7 +156,7 @@ bioinformatics pipelines.
 >
 {: .solution}
 
-> ### Schedule
+> ## Schedule
 >
 {: .solution}
 
@@ -166,7 +166,7 @@ This 3-day version includes an introduction to the command line, bioinformatics
 analysis at the command line, the development and automation of 
 bioinformatics pipelines, and visualization using R **VERIFY THIS**.
 
-> ### Topics
+> ## Topics
 >
 > **Module 1:** [Introduction & Using cloud/cluster computing for genomics](https://github.com/hbc/dc_2016_04/blob/master/lessons/01_intro_and_cloud_setup.md)
 > 
@@ -202,7 +202,7 @@ bioinformatics pipelines, and visualization using R **VERIFY THIS**.
 >
 {: .solution}
 
-> ### Schedule
+> ## Schedule
 >
 {: .solution}
 
