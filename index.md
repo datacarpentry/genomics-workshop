@@ -156,10 +156,11 @@ bioinformatics pipelines.
 >
 {: .solution}
 
+<!--- Schedule was taken from Tufts workshop at https://smcclatchy.github.io/2017-01-26-tufts/ ---->
 > ## Schedule
 >
 > The actual schedule may vary slightly depending on the topics and exercises chosen by the instructor.
-> 
+>
 > ### Day 1 
 > 
 > Morning | Introduction to the Shell and Cloud Computing | Key Concepts
