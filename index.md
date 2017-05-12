@@ -111,7 +111,7 @@ introduction to the command line, and bioinformatics analysis at the command lin
 > - [Automating a workflow](https://github.com/JasonJWilliamsNY/wrangling-genomics/blob/gh-pages/lessons/01-automating_a_workflow.md)
 > - [Variant calling workflow](https://github.com/JasonJWilliamsNY/wrangling-genomics/blob/gh-pages/lessons/02-variant-calling-workflow.md) **Optional lesson**
 > 
-> **Module 5:** [R for data analysis and visualization](https://github.com/datacarpentry/R-genomics)
+> **Module 6:** [R for data analysis and visualization](https://github.com/datacarpentry/R-genomics)
 > 
 > - importing data in to R and using it for analysis and visualization
 > 
@@ -130,7 +130,6 @@ bioinformatics pipelines.
 
 > ## Topics
 >
-
 > **Module 1:** [Introduction & Using cloud/cluster computing for genomics](https://github.com/hbc/dc_2016_04/blob/master/lessons/01_intro_and_cloud_setup.md)
 > 
 > - workshop introduction
@@ -144,6 +143,7 @@ bioinformatics pipelines.
 > - [Loops and shell scripts](https://github.com/hbc/dc_2016_04/blob/master/lessons/04_loops_and_scripts.md)
 >
 > **Module 3:** Planning your project and Knowing your data
+>
 > - [Project planning](https://github.com/hbc/dc_2016_04/blob/master/lessons/05_planning-genomics.md)
 > - [Introducing the dataset and questions](https://github.com/hbc/dc_2016_04/blob/master/lessons/06_intro-to-dataset.md)
 > - [Genomic data in the NCBI SRA database](https://github.com/hbc/dc_2016_04/blob/master/lessons/06_intro-to-dataset.md#accessing-the-original-archived-data)
