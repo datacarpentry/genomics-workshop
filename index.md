@@ -25,18 +25,17 @@ In its current form, the workshop can be run on pre-imaged AWS instances, Cyvers
 
 > ## Platforms Details
 >
-> ### Amazon instance for workshop
+> #### Amazon instance for workshop
 > 
 > All the software and data used in the workshop is on an Amazon AMI.
 > 
-> If you want to run your instance of the server used for this workshop, launch a t2.medium instance with AMI in the **N. Virginia** region **ami-aab445c7**, available under "Community AMIs" in the Amazon EC2 Management Console. 
-> 
-> [Information on how to launch an instance](https://github.com/datacarpentry/cloud-genomics/blob/gh-pages/lessons/1.logging-onto-cloud.md)
->
-> ### Cyverse instance for the workshop
+> If you want to run your instance of the server used for this workshop, launch a t2.medium instance in the **N. Virginia** region with AMI **ami-aab445c7**, available under "Community AMIs" in the Amazon EC2 Management Console. Information on how to launch an instance can be found on our [Discussion page](https://github.com/datacarpentry/cloud-genomics/blob/gh-pages/lessons/1.logging-onto-cloud.md)
 >
 >
-> ### Building the workshop on HPC
+> #### Cyverse instance for the workshop
+>
+>
+> #### Building the workshop on HPC
 >
 >
 {: .solution}
@@ -44,7 +43,7 @@ In its current form, the workshop can be run on pre-imaged AWS instances, Cyvers
 
 ## Workshop overview
 
-**There are three versions of this workshop.** 
+There are three versions of this workshop which are arranged slightly differently and either run two days or three days.
 
 <!--- temporarily remove
 <table>
@@ -75,9 +74,9 @@ bioinformatics pipelines. </td></tr>
 </table>
 ---->
 
-### Genomics workshop with R
+### Genomics Workshop with R
 
-This version includes an introduction to R and analysis of metadata, an
+This 2-day version includes an introduction to R and analysis of metadata, an
 introduction to the command line, and bioinformatics analysis at the command line
 
 > ## Topics
@@ -123,13 +122,37 @@ introduction to the command line, and bioinformatics analysis at the command lin
 {: .solution}
 
 
-### Genomics workshop with pipelines
+### Genomics Workshop with Pipeline Workflow
 
-This version includes an introduction to the command line, bioinformatics 
+This 2-day version includes an introduction to the command line, bioinformatics 
 analysis at the command line and the development and automation of 
 bioinformatics pipelines.
 
 > ## Topics
+>
+
+> **Module 1:** [Introduction & Using cloud/cluster computing for genomics](https://github.com/hbc/dc_2016_04/blob/master/lessons/01_intro_and_cloud_setup.md)
+> 
+> - workshop introduction
+> - understand what cloud computing is and why it's useful
+> - log in to remote computing resources
+> 
+> **Module 2:** Introduction to the command line
+> 
+> - [The filesystem](https://github.com/hbc/dc_2016_04/blob/master/lessons/02_the_filesystem.md)
+> - [Searching files](https://github.com/hbc/dc_2016_04/blob/master/lessons/03_searching_files.md)
+> - [Loops and shell scripts](https://github.com/hbc/dc_2016_04/blob/master/lessons/04_loops_and_scripts.md)
+>
+> **Module 3:** Planning your project and Knowing your data
+> - [Project planning](https://github.com/hbc/dc_2016_04/blob/master/lessons/05_planning-genomics.md)
+> - [Introducing the dataset and questions](https://github.com/hbc/dc_2016_04/blob/master/lessons/06_intro-to-dataset.md)
+> - [Genomic data in the NCBI SRA database](https://github.com/hbc/dc_2016_04/blob/master/lessons/06_intro-to-dataset.md#accessing-the-original-archived-data)
+>
+> **Module 4:** Data wrangling and processing
+> 
+> - [Quality control of NGS data](https://github.com/hbc/dc_2016_04/blob/master/lessons/07_read_qc.md)
+> - [Variant calling workflow](https://github.com/hbc/dc_2016_04/blob/master/lessons/08_variant-calling-workflow.md)
+> - [Automating a workflow](https://github.com/hbc/dc_2016_04/blob/master/lessons/09_automating_workflow.md)
 >
 {: .solution}
 
@@ -137,9 +160,9 @@ bioinformatics pipelines.
 >
 {: .solution}
 
-### Genomics Workshop with Pipelines and R
+### Genomics Workshop with Pipeline Workflow and R
 
-This version includes an introduction to the command line, bioinformatics 
+This 3-day version includes an introduction to the command line, bioinformatics 
 analysis at the command line, the development and automation of 
 bioinformatics pipelines, and visualization using R **VERIFY THIS**.
 
