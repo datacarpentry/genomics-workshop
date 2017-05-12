@@ -158,6 +158,40 @@ bioinformatics pipelines.
 
 > ## Schedule
 >
+> The actual schedule may vary slightly depending on the topics and exercises chosen by the instructor.
+> 
+> ### Day 1 
+> 
+> Morning | Introduction to the Shell and Cloud Computing | Key Concepts
+> ------- | -------------- | ---------
+> 00:00 | Workshop overview | concept
+> 00:30 | [Using cloud/cluster computing for genomics](https://github.com/hbc/dc_2016_04/blob/master/lessons/01_intro_and_cloud_setup.md) | concept
+> 01:00 | [Introduction to Unix: navigating, paths, shortcuts](https://github.com/hbc/dc_2016_04/blob/master/lessons/02_the_filesystem.md) | concept
+> 02:00 | [Introduction to Unix: examining files, modifying, writing](https://github.com/hbc/dc_2016_04/blob/master/lessons/02_the_filesystem.md) | concept
+> 03:00 | Lunch | 
+> 
+> Afternoon | The Shell and Project Setup | Key Concepts
+> ------- | -------------- | ---------
+> 00:00 | [Introduction to Unix: searching and redirection](https://github.com/hbc/dc_2016_04/blob/master/lessons/03_searching_files.md) | concept
+> 00:45 | [Introduction to Unix: Shell scripts](https://github.com/hbc/dc_2016_04/blob/master/lessons/04_loops_and_scripts.md) | concept
+> 02:45 | [Genomics planning](https://github.com/hbc/dc_2016_04/blob/master/lessons/05_planning-genomics.md) | concept
+> 03:45 | Wrap-up | 
+> 
+> ### Day 2 
+> 
+> Morning | Know Your Data | Key Concepts
+> ------- | -------------- | ---------
+> 00:00 | [Introduction to the workshop dataset](https://github.com/hbc/dc_2016_04/blob/master/lessons/06_intro-to-dataset.md) | concept
+> 00:15 | [Examining data on the NCBI SRA database](https://github.com/hbc/dc_2016_04/blob/master/lessons/06_intro-to-dataset.md#accessing-the-original-archived-data) | concept
+> 00:45 | [QC of NGS data](https://github.com/hbc/dc_2016_04/blob/master/lessons/07_read_qc.md) | concept
+> 03:00 | Lunch | 
+> 
+> Afternoon | Variant Calling and Workflow Automation | Key Concepts
+> ------- | -------------- | ---------
+> 00:00 | [Variant calling workflow (QC, alignment, variant calling)](https://github.com/hbc/dc_2016_04/blob/master/lessons/08_variant-calling-workflow.md) | concept
+> 01:00 | [Automating the workflow](https://github.com/hbc/dc_2016_04/blob/master/lessons/09_automating_workflow.md) | concept
+> 03:45 | Wrap-up | 
+> 
 {: .solution}
 
 ### Genomics Workshop with Pipeline Workflow and R
