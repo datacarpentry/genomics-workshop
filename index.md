@@ -25,15 +25,22 @@ In its current form, the workshop can be run on pre-imaged AWS instances, Cyvers
 
 > ## Platforms Details
 >
+> ### Amazon instance for workshop
+> 
+> All the software and data used in the workshop is on an Amazon AMI.
+> 
+> If you want to run your instance of the server used for this workshop, launch a t2.medium instance with AMI in the **N. Virginia** region **ami-aab445c7**, available under "Community AMIs" in the Amazon EC2 Management Console. 
+> 
+> [Information on how to launch an instance](https://github.com/datacarpentry/cloud-genomics/blob/gh-pages/lessons/1.logging-onto-cloud.md)
+>
+> ### Cyverse instance for the workshop
+>
+>
+> ### Building the workshop on HPC
+>
+>
 {: .solution}
 
-### Amazon instance for workshop
-
-All the software and data used in the workshop is on an Amazon AMI.
-
-If you want to run your instance of the server used for this workshop, launch a t2.medium instance with AMI in the **N. Virginia** region **ami-aab445c7**, available under "Community AMIs" in the Amazon EC2 Management Console. 
-
-[Information on how to launch an instance](https://github.com/datacarpentry/cloud-genomics/blob/gh-pages/lessons/1.logging-onto-cloud.md)
 
 ## Workshop overview
 
@@ -154,4 +161,7 @@ through this lesson requires working copies of the software described.
 To most effectively use these materials, please make sure to install everything
 *before* working through this workshop.
 
-<p><strong>Twitter</strong>: [@datacarpentry](https://twitter.com/datacarpentry)
+<strong>Twitter</strong>: [@datacarpentry](https://twitter.com/datacarpentry)
+
+**NEED TO SUPPRESS THE SCHEDULE DOWN HERE**
+
