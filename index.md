@@ -75,6 +75,40 @@ introduction to the command line, and bioinformatics analysis at the command lin
 
 > ## Topics
 >
+> **Module 1:** [Workshop Introduction](http://www.datacarpentry.org/introduction-genomics)
+> 
+> - [Overview of the workshop](http://www.datacarpentry.org/introduction-genomics/00-workshop-overview.html)
+> - [Introducing the dataset and questions](http://www.datacarpentry.org/introduction-genomics/01-intro-to-dataset.html)
+> - [Genomic data in the NCBI SRA database](http://www.datacarpentry.org/introduction-genomics/02-examining-sra-runtable.html)
+> 
+> **Module 2:** Data tidiness
+> 
+> [Version 1](http://www.datacarpentry.org/2015-08-24-ISU/lessons/00-intro-to-data-tidy.html) or [Version 2](https://jasonjwilliamsny.github.io/tidiness-genomics/)
+> 
+> - Think about and understand the types of data and metadata a sequencing experiment will generate
+> - Gain a general understanding of data organization
+> 
+> **Module 3:** [Using cloud computing for genomics](https://jasonjwilliamsny.github.io/cloud-genomics/)  
+> 
+> - understand what cloud computing is and why it's useful
+> - log in to remote computing resources
+> 
+> **Module 4:** [Introduction to the command line](http://www.datacarpentry.org/shell-genomics/lessons/)  
+> 
+> - [The file system](http://www.datacarpentry.org/shell-genomics/lessons/01_the_filesystem.html)
+> - [Searching files](http://www.datacarpentry.org/shell-genomics/lessons/02_searching_files.html)
+> 
+> **Module 5:** Data wrangling and processing
+> 
+> - [Project Setup](https://github.com/datacarpentry/organization-genomics/blob/gh-pages/lessons/01_intro_organization.md)
+> - [Quality control of NGS data](https://github.com/JasonJWilliamsNY/wrangling-genomics/blob/gh-pages/lessons/00-readQC.md)
+> - [Automating a workflow](https://github.com/JasonJWilliamsNY/wrangling-genomics/blob/gh-pages/lessons/01-automating_a_workflow.md)
+> - [Variant calling workflow](https://github.com/JasonJWilliamsNY/wrangling-genomics/blob/gh-pages/lessons/02-variant-calling-workflow.md) **Optional lesson**
+> 
+> **Module 5:** [R for data analysis and visualization](https://github.com/datacarpentry/R-genomics)
+> 
+> - importing data in to R and using it for analysis and visualization
+> 
 {: .solution}
 
 > ## Schedule
@@ -111,49 +145,13 @@ bioinformatics pipelines, and visualization using R **VERIFY THIS**.
 {: .solution}
 
 
-**Module 1:** [Workshop Introduction](http://www.datacarpentry.org/introduction-genomics)
-
-- [Overview of the workshop](http://www.datacarpentry.org/introduction-genomics/00-workshop-overview.html)
-- [Introducing the dataset and questions](http://www.datacarpentry.org/introduction-genomics/01-intro-to-dataset.html)
-- [Genomic data in the NCBI SRA database](http://www.datacarpentry.org/introduction-genomics/02-examining-sra-runtable.html)
-
-**Module 2:** Data tidiness
-
-[Version 1](http://www.datacarpentry.org/2015-08-24-ISU/lessons/00-intro-to-data-tidy.html) or [Version 2](https://jasonjwilliamsny.github.io/tidiness-genomics/)
-
-- Think about and understand the types of data and metadata a sequencing experiment will generate
-- Gain a general understanding of data organization
-
-**Module 3:** [Using cloud computing for genomics](https://jasonjwilliamsny.github.io/cloud-genomics/)  
-
-- understand what cloud computing is and why it's useful
-- log in to remote computing resources
-
-**Module 4:** [Introduction to the command line](http://www.datacarpentry.org/shell-genomics/lessons/)  
-
-- [The file system](http://www.datacarpentry.org/shell-genomics/lessons/01_the_filesystem.html)
-- [Searching files](http://www.datacarpentry.org/shell-genomics/lessons/02_searching_files.html)
-
-**Module 5:** Data wrangling and processing
-
-- [Project Setup](https://github.com/datacarpentry/organization-genomics/blob/gh-pages/lessons/01_intro_organization.md)
-- [Quality control of NGS data](https://github.com/JasonJWilliamsNY/wrangling-genomics/blob/gh-pages/lessons/00-readQC.md)
-- [Automating a workflow](https://github.com/JasonJWilliamsNY/wrangling-genomics/blob/gh-pages/lessons/01-automating_a_workflow.md)
-- [Variant calling workflow](https://github.com/JasonJWilliamsNY/wrangling-genomics/blob/gh-pages/lessons/02-variant-calling-workflow.md) **Optional lesson**
-
-**Module 5:** [R for data analysis and visualization](https://github.com/datacarpentry/R-genomics)
-
-- importing data in to R and using it for analysis and visualization
-
-
 ### Requirements
 
 Data Carpentry's teaching is hands-on, so participants are encouraged to use
-their own computers to insure the proper setup of tools for an efficient workfl\
-ow.
+their own computers to insure the proper setup of tools for an efficient workflow.
 *These lessons assume no prior knowledge of the skills or tools*, but working
 through this lesson requires working copies of the software described.
 To most effectively use these materials, please make sure to install everything
 *before* working through this workshop.
 
-<p><strong>Twitter</strong>: @datacarpentry
+<p><strong>Twitter</strong>: [@datacarpentry](https://twitter.com/datacarpentry)
