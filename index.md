@@ -15,7 +15,7 @@ The focus of this workshop will be on working with genomics data and data manage
 
 > ## Data
 > 
-> In this workshop we're using data from Blount et al 2012 paper from Dr. Richard Lenski's Long Term Evolution Experiment.  
+> In this workshop we're using data from a long term evolution experiment published in 2012: [Genomic analysis of a key innovation in an experimental Escherichia coli population](http://www.nature.com/nature/journal/v489/n7417/full/nature11514.html) by Blount ZD, Barrick JE, DAvidson CJ, and Lenski RE. (doi:10.1038/nature11514)
 > 
 > - [Overview of the dataset](http://www.datacarpentry.org/introduction-genomics/01-intro-to-dataset.html)
 {: .prereq}
