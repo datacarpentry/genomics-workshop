@@ -330,5 +330,4 @@ To most effectively use these materials, please make sure to install everything
 
 <strong>Twitter</strong>: [@datacarpentry](https://twitter.com/datacarpentry)
 
-**NEED TO SUPPRESS THE SCHEDULE DOWN HERE**
 
