@@ -113,7 +113,6 @@ introduction to the command line, and bioinformatics analysis at the command lin
 > - [Intro to the Linux Shell - searching and metadata](https://github.com/data-lessons/shell-genomics/blob/gh-pages/lessons/02_searching_files.md)
 > - [Project organization and documentation](https://github.com/data-lessons/organization-genomics/blob/gh-pages/lessons/01_intro_organization.md) > 
 >
-
 {: .solution}
 
 > ## Schedule
@@ -151,9 +150,6 @@ introduction to the command line, and bioinformatics analysis at the command lin
 > 01:30 | [Intro to the Linux Shell - searching and metadata](https://github.com/data-lessons/shell-genomics/blob/gh-pages/lessons/02_searching_files.md) | concept
 > 02:30 | [Project organization and documentation](https://github.com/data-lessons/organization-genomics/blob/gh-pages/lessons/01_intro_organization.md) | concept
 > 03:45 | Wrap-up | 
-
-
-
 {: .solution}
 
 
