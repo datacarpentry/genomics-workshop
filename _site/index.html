@@ -1,230 +1,115 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="last-modified" content="2017-05-02 07:22:17 -0700">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- meta "search-domain" used for google site search function google_search() -->
-    <meta name="search-domain" value="">
-    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap-theme.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/lesson.css" />
     
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon-dc.ico" />
-    
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-    <title>Genomics Workshop</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+<link href="./css/bootstrap/bootstrap.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="./css/bootstrap/bootstrap-responsive.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="./css/swc.css" />
+<link rel="stylesheet" type="text/css" href="./css/swc-bootstrap.css" />
+<meta charset="UTF-8" />
+<meta http-equiv="last-modified" content="" />
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="./css/lesson.css" />
   </head>
   <body>
     <div class="container">
-      
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-
-      
-      
-      <a href="http://datacarpentry.org" class="pull-left">
-        <img class="navbar-logo" src="./assets/img/dc-icon-black.svg" alt="Data Carpentry logo" />
-      </a>
-      
-
-      
-      <a class="navbar-brand" href="./">Home</a>
-
-    </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-
-	
-        <li><a href="./conduct/">Code of Conduct</a></li>
-
-	
-        
-        <li><a href="./setup/">Setup</a></li>
-        <li class="dropdown">
-          <a href="./" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Episodes <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            
-            <li><a href="./01-introduction/">Introduction</a></li>
-            
-          </ul>
-        </li>
-	
-
-	
-	
-        <li class="dropdown">
-          <a href="./" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Extras <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="./reference/">Reference</a></li>
-            
-            <li><a href="./about/">About</a></li>
-            
-            <li><a href="./discuss/">Discussion</a></li>
-            
-            <li><a href="./figures/">Figures</a></li>
-            
-            <li><a href="./guide/">Instructor Notes</a></li>
-            
-          </ul>
-        </li>
-	
-
-	
-        <li><a href="./license/">License</a></li>
-	
-	<li><a href="/edit/gh-pages/index.md">Improve this page <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></a></li>
-	
-      </ul>
-      <form class="navbar-form navbar-right" role="search" id="search" onsubmit="google_search(); return false;">
-        <div class="form-group">
-          <input type="text" id="google-search" placeholder="Search..." aria-label="Google site search">
-        </div>
-      </form>
-    </div>
-  </div>
-</nav>
+      <div class="banner">
+  <a href="http://datacarpentry.org" title="Data Carpentry">
+    <img alt="Data Carpentry banner" src="./img/DC1_logo_small.png" height="50px" />
+  </a>
+</div>
 
 
-<h1 class="maintitle"><a href="./">Genomics Workshop</a></h1>
+      <div class="row-fluid">
+        <div class="span10 offset1">
+	  <!-- start content -->
+          
+          <h1>Data Carpentry Genomics Workshop</h1>
+
+<p>=======</p>
 
 <p>Data Carpentry workshops are for any researcher who has data they want to analyze , and no prior computational experience is required. This hands-on workshop teaches basic concepts, skills and tools for working more effectively with data.</p>
 
 <p>The focus of this workshop will be on working with genomics data and data management and analysis for genomics research. We will cover metadata organization in spreadsheets, data organization, connecting to and using cloud computing, the command line for sequence quality control and bioinformatics workflows, and R for data analysis and visualization. We will not be teaching any particular bioinformatics tools, but the foundational skills that will allow you to conduct any analysis and analyze the output of a genomics pipeline.</p>
 
-<blockquote class="prereq">
-  <h2 id="prerequisites">Prerequisites</h2>
+<p>Participants should bring their laptops and plan to participate actively. By the end of the workshop learners should be able to more effectively manage and analyze data and be able to apply the tools and approaches directly to their ongoing research.</p>
 
-  <p>There are no pre-requisites, and the materials assume no prior knowledge about the tools. Participants should bring their laptops and plan to participate actively.</p>
-</blockquote>
+<p>Data Carpentry&#39;s aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain.</p>
 
-<blockquote class="prereq">
-  <h2 id="data">Data</h2>
+<h3>Workshop structure</h3>
 
-  <p>In this workshop we’re using data from Blount et al 2012 paper from Dr. Richard Lenski’s Long Term Evolution Experiment.</p>
+<p>One dataset will be used throughout the workshop. We will start by introducing the dataset and the steps we&#39;ll go through for analysis. </p>
 
-  <ul>
-    <li><a href="http://www.datacarpentry.org/introduction-genomics/01-intro-to-dataset.html">Overview of the dataset</a></li>
-  </ul>
-</blockquote>
+<h3>Dataset</h3>
 
-<h3 id="amazon-instance-for-workshop">Amazon instance for workshop</h3>
+<p>In this workshop we&#39;re using data from Blount et al 2012 paper from Dr. Richard Lenski&#39;s Long Term Evolution Experiment.  </p>
+
+<ul>
+<li><a href="http://www.datacarpentry.org/introduction-genomics/01-intro-to-dataset.html">Overview of the dataset</a></li>
+<li><a href="">Data for command line and data wrangling lessons</a></li>
+<li><a href="">Data for R lesson</a></li>
+</ul>
+
+<h3>Amazon instance for workshop</h3>
 
 <p>All the software and data used in the workshop is on an Amazon AMI.</p>
 
-<p>If you want to run your instance of the server used for this workshop, launch a t2.medium instance with AMI in the <strong>N. Virginia</strong> region <strong>ami-aab445c7</strong>, available under “Community AMIs” in the Amazon EC2 Management Console.</p>
+<p>If you want to run your instance of the server used for this workshop, launch a t2.medium instance with AMI <strong>ami-6516b30e</strong>, available under &quot;Community AMIs&quot; in the Amazon EC2 Managemant Console. </p>
 
-<p><a href="https://github.com/datacarpentry/cloud-genomics/blob/gh-pages/lessons/1.logging-onto-cloud.md">Information on how to launch an instance</a></p>
+<h3>Preliminary schedule</h3>
 
-<h2 id="workshop-overview">Workshop overview</h2>
+<p><strong>Day 1 Morning</strong></p>
 
-<p><strong>There are two versions of this workshop.</strong></p>
-
-<table>
-<tr>
-
-<td>
-<table>
-<tr><td> <b>Genomics workshop with R</b>
-<br />This version includes an introduction to R and analysis of metadata, an
-introduction to the command line and bioinformatics analysis at the command line</td></tr>
-<tr><td><b>Schedule</b></td></tr>
-<tr><td>Topic 1</td></tr>
-</table>
-</td>
-
-<td>
-<table>
-<tr><td> <b>Genomics workshop with pipelines</b>
-<br /> This version includes an introduction to the command line, bioinformatics
-analysis at the command line and the development and automation of
-bioinformatics pipelines. </td></tr>
-<tr><td>Schedule </td></tr>
-<tr><td> Topic 1 </td></tr>
-</table>
-</td>
-
-</tr>
-</table>
-
-<blockquote class="solution">
-  <h2 id="genomics-workshop-with-r-schedule">Genomics workshop with R Schedule</h2>
-
-</blockquote>
-
-<h3 id="genomics-workshop-with-pipelines">Genomics workshop with pipelines</h3>
-
-<p>This version includes an introduction to the command line, bioinformatics 
-analysis at the command line and the development and automation of 
-bioinformatics pipelines.</p>
-
-<blockquote class="solution">
-  <h2 id="genomics-workshop-with-pipelines-schedule">Genomics workshop with pipelines Schedule</h2>
-
-</blockquote>
-
-<p><strong>Module 1:</strong> <a href="http://www.datacarpentry.org/introduction-genomics">Workshop Introduction</a></p>
+<p>Module 1: <a href="http://www.datacarpentry.org/introduction-genomics">Workshop Introduction</a></p>
 
 <ul>
-  <li><a href="http://www.datacarpentry.org/introduction-genomics/00-workshop-overview.html">Overview of the workshop</a></li>
-  <li><a href="http://www.datacarpentry.org/introduction-genomics/01-intro-to-dataset.html">Introducing the dataset and questions</a></li>
-  <li><a href="http://www.datacarpentry.org/introduction-genomics/02-examining-sra-runtable.html">Genomic data in the NCBI SRA database</a></li>
+<li>Overview of the workshop</li>
+<li>Introducing the dataset and questions</li>
+<li>Genomic data in the NCBI SRA database</li>
 </ul>
 
-<p><strong>Module 2:</strong> Data tidiness</p>
-
-<p><a href="http://www.datacarpentry.org/2015-08-24-ISU/lessons/00-intro-to-data-tidy.html">Version 1</a> or <a href="https://jasonjwilliamsny.github.io/tidiness-genomics/">Version 2</a></p>
+<p>Module 2: <a href="https://github.com/datacarpentry/cloud-genomics">Using cloud computing for genomics</a>  </p>
 
 <ul>
-  <li>Think about and understand the types of data and metadata a sequencing experiment will generate</li>
-  <li>Gain a general understanding of data organization</li>
+<li>understand what cloud computing is and why it&#39;s useful</li>
+<li>log in to remote computing resources</li>
 </ul>
 
-<p><strong>Module 3:</strong> <a href="https://jasonjwilliamsny.github.io/cloud-genomics/">Using cloud computing for genomics</a></p>
+<p><strong>Day 1 Afternoon</strong></p>
+
+<p>Module 3: <a href="https://github.com/datacarpentry/shell-genomics">Introduction to the command line</a>  </p>
 
 <ul>
-  <li>understand what cloud computing is and why it’s useful</li>
-  <li>log in to remote computing resources</li>
+<li>command line </li>
 </ul>
 
-<p><strong>Module 4:</strong> <a href="http://www.datacarpentry.org/shell-genomics/lessons/">Introduction to the command line</a></p>
+<p><strong>Day 2 Morning</strong></p>
+
+<p>Module 5: <a href="https://github.com/datacarpentry/wrangling-genomics">Data wrangling and processing</a>  </p>
 
 <ul>
-  <li><a href="http://www.datacarpentry.org/shell-genomics/lessons/01_the_filesystem.html">The file system</a></li>
-  <li><a href="http://www.datacarpentry.org/shell-genomics/lessons/02_searching_files.html">Searching files</a></li>
+<li>running FastQC</li>
+<li>running Trimmomatic</li>
+<li>running FastQC to look at changes</li>
 </ul>
 
-<p><strong>Module 5:</strong> Data wrangling and processing</p>
+<p><strong>Day 2 Afternoon</strong></p>
+
+<p>Module 6: <a href="https://github.com/datacarpentry/R-genomics">R for data analysis and visualization</a></p>
 
 <ul>
-  <li><a href="https://github.com/datacarpentry/organization-genomics/blob/gh-pages/lessons/01_intro_organization.md">Project Setup</a></li>
-  <li><a href="https://github.com/JasonJWilliamsNY/wrangling-genomics/blob/gh-pages/lessons/00-readQC.md">Quality control of NGS data</a></li>
-  <li><a href="https://github.com/JasonJWilliamsNY/wrangling-genomics/blob/gh-pages/lessons/01-automating_a_workflow.md">Automating a workflow</a></li>
-  <li><a href="https://github.com/JasonJWilliamsNY/wrangling-genomics/blob/gh-pages/lessons/02-variant-calling-workflow.md">Variant calling workflow</a> <strong>Optional lesson</strong></li>
+<li>importing data in to R and using it for analysis and visualization</li>
 </ul>
 
-<p><strong>Module 5:</strong> <a href="https://github.com/datacarpentry/R-genomics">R for data analysis and visualization</a></p>
+<h3>Requirements</h3>
 
-<ul>
-  <li>importing data in to R and using it for analysis and visualization</li>
-</ul>
-
-<h3 id="requirements">Requirements</h3>
-
-<p>Data Carpentry’s teaching is hands-on, so participants are encouraged to use
+<p>Data Carpentry&#39;s teaching is hands-on, so participants are encouraged to use
 their own computers to insure the proper setup of tools for an efficient workfl\
 ow.
 <em>These lessons assume no prior knowledge of the skills or tools</em>, but working
@@ -232,115 +117,27 @@ through this lesson requires working copies of the software described.
 To most effectively use these materials, please make sure to install everything
 <em>before</em> working through this workshop.</p>
 
-<p><strong>Twitter</strong>: @datacarpentry
-</p>
+<p><p><strong>Twitter</strong>: @datacarpentry</p>
 
+	  <!-- end content -->
+	</div>
+      </div>
 
-<div class="syllabus">
-  <h2 id="schedule">Schedule</h2>
-
-  
-  
-  
-  
-    
-  
-  
-
-  <table class="table table-striped">
-  <tr>
-    
-    <td class="col-md-2"></td>
-    <td class="col-md-3"><a href="./setup">Setup</a></td>
-    <td class="col-md-7">Download files required for the lesson</td>
-  </tr>
-  
-    
-    
-    
-    <tr>
-      
-      <td class="col-md-2">00:00</td>
-      <td class="col-md-3">
-        
-	1. <a href="./01-introduction/">Introduction</a>
-      </td>
-      <td class="col-md-7">
-        
-          
-            
-              Key question
-
-              
-            
-          
-        
-      </td>
-    </tr>
-    
-  
-  
-  
-  <tr>
-    
-    <td class="col-md-2">00:00</td>
-    <td class="col-md-3">Finish</td>
-    <td class="col-md-7"></td>
-  </tr>
-  </table>
-
-  <p>
-    The actual schedule may vary slightly depending on the topics and exercises chosen by the instructor.
-  </p>
-
+      <div class="footer">
+  <a class="label swc-blue-bg" href="">Facebook</a>
+  <a class="label swc-blue-bg" href="">Google+</a>
+  <a class="label swc-blue-bg" href="">Twitter</a>
+  <a class="label swc-blue-bg" href="">GitHub</a>
+  <a class="label swc-blue-bg" href="./LICENSE.html">License</a>
+  <a class="bugreport label swc-blue-bg" href="mailto:?subject=bug%20in%20index.md">Bug Report</a>
 </div>
 
-
-
-      
-      
-<footer>
-  <div class="row">
-    <div class="col-md-6" align="left">
-      <h4>
-	Copyright &copy; 2016–2017
-	
-	<a href="http://datacarpentry.org">Data Carpentry</a>
-	
-      </h4>
     </div>
-    <div class="col-md-6" align="right">
-      <h4>
-	
-	<a href="/edit/gh-pages/index.md">Edit on GitHub</a>
-	
-	/
-	<a href="/blob/gh-pages/CONTRIBUTING.md">Contributing</a>
-	/
-	<a href="/">Source</a>
-	/
-	<a href="/blob/gh-pages/CITATION">Cite</a>
-	/
-	<a href="mailto:lessons@datacarpentry.org">Contact</a>
-      </h4>
-    </div>
-  </div>
-</footer>
-
-      
-    </div>
-    
-<script src="./assets/js/jquery.min.js"></script>
-<script src="./assets/js/bootstrap.min.js"></script>
-<script src="./assets/js/lesson.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-37305346-2', 'auto');
-  ga('send', 'pageview');
-</script>
+    <!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="./js/jquery-1.9.1.min.js"></script>
+<script src="./js/bootstrap/bootstrap.min.js"></script>
 
   </body>
 </html>
