@@ -99,26 +99,61 @@ introduction to the command line, and bioinformatics analysis at the command lin
 > - understand what cloud computing is and why it's useful
 > - log in to remote computing resources
 > 
-> **Module 4:** [Introduction to the command line](http://www.datacarpentry.org/shell-genomics/lessons/)  
+> **Module 4:** Cleaning and visualizing data in R and Rstudio  
 > 
-> - [The file system](http://www.datacarpentry.org/shell-genomics/lessons/01_the_filesystem.html)
-> - [Searching files](http://www.datacarpentry.org/shell-genomics/lessons/02_searching_files.html)
+> - [Introduction to R and R Studio](https://github.com/data-lessons/R-genomics)
+> - [Data frames and metadata](http://www.datacarpentry.org/shell-genomics/lessons/02_searching_files.html)
+> - [Cleaning data with dplyr](https://github.com/data-lessons/R-genomics)
+> - [Visualizing data with R and ggplot](https://github.com/data-lessons/R-genomics)
 > 
-> **Module 5:** Data wrangling and processing
+> **Module 5:** Data management and the Linux Shell
 > 
-> - [Project Setup](https://github.com/datacarpentry/organization-genomics/blob/gh-pages/lessons/01_intro_organization.md)
-> - [Quality control of NGS data](https://github.com/JasonJWilliamsNY/wrangling-genomics/blob/gh-pages/lessons/00-readQC.md)
-> - [Automating a workflow](https://github.com/JasonJWilliamsNY/wrangling-genomics/blob/gh-pages/lessons/01-automating_a_workflow.md)
-> - [Variant calling workflow](https://github.com/JasonJWilliamsNY/wrangling-genomics/blob/gh-pages/lessons/02-variant-calling-workflow.md) **Optional lesson**
-> 
-> **Module 6:** [R for data analysis and visualization](https://github.com/datacarpentry/R-genomics)
-> 
-> - importing data in to R and using it for analysis and visualization
-> 
+> - [Data Importing and Uploading](https://github.com/data-lessons/knowyourdata-genomics/blob/gh-pages/index.md)
+> - [Intro to the Linux Shell - filesystem and navigation](https://github.com/data-lessons/shell-genomics/blob/gh-pages/lessons/01_the_filesystem.md)
+> - [Intro to the Linux Shell - searching and metadata](https://github.com/data-lessons/shell-genomics/blob/gh-pages/lessons/02_searching_files.md)
+> - [Project organization and documentation](https://github.com/data-lessons/organization-genomics/blob/gh-pages/lessons/01_intro_organization.md) > 
+>
+
 {: .solution}
 
 > ## Schedule
->
+> 
+>The actual schedule may vary slightly depending on the topics and exercises chosen by the instructor.
+> ### Day 1 
+> 
+> Morning | Introduction to Genomics Metadata and R | Key Concepts
+> ------- | -------------- | ---------
+> 00:00 | Workshop overview | concept
+> 00:15 | [Introduction to the dataset](http://www.datacarpentry.org/introduction-genomics/) | concept
+> 00:30 | (! Missing from Data Lessons?) [Genomics data tidiness](https://github.com/JasonJWilliamsNY/tidiness-genomics) | concept
+> 01:00 | [Connecting to the Cloud in 5 min or less](https://github.com/data-lessons/cloud-genomics) | concept
+> 01:10 | [Introduction to R and R Studio](https://github.com/data-lessons/R-genomics) | concept
+> 02:00 | [Data frames and Metadata](https://github.com/data-lessons/R-genomics) | concept
+> 03:00 | Lunch |
+> 
+> Afternoon | Data frames and Data Cleaning | Key Concepts
+> ------- | -------------- | ---------
+> 00:00 | [Data frames and Metadata cont'd](https://github.com/data-lessons/R-genomics) | concept
+> 00:30 | [Data Cleaning with dplyr](https://github.com/data-lessons/R-genomics) | concept
+> 03:45 | Wrap-up | 
+> 
+> ### Day 2 
+> 
+> Morning | Visualizing data with R | Key Concepts
+> ------- | -------------- | ---------
+> 00:00 | [Plotting and visualizing in R with ggplot](https://github.com/data-lessons/R-genomics) | concept
+> 03:00 | Lunch | 
+> 
+> Afternoon | Data Management and Linux Shell | Key Concepts
+> ------- | -------------- | ---------
+> 00:00 | [Data Importing and Uploading](https://github.com/data-lessons/knowyourdata-genomics/blob/gh-pages/index.md) | concept
+> 00:30 | [Intro to the Linux Shell - filesystem and navigation](https://github.com/data-lessons/shell-genomics/blob/gh-pages/lessons/01_the_filesystem.md) | concept
+> 01:30 | [Intro to the Linux Shell - searching and metadata](https://github.com/data-lessons/shell-genomics/blob/gh-pages/lessons/02_searching_files.md) | concept
+> 02:30 | [Project organization and documentation](https://github.com/data-lessons/organization-genomics/blob/gh-pages/lessons/01_intro_organization.md) | concept
+> 03:45 | Wrap-up | 
+
+
+
 {: .solution}
 
 
@@ -195,7 +230,7 @@ bioinformatics pipelines.
 > 
 {: .solution}
 
-### Genomics Workshop with Pipeline Workflow and R
+### Genomics Workshop with Pipeline Workflow and R (Under development)
 
 This 3-day version includes an introduction to the command line, bioinformatics 
 analysis at the command line, the development and automation of 
