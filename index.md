@@ -74,7 +74,6 @@ bioinformatics pipelines. </td></tr>
 ---->
 
 {: .solution}
-
 ### Genomics Workshop with R
 
 This 2-day version includes an introduction to R and analysis of metadata, an
