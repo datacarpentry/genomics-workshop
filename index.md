@@ -37,7 +37,7 @@ In its current form, the workshop can be run on pre-imaged AWS instances, Cyvers
 >
 > #### Building the workshop on HPC
 >
->
+
 {: .solution}
 
 
