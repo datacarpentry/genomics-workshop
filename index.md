@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: lesson
+root: .
 ---
 
 
