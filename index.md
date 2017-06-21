@@ -86,7 +86,7 @@ three days.
 > introduction to the command line, and bioinformatics analysis at the command line
 >
 > 1. [Project Organization and Management](https://data-lessons.github.io/organization-genomics/) 
-> * [Workshop Introduction](https://data-lessons.github.io/organization-genomics/01-introduction/)
+> * [Introduction](https://data-lessons.github.io/organization-genomics/01-introduction/)
 > * [Project Organization](https://data-lessons.github.io/organization-genomics/02-organization/)
 > * [Planning for NGS Projects](https://data-lessons.github.io/organization-genomics/03-project-planning/)
 > * [Data Tidiness](https://data-lessons.github.io/organization-genomics/04-tidiness/)
@@ -115,17 +115,18 @@ three days.
 > bioinformatics pipelines.  
 > 
 > 1. [Project Organization and Management](https://data-lessons.github.io/organization-genomics/) 
-> * [Workshop Introduction](https://data-lessons.github.io/organization-genomics/01-introduction/)
+> * [Introduction](https://data-lessons.github.io/organization-genomics/01-introduction/)
 > * [Project Organization](https://data-lessons.github.io/organization-genomics/02-organization/)
 > * [Planning for NGS Projects](https://data-lessons.github.io/organization-genomics/03-project-planning/)
 > * [Data Tidiness](https://data-lessons.github.io/organization-genomics/04-tidiness/)
 > * [Examining data on the NCBI SRA database](https://data-lessons.github.io/organization-genomics/05-ncbi-sra/)
 > 
 > 2. [Introduction to the command line](https://data-lessons.github.io/shell-genomics/)
-> * [Intro to the Linux Shell - filesystem and navigation](https://data-lessons.github.io/shell-genomics/01-introduction/)
-> * [The filesystem](https://data-lessons.github.io/shell-genomics/02-the-filesystem/)
-> * [Searching files](https://github.com/hbc/dc_2016_04/blob/master/lessons/03_searching_files.md)
-> * [Loops and shell scripts](https://github.com/hbc/dc_2016_04/blob/master/lessons/04_loops_and_scripts.md)
+> * [Introduction](https://data-lessons.github.io/shell-genomics/01-introduction/)
+> * [The Filesystem](https://data-lessons.github.io/shell-genomics/02-the-filesystem/)
+> * [Working with Files](https://data-lessons.github.io/shell-genomics/03-working-with-files/)
+> * [Redirection](https://data-lessons.github.io/shell-genomics/04-redirection/)
+> * [Writing Scripts](https://data-lessons.github.io/shell-genomics/05-writing-scripts/)
 >
 > 3. [Data wrangling and processing](https://data-lessons.github.io/wrangling-genomics/)
 > * [Quality Control](https://data-lessons.github.io/wrangling-genomics/00-readQC/)
@@ -143,18 +144,19 @@ three days.
 > 1. [Introduction & Using cloud/cluster computing for genomics](https://github.com/hbc/dc_2016_04/blob/master/lessons/01_intro_and_cloud_setup.md)
 >
 > 2. [Introduction to the command line](https://data-lessons.github.io/shell-genomics/)
-> * [Intro to the Linux Shell - filesystem and navigation](https://data-lessons.github.io/shell-genomics/01-introduction/)
-> * [The filesystem](https://data-lessons.github.io/shell-genomics/02-the-filesystem/)
-> * [Searching files](https://github.com/hbc/dc_2016_04/blob/master/lessons/03_searching_files.md)
-> * [Loops and shell scripts](https://github.com/hbc/dc_2016_04/blob/master/lessons/04_loops_and_scripts.md)
+> * [Introduction](https://data-lessons.github.io/shell-genomics/01-introduction/)
+> * [The Filesystem](https://data-lessons.github.io/shell-genomics/02-the-filesystem/)
+> * [Working with Files](https://data-lessons.github.io/shell-genomics/03-working-with-files/)
+> * [Redirection](https://data-lessons.github.io/shell-genomics/04-redirection/)
+> * [Writing Scripts](https://data-lessons.github.io/shell-genomics/05-writing-scripts/)
 >
 > 1. [Project Organization and Management](https://data-lessons.github.io/organization-genomics/) 
-> * [Workshop Introduction](https://data-lessons.github.io/organization-genomics/01-introduction/)
+> * [Introduction](https://data-lessons.github.io/organization-genomics/01-introduction/)
 > * [Project Organization](https://data-lessons.github.io/organization-genomics/02-organization/)
 > * [Planning for NGS Projects](https://data-lessons.github.io/organization-genomics/03-project-planning/)
 > * [Data Tidiness](https://data-lessons.github.io/organization-genomics/04-tidiness/)
 > * [Examining data on the NCBI SRA database](https://data-lessons.github.io/organization-genomics/05-ncbi-sra/)
->  
+>   
 > 3. [Data wrangling and processing](https://data-lessons.github.io/wrangling-genomics/)
 > * [Quality Control](https://data-lessons.github.io/wrangling-genomics/00-readQC/)
 > * [Automating with Shell Scripting](https://data-lessons.github.io/wrangling-genomics/01-automating_a_workflow/)
