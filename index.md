@@ -128,10 +128,9 @@ three days.
 > * [Loops and shell scripts](https://github.com/hbc/dc_2016_04/blob/master/lessons/04_loops_and_scripts.md)
 >
 > 3. [Data wrangling and processing](https://data-lessons.github.io/wrangling-genomics/)
-> * [Quality control of NGS data](https://github.com/hbc/dc_2016_04/blob/master/lessons/07_read_qc.md)
-> * [Variant calling workflow](https://github.com/hbc/dc_2016_04/blob/master/lessons/08_variant-calling-workflow.md)
-> * [Automating a workflow](https://github.com/hbc/dc_2016_04/blob/master/lessons/09_automating_workflow.md)
->
+> * [Quality Control](https://data-lessons.github.io/wrangling-genomics/00-readQC/)
+> * [Automating with Shell Scripting](https://data-lessons.github.io/wrangling-genomics/01-automating_a_workflow/)
+> * [Variant Calling Workflow](https://data-lessons.github.io/wrangling-genomics/02-variant-calling-workflow/)
 {: .solution}
 
 
@@ -157,9 +156,9 @@ three days.
 > * [Examining data on the NCBI SRA database](https://data-lessons.github.io/organization-genomics/05-ncbi-sra/)
 >  
 > 3. [Data wrangling and processing](https://data-lessons.github.io/wrangling-genomics/)
-> * [Quality control of NGS data](https://github.com/hbc/dc_2016_04/blob/master/lessons/07_read_qc.md)
-> * [Variant calling workflow](https://github.com/hbc/dc_2016_04/blob/master/lessons/08_variant-calling-workflow.md)
-> * [Automating a workflow](https://github.com/hbc/dc_2016_04/blob/master/lessons/09_automating_workflow.md)
+> * [Quality Control](https://data-lessons.github.io/wrangling-genomics/00-readQC/)
+> * [Automating with Shell Scripting](https://data-lessons.github.io/wrangling-genomics/01-automating_a_workflow/)
+> * [Variant Calling Workflow](https://data-lessons.github.io/wrangling-genomics/02-variant-calling-workflow/)
 >
 > 5. [R for data analysis and visualization](http://www.datacarpentry.org/R-genomics/)
 > * [Introduction to R](http://www.datacarpentry.org/R-genomics/01-intro-to-R.html)
