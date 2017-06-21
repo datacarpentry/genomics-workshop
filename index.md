@@ -100,11 +100,9 @@ three days.
 > * [Cleaning data with dplyr](https://github.com/data-lessons/R-genomics)
 > * [Visualizing data with R and ggplot](https://github.com/data-lessons/R-genomics)
 > 
-> 4. [Data management and the Linux Shell](https://data-lessons.github.io/shell-genomics/)
-> * [Data Importing and Uploading](https://github.com/data-lessons/knowyourdata-genomics/blob/gh-pages/index.md)
-> * [Intro to the Linux Shell - filesystem and navigation](https://data-lessons.github.io/shell-genomics/01-introduction/)
-> * [Intro to the Linux Shell - searching and metadata](https://data-lessons.github.io/shell-genomics/02-the-filesystem/)
->
+> 4. [Introduction to the command line](https://data-lessons.github.io/shell-genomics/)
+> * [Introduction](https://data-lessons.github.io/shell-genomics/01-introduction/)
+> * [The Filesystem](https://data-lessons.github.io/shell-genomics/02-the-filesystem/)
 {: .solution}
 
 
