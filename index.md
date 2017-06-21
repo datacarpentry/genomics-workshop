@@ -121,12 +121,13 @@ three days.
 > * [Data Tidiness](https://data-lessons.github.io/organization-genomics/04-tidiness/)
 > * [Examining data on the NCBI SRA database](https://data-lessons.github.io/organization-genomics/05-ncbi-sra/)
 > 
-> 2. [Introduction to the command line]()
-> * [The filesystem](https://github.com/hbc/dc_2016_04/blob/master/lessons/02_the_filesystem.md)
+> 2. [Introduction to the command line](https://data-lessons.github.io/shell-genomics/)
+> * [Intro to the Linux Shell - filesystem and navigation](https://data-lessons.github.io/shell-genomics/01-introduction/)
+> * [The filesystem](https://data-lessons.github.io/shell-genomics/02-the-filesystem/)
 > * [Searching files](https://github.com/hbc/dc_2016_04/blob/master/lessons/03_searching_files.md)
 > * [Loops and shell scripts](https://github.com/hbc/dc_2016_04/blob/master/lessons/04_loops_and_scripts.md)
 >
-> 3. [Data wrangling and processing](https://github.com/data-lessons/wrangling-genomics)
+> 3. [Data wrangling and processing](https://data-lessons.github.io/wrangling-genomics/)
 > * [Quality control of NGS data](https://github.com/hbc/dc_2016_04/blob/master/lessons/07_read_qc.md)
 > * [Variant calling workflow](https://github.com/hbc/dc_2016_04/blob/master/lessons/08_variant-calling-workflow.md)
 > * [Automating a workflow](https://github.com/hbc/dc_2016_04/blob/master/lessons/09_automating_workflow.md)
@@ -142,8 +143,9 @@ three days.
 > 
 > 1. [Introduction & Using cloud/cluster computing for genomics](https://github.com/hbc/dc_2016_04/blob/master/lessons/01_intro_and_cloud_setup.md)
 >
-> 2. [Introduction to the command line]()
-> * [The filesystem](https://github.com/hbc/dc_2016_04/blob/master/lessons/02_the_filesystem.md)
+> 2. [Introduction to the command line](https://data-lessons.github.io/shell-genomics/)
+> * [Intro to the Linux Shell - filesystem and navigation](https://data-lessons.github.io/shell-genomics/01-introduction/)
+> * [The filesystem](https://data-lessons.github.io/shell-genomics/02-the-filesystem/)
 > * [Searching files](https://github.com/hbc/dc_2016_04/blob/master/lessons/03_searching_files.md)
 > * [Loops and shell scripts](https://github.com/hbc/dc_2016_04/blob/master/lessons/04_loops_and_scripts.md)
 >
@@ -154,7 +156,7 @@ three days.
 > * [Data Tidiness](https://data-lessons.github.io/organization-genomics/04-tidiness/)
 > * [Examining data on the NCBI SRA database](https://data-lessons.github.io/organization-genomics/05-ncbi-sra/)
 >  
-> 4. [Data wrangling and processing](https://github.com/data-lessons/wrangling-genomics)
+> 3. [Data wrangling and processing](https://data-lessons.github.io/wrangling-genomics/)
 > * [Quality control of NGS data](https://github.com/hbc/dc_2016_04/blob/master/lessons/07_read_qc.md)
 > * [Variant calling workflow](https://github.com/hbc/dc_2016_04/blob/master/lessons/08_variant-calling-workflow.md)
 > * [Automating a workflow](https://github.com/hbc/dc_2016_04/blob/master/lessons/09_automating_workflow.md)
