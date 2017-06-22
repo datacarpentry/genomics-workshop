@@ -92,7 +92,7 @@ three days.
 > * [Data Tidiness](https://data-lessons.github.io/organization-genomics/04-tidiness/)
 > * [Examining data on the NCBI SRA database](https://data-lessons.github.io/organization-genomics/05-ncbi-sra/)
 > 
-> 2. [Using cloud computing for genomics](https://jasonjwilliamsny.github.io/cloud-genomics/)  
+> 2. [Using cloud computing for genomics](https://data-lessons.github.io/cloud-genomics/)  
 > 
 > 3. [Cleaning and visualizing data in R and Rstudio]() 
 > * [Introduction to R and R Studio](https://github.com/data-lessons/R-genomics)
