@@ -4,10 +4,10 @@ root: .
 ---
 
 
-Data Carpentry workshops are for any researcher who has data they want to analyze , and no prior computational experience is required. 
+Data Carpentry workshops are for any researcher who has data they want to analyze, and no prior computational experience is required. 
 This hands-on workshop teaches basic concepts, skills and tools for working more effectively with data.
 
-The focus of this workshop will be on working with genomics data and data management and analysis for genomics research. We will cover
+The focuses of this workshop will be working with genomics data, and data management & analysis for genomics research. We will cover
 metadata organization in spreadsheets, data organization, connecting to and using cloud computing, the command line for sequence quality
 control and bioinformatics workflows, and R for data analysis and visualization. We will not be teaching any particular bioinformatics 
 tools, but the foundational skills that will allow you to conduct any analysis and analyze the output of a genomics pipeline.
@@ -33,7 +33,7 @@ This document provides basic information about Data Carpentry Genomics workshops
 * learning goals for each module and
 * instructor skills needed for each module.
 
-All of our material is on GitHub with a [CC0](https://creativecommons.org/publicdomain/zero/1.0/) copyright waiver: [Data Carpentry curriculum on GitHub](https://github.com/datacarpentry)
+All of our materials are on GitHub with a [CC0](https://creativecommons.org/publicdomain/zero/1.0/) copyright waiver: [Data Carpentry curriculum on GitHub](https://github.com/datacarpentry)
 
 ## Learning Objectives
 
@@ -46,7 +46,7 @@ The following are the overarching learning objectives for the curriculum.
 
 ## Workshop Outlines
 
-There are three versions of this workshop which are arranged slightly differently and either run two days or
+There are three versions of this workshop which are arranged slightly differently and run either two days or
 three days.
 
 <!--- temporarily remove
@@ -261,13 +261,13 @@ three days.
 {: .solution}
 
 ## Teaching Platforms
-In its current form, the workshop can be run on pre-imaged AWS instances, Cyverse instances, or data & directories built on a local compute cluster.
+In its current form, the workshop can be run on pre-imaged AWS (Amazon Web Services) instances, Cyverse instances, or data & directories built on a local compute cluster.
 
 > ## Platforms Details
 >
 > #### Amazon instance for workshop
 > 
-> All the software and data used in the workshop is on an Amazon AMI.
+> All the software and data used in the workshop is on an Amazon AMI (Amazon Machine Image).
 > 
 > If you want to run your instance of the server used for this workshop, launch a t2.medium instance in the **N. Virginia** region with AMI **ami-aab445c7**, available under "Community AMIs" in the Amazon EC2 Management Console. Information on how to launch an instance can be found on our [Discussion page](https://github.com/datacarpentry/cloud-genomics/blob/gh-pages/lessons/1.logging-onto-cloud.md)
 >
