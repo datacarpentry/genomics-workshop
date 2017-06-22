@@ -261,13 +261,13 @@ three days.
 {: .solution}
 
 ## Teaching Platforms
-In its current form, the workshop can be run on pre-imaged AWS instances, Cyverse instances, or data & directories built on a local compute cluster.
+In its current form, the workshop can be run on pre-imaged AWS (Amazon Web Services) instances, Cyverse instances, or data & directories built on a local compute cluster.
 
 > ## Platforms Details
 >
 > #### Amazon instance for workshop
 > 
-> All the software and data used in the workshop is on an Amazon AMI.
+> All the software and data used in the workshop is on an Amazon AMI (Amazon Machine Image).
 > 
 > If you want to run your instance of the server used for this workshop, launch a t2.medium instance in the **N. Virginia** region with AMI **ami-aab445c7**, available under "Community AMIs" in the Amazon EC2 Management Console. Information on how to launch an instance can be found on our [Discussion page](https://github.com/datacarpentry/cloud-genomics/blob/gh-pages/lessons/1.logging-onto-cloud.md)
 >
