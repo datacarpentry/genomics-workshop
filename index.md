@@ -63,11 +63,13 @@ three days.
 > 
 > 2. [Using cloud computing for genomics](https://datacarpentry.github.io/cloud-genomics/)  
 > 
-> 3. [Cleaning and visualizing data in R and Rstudio]() 
-> * [Introduction to R and R Studio](https://github.com/datacarpentry/R-genomics)
-> * [Data frames and metadata](http://www.datacarpentry.org/shell-genomics/lessons/02_searching_files.html)
-> * [Cleaning data with dplyr](https://github.com/datacarpentry/R-genomics)
-> * [Visualizing data with R and ggplot](https://github.com/datacarpentry/R-genomics)
+> 3. [Cleaning and visualizing data in R and Rstudio](http://www.datacarpentry.org/R-genomics/) 
+> * [Before we start](http://www.datacarpentry.org/R-genomics/00-before-we-start.html)
+> * [Introduction to R and R Studio](http://www.datacarpentry.org/R-genomics/01-intro-to-R.html)
+> * [Starting with data](http://www.datacarpentry.org/R-genomics/02-starting-with-data.html)
+> * [Data frames](http://www.datacarpentry.org/R-genomics/03-data-frames.html)
+> * [Aggregating and analyzing data with dplyr](http://www.datacarpentry.org/R-genomics/04-dplyr.html)
+> * [Data visualization](http://www.datacarpentry.org/R-genomics/05-data-visualization.html)
 > 
 > 4. [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/)
 > * [Introduction](https://datacarpentry.github.io/shell-genomics/01-introduction/)
