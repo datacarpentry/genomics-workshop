@@ -85,24 +85,24 @@ three days.
 > This 2-day version includes an introduction to R and analysis of metadata, an
 > introduction to the command line, and bioinformatics analysis at the command line
 >
-> 1. [Project Organization and Management](https://data-lessons.github.io/organization-genomics/) 
-> * [Introduction](https://data-lessons.github.io/organization-genomics/01-introduction/)
-> * [Project Organization](https://data-lessons.github.io/organization-genomics/02-organization/)
-> * [Planning for NGS Projects](https://data-lessons.github.io/organization-genomics/03-project-planning/)
-> * [Data Tidiness](https://data-lessons.github.io/organization-genomics/04-tidiness/)
-> * [Examining data on the NCBI SRA database](https://data-lessons.github.io/organization-genomics/05-ncbi-sra/)
+> 1. [Project Organization and Management](https://datacarpentry.github.io/organization-genomics/) 
+> * [Introduction](https://datacarpentry.github.io/organization-genomics/01-introduction/)
+> * [Project Organization](https://datacarpentry.github.io/organization-genomics/02-organization/)
+> * [Planning for NGS Projects](https://datacarpentry.github.io/organization-genomics/03-project-planning/)
+> * [Data Tidiness](https://datacarpentry.github.io/organization-genomics/04-tidiness/)
+> * [Examining data on the NCBI SRA database](https://datacarpentry.github.io/organization-genomics/05-ncbi-sra/)
 > 
-> 2. [Using cloud computing for genomics](https://data-lessons.github.io/cloud-genomics/)  
+> 2. [Using cloud computing for genomics](https://datacarpentry.github.io/cloud-genomics/)  
 > 
 > 3. [Cleaning and visualizing data in R and Rstudio]() 
-> * [Introduction to R and R Studio](https://github.com/data-lessons/R-genomics)
+> * [Introduction to R and R Studio](https://github.com/datacarpentry/R-genomics)
 > * [Data frames and metadata](http://www.datacarpentry.org/shell-genomics/lessons/02_searching_files.html)
-> * [Cleaning data with dplyr](https://github.com/data-lessons/R-genomics)
-> * [Visualizing data with R and ggplot](https://github.com/data-lessons/R-genomics)
+> * [Cleaning data with dplyr](https://github.com/datacarpentry/R-genomics)
+> * [Visualizing data with R and ggplot](https://github.com/datacarpentry/R-genomics)
 > 
-> 4. [Introduction to the command line](https://data-lessons.github.io/shell-genomics/)
-> * [Introduction](https://data-lessons.github.io/shell-genomics/01-introduction/)
-> * [The Filesystem](https://data-lessons.github.io/shell-genomics/02-the-filesystem/)
+> 4. [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/)
+> * [Introduction](https://datacarpentry.github.io/shell-genomics/01-introduction/)
+> * [The Filesystem](https://datacarpentry.github.io/shell-genomics/02-the-filesystem/)
 {: .solution}
 
 
@@ -112,21 +112,21 @@ three days.
 > analysis at the command line and the development and automation of 
 > bioinformatics pipelines.  
 > 
-> 1. [Project Organization and Management](https://data-lessons.github.io/organization-genomics/) 
-> * [Introduction](https://data-lessons.github.io/organization-genomics/01-introduction/)
-> * [Project Organization](https://data-lessons.github.io/organization-genomics/02-organization/)
-> * [Planning for NGS Projects](https://data-lessons.github.io/organization-genomics/03-project-planning/)
-> * [Data Tidiness](https://data-lessons.github.io/organization-genomics/04-tidiness/)
-> * [Examining data on the NCBI SRA database](https://data-lessons.github.io/organization-genomics/05-ncbi-sra/)
+> 1. [Project Organization and Management](https://datacarpentry.github.io/organization-genomics/) 
+> * [Introduction](https://datacarpentry.github.io/organization-genomics/01-introduction/)
+> * [Project Organization](https://datacarpentry.github.io/organization-genomics/02-organization/)
+> * [Planning for NGS Projects](https://datacarpentry.github.io/organization-genomics/03-project-planning/)
+> * [Data Tidiness](https://datacarpentry.github.io/organization-genomics/04-tidiness/)
+> * [Examining data on the NCBI SRA database](https://datacarpentry.github.io/organization-genomics/05-ncbi-sra/)
 > 
-> 2. [Introduction to the command line](https://data-lessons.github.io/shell-genomics/)
-> * [Introduction](https://data-lessons.github.io/shell-genomics/01-introduction/)
-> * [The Filesystem](https://data-lessons.github.io/shell-genomics/02-the-filesystem/)
-> * [Working with Files](https://data-lessons.github.io/shell-genomics/03-working-with-files/)
-> * [Redirection](https://data-lessons.github.io/shell-genomics/04-redirection/)
-> * [Writing Scripts](https://data-lessons.github.io/shell-genomics/05-writing-scripts/)
+> 2. [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/)
+> * [Introduction](https://datacarpentry.github.io/shell-genomics/01-introduction/)
+> * [The Filesystem](https://datacarpentry.github.io/shell-genomics/02-the-filesystem/)
+> * [Working with Files](https://datacarpentry.github.io/shell-genomics/03-working-with-files/)
+> * [Redirection](https://datacarpentry.github.io/shell-genomics/04-redirection/)
+> * [Writing Scripts](https://datacarpentry.github.io/shell-genomics/05-writing-scripts/)
 >
-> 3. [Data wrangling and processing](https://data-lessons.github.io/wrangling-genomics/)
+> 3. [Data wrangling and processing](https://datacarpentry.github.io/wrangling-genomics/)
 > * [Quality Control](https://data-lessons.github.io/wrangling-genomics/00-readQC/)
 > * [Automating with Shell Scripting](https://data-lessons.github.io/wrangling-genomics/01-automating_a_workflow/)
 > * [Variant Calling Workflow](https://data-lessons.github.io/wrangling-genomics/02-variant-calling-workflow/)
