@@ -49,37 +49,6 @@ The following are the overarching learning objectives for the curriculum.
 There are three versions of this workshop which are arranged slightly differently and either run two days or
 three days.
 
-<!--- temporarily remove
- <table>
- <tr>
- 
- <td>
- <table>
- <tr><td> <b>Genomics workshop with R</b>
- <br>This version includes an introduction to R and analysis of metadata, an
- introduction to the command line and bioinformatics analysis at the command line</td></tr>
- <tr><td><b>Schedule</b></td></tr>
- <tr><td>Topic 1</td></tr>
- </table>
- </td>
- 
- <td>
- <table>
- <tr><td> <b>Genomics workshop with pipelines</b>
- <br> This version includes an introduction to the command line, bioinformatics
- analysis at the command line and the development and automation of
- bioinformatics pipelines. </td></tr>
- <tr><td>Schedule </td></tr>
- <tr><td> Topic 1 </td></tr>
- </table>
- </td>
- 
- </tr>
- </table>
- ---->
-
-
-
 > ## Genomics Workshop with R
 >
 > This 2-day version includes an introduction to R and analysis of metadata, an
