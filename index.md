@@ -103,7 +103,7 @@ three days.
 > * [Variant Calling Workflow](https://data-lessons.github.io/wrangling-genomics/02-variant-calling-workflow/)
 {: .solution}
 
-
+<!---
 > ## Genomics Workshop with Pipeline Workflow and R (Under development)
 >
 > This 3-day version includes an introduction to the command line, bioinformatics 
@@ -139,6 +139,7 @@ three days.
 > * [Visualization with ggplot2](http://www.datacarpentry.org/R-genomics/05-data-visualization.html)
 >
 {: .solution}
+--->
 
 ## Workshop Goals
 
@@ -197,7 +198,7 @@ three days.
 >
 {: .solution}
 
-
+<!---
 > ## Genomics Workshop with Pipeline Workflow and R (Under development)
 > 1. Introduction & Using cloud/cluster computing for genomics  
 > * **Goals:**   
@@ -230,6 +231,7 @@ three days.
 > * *Repository:* <>   
 >
 {: .solution}
+--->
 
 ## Teaching Platforms
 In its current form, the workshop can be run on pre-imaged AWS instances, Cyverse instances, or data & directories built on a local compute cluster.
