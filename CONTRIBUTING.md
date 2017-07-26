@@ -1,79 +1,151 @@
-# Contributing New Material
+# Contributing
 
-Data Carpentry is an open source project, and we welcome contributions of all
-kinds: new and improved lessons, bug reports, and small fixes to existing
-material are all useful.
+[Software Carpentry][swc-site] and [Data Carpentry][dc-site] are open source projects,
+and we welcome contributions of all kinds:
+new lessons,
+fixes to existing material,
+bug reports,
+and reviews of proposed changes are all welcome.
 
-By contributing, you are agreeing that Data Carpentry may redistribute your 
-work under [these licenses](LICENSE.md).
+## Contributor Agreement
 
+By contributing,
+you agree that we may redistribute your work under [our license](LICENSE.md).
+In exchange,
+we will address your issues and/or assess your change proposal as promptly as we can,
+and help you become a member of our community.
+Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]
+agrees to abide by our [code of conduct](CONDUCT.md).
 
-**Table of Contents**
+## How to Contribute
 
-*   [Working With GitHub](#working-with-github)
-*   [Locations and Formats](#locations-and-formats)
-*   [FAQ](#faq)
+The easiest way to get started is to file an issue
+to tell us about a spelling mistake,
+some awkward wording,
+or a factual error.
+This is a good way to introduce yourself
+and to meet some of our community members.
 
+1.  If you do not have a [GitHub][github] account,
+    you can [send us comments by email][contact].
+    However,
+    we will be able to respond more quickly if you use one of the other methods described below.
 
-## Working With GitHub
+2.  If you have a [GitHub][github] account,
+    or are willing to [create one][github-join],
+    but do not know how to use Git,
+    you can report problems or suggest improvements by [creating an issue][issues].
+    This allows us to assign the item to someone
+    and to respond to it in a threaded discussion.
 
-1.  Fork the `datacarpentry/lesson-name` repository on GitHub.  
+3.  If you are comfortable with Git,
+    and would like to add or change material,
+    you can submit a pull request (PR).
+    Instructions for doing this are [included below](#using-github).
 
-2.  The default branch in our lessons is `gh-pages`. Create a 
-    new branch for your changes.  
-    Give your branch a meaningful name,
-    such as `fixing-typos-in-shell-lesson`
-    or `adding-tutorial-on-visualization`.
+## Where to Contribute
 
-3.  Clone this repository and branch to work with it on your computer.  
-    git clone the repository with -b 'branch name'
+1.  If you wish to change this lesson,
+    please work in <https://github.com/data-lessons/wrangling-genomics>,
+    which can be viewed at <https://data-lessons.github.io/wrangling-genomics/>.
 
-4.  Make your changes, commit them, and push them to your repository on GitHub.
+2.  If you wish to change the example lesson,
+    please work in <https://github.com/swcarpentry/lesson-example>,
+    which documents the format of our lessons
+    and can be viewed at <https://swcarpentry.github.io/lesson-example>.
 
-5.  Send a pull request to the `gh-pages` branch of the main datacarpentry
-    repository at http://github.com/datacarpentry/lesson-name. This can
-    be done through the github web interface. 
+3.  If you wish to change the template used for workshop websites,
+    please work in <https://github.com/swcarpentry/workshop-template>.
+    The home page of that repository explains how to set up workshop websites,
+    while the extra pages in <https://swcarpentry.github.io/workshop-template>
+    provide more background on our design choices.
 
-If it is easier for you to send them to us some other way,
-please mail us at
-[board@datacarpentry.org](mailto:board@datacarpentry.org).
-Given a choice between you creating content or wrestling with Git,
-we'd rather have you doing the former.
+4.  If you wish to change CSS style files, tools,
+    or HTML boilerplate for lessons or workshops stored in `_includes` or `_layouts`,
+    please work in <https://github.com/swcarpentry/styles>.
 
+## What to Contribute
 
-## Locations and Formats
+There are many ways to contribute,
+from writing new exercises and improving existing ones
+to updating or filling in the documentation
+and and submitting [bug reports][issues]
+about things that don't work, aren't clear, or are missing.
+If you are looking for ideas,
+please see [the list of issues for this repository][issues],
+or the issues for [Data Carpentry][dc-issues]
+and [Software Carpentry][swc-issues] projects.
 
-Every lesson has a repository of its own, while individual topics are files
-in that directory.  For example, the `shell-ecology` directory holding our
-introduction to the shell for ecology contains the files `00-intro.md`, 
-`01-filedir.md` and so on.  (We use two digits followed by a one-word topic 
-key to ensure files
-appear in the right order when listed.)
+Comments on issues and reviews of pull requests are just as welcome:
+we are smarter together than we are on our own.
+Reviews from novices and newcomers are particularly valuable:
+it's easy for people who have been using these lessons for a while
+to forget how impenetrable some of this material can be,
+so fresh eyes are always welcome.
 
-Lessons may be written in Markdown, as IPython Notebooks, or in other formats.
-However, as explained in [the README file](README.md), Jekyll (the tool GitHub
-uses to create websites) only knows how to handle Markdown and HTML.  if some
-other format is used, the author of the lesson must add the generated Markdown
-to the repository.  This ensures that people who *aren't* familiar with some
-format don't have to install the tools needed to work with it (e.g., R
-programmers don't have to install the IPython Notebook).
+## What *Not* to Contribute
 
-> If a lesson is in a format we don't already handle, the author must also add
-> something to the Makefile to re-create the Markdown from the source.  Please
-> check with us if you plan to do this.
+Our lessons already contain more material than we can cover in a typical workshop,
+so we are usually *not* looking for more concepts or tools to add to them.
+As a rule,
+if you want to introduce a new idea,
+you must (a) estimate how long it will take to teach
+and (b) explain what you would take out to make room for it.
+The first encourages contributors to be honest about requirements;
+the second, to think hard about priorities.
 
+We are also not looking for exercises or other material that only run on one platform.
+Our workshops typically contain a mixture of Windows, Mac OS X, and Linux users;
+in order to be usable,
+our lessons must run equally well on all three.
 
-## Formatting of the material
+## Using GitHub
 
-To ensure a consistent formatting of the lessons, we recommend the following
-guidelines:
-* No trailing white space
-* Wrap lines at 80 characters (unless it breaks URLs)
-* Use unclosed atx style headers (see below)
+If you choose to contribute via GitHub,
+you may want to look at
+[How to Contribute to an Open Source Project on GitHub][how-contribute].
+In brief:
 
-## FAQ
+1.  The published copy of the lesson is in the `gh-pages` branch of the repository
+    (so that GitHub will regenerate it automatically).
+    Please create all branches from that,
+    and merge the [master repository][repo]'s `gh-pages` branch into your `gh-pages` branch
+    before starting work.
+    Please do *not* work directly in your `gh-pages` branch,
+    since that will make it difficult for you to work on other contributions.
 
-*   *Where can I get help?*
-    <br/>
-    Mail us at [board@datacarpentry.org](mailto:board@datacarpentry.org)
+2.  We use [GitHub flow][github-flow] to manage changes:
+    1.  Create a new branch in your desktop copy of this repository for each significant change.
+    2.  Commit the change in that branch.
+    3.  Push that branch to your fork of this repository on GitHub.
+    4.  Submit a pull request from that branch to the [master repository][repo].
+    5.  If you receive feedback,
+        make changes on your desktop and push to your branch on GitHub:
+        the pull request will update automatically.
 
+Each lesson has two maintainers who review issues and pull requests
+or encourage others to do so.
+The maintainers are community volunteers,
+and have final say over what gets merged into the lesson.
+
+## Other Resources
+
+General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]
+happens on the [discussion mailing list][discuss-list],
+which everyone is welcome to join.
+You can also [reach us by email][contact].
+
+[contact]: mailto:admin@software-carpentry.org
+[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry
+[dc-lessons]: http://datacarpentry.org/lessons/
+[dc-site]: http://datacarpentry.org/
+[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss
+[github]: http://github.com
+[github-flow]: https://guides.github.com/introduction/flow/
+[github-join]: https://github.com/join
+[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github
+[issues]: https://github.com/swcarpentry/FIXME/issues/
+[repo]: https://github.com/swcarpentry/FIXME/
+[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry
+[swc-lessons]: http://software-carpentry.org/lessons/
+[swc-site]: http://software-carpentry.org/
