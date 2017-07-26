@@ -245,7 +245,7 @@ three days.
 --->
 
 ## Teaching Platforms
-In its current form, the workshop can be run on pre-imaged AWS (Amazon Web Services) instances, Cyverse instances, or data & directories built on a local compute cluster.
+In its current form, the workshop can be run on pre-imaged AWS (Amazon Web Services) instances, Cyverse instances, or data & directories built on a local compute cluster. Contact us for information on other platforms that those listed below.
 
 > ## Platforms Details
 >
