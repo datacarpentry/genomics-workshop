@@ -42,6 +42,7 @@ This document provides basic information about Data Carpentry Genomics workshops
 
 All of our materials are on GitHub with a [CC0](https://creativecommons.org/publicdomain/zero/1.0/) copyright waiver: [Data Carpentry curriculum on GitHub](https://github.com/datacarpentry)
 
+<!--
 ## Learning Objectives
 
 The following are the overarching learning objectives for the curriculum.
@@ -50,6 +51,7 @@ The following are the overarching learning objectives for the curriculum.
 * 
 * 
 * 
+-->
 
 ## Workshop Outlines
 
@@ -148,6 +150,7 @@ three days.
 {: .solution}
 --->
 
+<!---
 ## Workshop Goals
 
 > ## Genomics Workshop with R
@@ -204,6 +207,7 @@ three days.
 > * *Repository:* <>  
 >
 {: .solution}
+--->
 
 <!---
 > ## Genomics Workshop with Pipeline Workflow and R (Under development)
