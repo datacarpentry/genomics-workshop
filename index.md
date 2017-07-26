@@ -55,7 +55,7 @@ The following are the overarching learning objectives for the curriculum.
 
 ## Workshop Outlines
 
-There are three versions of this workshop which are arranged slightly differently and run either two days or
+There are currently two versions of this workshop which are arranged slightly differently and run either two days or
 three days.
 
 > ## Genomics Workshop with R
