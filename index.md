@@ -1,8 +1,15 @@
 ---
 layout: lesson
 root: .
+lastupdated: Month Day, Year
+contributors: ["First Last", "First Last", "Pls Add Others"]
+maintainers: ["First Last", "First Last"]
+domain: Domain Name
+topic: Topic
+software:
+dataurl:
+status: Under Development
 ---
-
 
 Data Carpentry workshops are for any researcher who has data they want to analyze, and no prior computational experience is required. 
 This hands-on workshop teaches basic concepts, skills and tools for working more effectively with data.
@@ -255,12 +262,11 @@ In its current form, the workshop can be run on pre-imaged AWS (Amazon Web Servi
 ### Requirements
 
 Data Carpentry's teaching is hands-on, so participants are encouraged to use
-their own computers to insure the proper setup of tools for an efficient workflow.
+their own computers to insure the proper setup of tools for an efficient workfl\
+ow.
 *These lessons assume no prior knowledge of the skills or tools*, but working
 through this lesson requires working copies of the software described.
 To most effectively use these materials, please make sure to install everything
 *before* working through this workshop.
 
 <strong>Twitter</strong>: [@datacarpentry](https://twitter.com/datacarpentry)
-
-
