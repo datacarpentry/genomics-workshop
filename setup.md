@@ -4,66 +4,36 @@ title: Setup
 permalink: /setup/
 ---
 
-## Table of Content
+## Overview
 
-* [Amazon Cloud](#amazon-cloud)
-* [Required software](#required-software)
-    * [FastQC](#fastqc)
-    * [Trimmomatic](#trimmomatic)
-    * [BWA](#bwa)
-    * [SAMtools](#samtools)
-    * [BCFtools](#bcftools)
-    * [IGV](#igv)
-* [Required data](#required-data)
+This workshop is designed to be run on pre-imaged Amazon Web Services (AWS)
+instances. All the software and data used in the workshop are hosted on an Amazon Machine Image (AMI).
 
-## Amazon Cloud
+### Option A: Using the lessons with Amazon Web Services (AWS)
 
-Most of the genomics lessons from data carpentry currently use amazon cloud.
+To run your own instance of the server used for this workshop, launch a t2.medium 
+instance in the N. Virginia region with AMI `ami-aab445c7`, available under "Community 
+AMIs" in the Amazon EC2 Management Console. Information on how to launch an instance can be 
+found on the [creating Amazon instances page](http://www.datacarpentry.org/cloud-genomics/02-logging-onto-cloud/).
 
-We don't currently know if we'll keep using amazon cloud or not.
+### Option B: Using the lessons on your local machine
 
-## Required software
+While not recommended, it is possible to work through the lessons on your local machine (i.e. without using 
+AWS). To do this, you will need to install all of the software used in the workshop and obtain a copy of the 
+dataset. Instructions for doing this are below.
 
-### FastQC
+#### Software
 
-[FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) provides a simple way to do some quality control checks on raw sequence data coming from high throughput sequencing pipelines. It provides a modular set of analyses which you can use to give a quick impression of whether your data has any problems of which you should be aware before doing any further analysis.
-
-FastQC is available for Linux, MacOS and Windows.
-
-### Trimmomatic
-
-[Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic) is a java based program that can remove sequencer specific reads and nucleotides that fall below a certain threshold. Trimmomatic can be multithreaded to run quickly.
-
-Trimmomatic is available for Linux, MacOS and Windows.
-
-### BWA
-
-[Bwa](https://github.com/lh3/bwa) is a software package for mapping DNA sequences against a large reference genome, such as the human genome.
-
-Bwa is available for Linux and MacOS.
-
-### SAMtools
-
-[SAMtools](https://github.com/samtools/samtools) is a suite of programs for interacting with high-throughput sequencing data. Samtools can read/write/edit/index/view SAM/BAM/CRAM format.
-
-SAMtools is available for Linux and MacOS.
+| Software | Install | Manual | Available for | Description | 
+| -------- | ------------ | ------ | ------------- | ----------- | 
+| [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) | [Link](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)| [Link](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/)| Linux, MacOS, Windows | Quality control tool for high throughput sequence data. | 
+| [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic) | [Link](http://www.usadellab.org/cms/?page=trimmomatic) | [Link](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf) | Linux, MacOS, Windows | A flexible read trimming tool for Illumina NGS data. | 
+| [BWA](http://bio-bwa.sourceforge.net/) | [Link](https://sourceforge.net/projects/bio-bwa/files/) | [Link](http://bio-bwa.sourceforge.net/bwa.shtml) | Linux, MacOS | Mapping DNA sequences against reference genome. |
+| [SAMtools](http://samtools.sourceforge.net/) | [Link](http://www.htslib.org/download/) | [Link](http://www.htslib.org/doc/samtools.html) | Linux, MacOS | Utilities for manipulating alignments in the SAM format. | 
+| [BCFtools](https://samtools.github.io/bcftools/) |[Link](http://www.htslib.org/download/) | [Link](https://samtools.github.io/bcftools/bcftools.html) | Linux, MacOS | Utilities for variant calling and manipulating VCFs and BCFs. | 
+| [IGV](http://software.broadinstitute.org/software/igv/home) | [Link](https://software.broadinstitute.org/software/igv/download) | [Link](https://software.broadinstitute.org/software/igv/UserGuide) | Linux, MacOS, Windows | Visualization and interactive exploration of large genomics datasets. | 
 
 
-### bcftools
+#### Data
 
-[BCFtools](https://github.com/samtools/bcftools) is a program for variant calling and manipulating files in the Variant Call Format (VCF) and its binary counterpart BCF.
-
-BCFtools is available for Linuc and MacOS
-
-### IGV
-
-[IGV](http://software.broadinstitute.org/software/igv/) is a high-performance visualization tool for interactive exploration of large, integrated genomic datasets.
-
-IGV is available for Linux, MacOS and Windows.
-
-## Required Data
-
-You will also need to download a data tarball of a reference genome and fastq files for *E. coli*:
-
-* Download [variant_calling.tar.gz](./variant_calling.tar.gz), you can also use the unix command 'wget' to obtain the copied link.
-* Once downloaded unpack it with `tar xzf variant_calling.tar.gz`
+Instructions on getting data go here. 
