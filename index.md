@@ -11,12 +11,15 @@ utilities, use of command line tools to analyze sequence quality and
 perform variant calling, and connecting to and using cloud computing. This workshop is designed to 
 be taught over two full days of instruction.
 
-> ## Prerequisites
-> 
+> ## Getting Started
+>
 > This lesson assumes no prior experience with the tools covered in the workshop. 
 > However, learners are expected to have some familiarity with biological concepts,
 > including nucleotide abbreviations and the 
 > concept of genomic variation within a population. Participants should bring their laptops and plan to participate actively. 
+> 
+> To get started, follow the directions in the [Setup](setup/) tab to 
+> get access to the required software and data for this workshop.
 {: .prereq}
 
 > ## Data
@@ -38,8 +41,5 @@ be taught over two full days of instruction.
 # Teaching Platform
 This workshop is designed to be run on pre-imaged Amazon Web Services (AWS)
 instances. All the software and data used in the workshop are hosted on an Amazon Machine Image (AMI).
-If you want to run your own instance of the server used for this workshop, launch a t2.medium 
-instance in the N. Virginia region with AMI `ami-aab445c7`, available under "Community 
-AMIs" in the Amazon EC2 Management Console. Information on how to launch an instance can be 
-found on the [creating Amazon instances page](http://www.datacarpentry.org/cloud-genomics/02-logging-onto-cloud/).
+If you want to run your own instance of the server used for this workshop, follow the directions in the [Setup](setup/) tab. 
 
