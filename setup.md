@@ -4,29 +4,29 @@ title: Setup
 permalink: /setup/
 ---
 
-## Overview
+# Overview
 
 This workshop is designed to be run on pre-imaged Amazon Web Services (AWS)
 instances. All the software and data used in the workshop are hosted on an Amazon Machine Image (AMI).
 
-### Option A: Using the lessons with Amazon Web Services (AWS)
+## Option A: Using the lessons with Amazon Web Services (AWS)
 
 To run your own instance of the server used for this workshop, launch a t2.medium
 instance in the N. Virginia region with AMI `ami-aab445c7`, available under "Community
 AMIs" in the Amazon EC2 Management Console. Information on how to launch an instance can be
 found on the [creating Amazon instances page](http://www.datacarpentry.org/cloud-genomics/02-logging-onto-cloud/).
 
-### Option B: Using the lessons on your local machine
+## Option B: Using the lessons on your local machine
 
 While not recommended, it is possible to work through the lessons on your local machine (i.e. without using
 AWS). To do this, you will need to install all of the software used in the workshop and obtain a copy of the
 dataset. Instructions for doing this are below.
 
-#### Data
+### Data
 
 Instructions on getting data go here.
 
-#### Software
+### Software
 
 | Software | Install | Manual | Available for | Description |
 | -------- | ------------ | ------ | ------------- | ----------- |
@@ -37,11 +37,11 @@ Instructions on getting data go here.
 | [BCFtools](https://samtools.github.io/bcftools/) |[Link](http://www.htslib.org/download/) | [Link](https://samtools.github.io/bcftools/bcftools.html) | Linux, MacOS | Utilities for variant calling and manipulating VCFs and BCFs. |
 | [IGV](http://software.broadinstitute.org/software/igv/home) | [Link](https://software.broadinstitute.org/software/igv/download) | [Link](https://software.broadinstitute.org/software/igv/UserGuide) | Linux, MacOS, Windows | Visualization and interactive exploration of large genomics datasets. |
 
-#### QuickStart Software Installation Instructions
+### QuickStart Software Installation Instructions
 
 These are the QuickStart installation instructions. They assume familiarity with the command line and with installation in general. As there are different operating systems and many different versions of operating systems and environments, these may not work on your computer. If an installation doesn't work for you, please refer to the installation instructions for that software, listed in the table above.
 
-1)  **FastQC**
+#### FastQC
 
 >## MacOS
 >
@@ -89,35 +89,31 @@ These are the QuickStart installation instructions. They assume familiarity with
 > {: .bash}
 {: .solution}
 
-Test your installation by running:
+**Test your installation by running:**
 
+Run
 ~~~
 $ fastqc -h
 ~~~
 {: .bash}
 
-You should see the output below:
 
-~~~
+#### Trimmomatic
 
-~~~
-{: .output}
-
-2) **Trimmomatic**
-
-To install Trimmomatic, type:
-
-~~~
-brew install trimmomatic
-~~~
-{: .bash}
-
-or
-
-~~~
-conda install -y trimmomatic
-~~~
-{: .bash}
+>## MacOS
+>
+>~~~
+>brew install trimmomatic
+>~~~
+>{: .bash}
+>
+>or
+>
+>~~~
+>conda install -y trimmomatic
+>~~~
+>{: .bash}
+{: solution}
 
 > ## Trimmomatic Source Code Installation
 >
@@ -145,20 +141,12 @@ conda install -y trimmomatic
 > {: .bash}
 {: .solution}
 
-Unfortunately running trimmomatic is as user unfriendly as it gets. To run it we type:
+**Test your installation by running:** (assuming things are installed in ~/src)
 
 ~~~
 $ java -jar ~/src/Trimmomatic-0.36/trimmomatic-0.36.jar
 ~~~
 {: .bash}
-
-You should see the output below:
-
-~~~
-
-~~~
-{: .output}
-
 
 > ## Simplify the Invocation
 >
@@ -177,30 +165,24 @@ You should see the output below:
 > $ trimmomatic
 > ~~~
 > {: .bash}
->
-> You should see the output below:
->
-> ~~~
->
-> ~~~
-> {: .output}
 {: .solution}
 
-3) **BWA**
+#### BWA
 
-To install BWA, type:
-
-~~~
-brew install bwa
-~~~
-{: .bash}
-
-or
-
-~~~
-conda install -y bwa
-~~~
-{: .bash}
+>## MacOS
+>
+>~~~
+>brew install bwa
+>~~~
+>{: .bash}
+>
+>or
+>
+>~~~
+>conda install -y bwa
+>~~~
+>{: .bash}
+{: solution}
 
 > ## BWA Source Code Installation
 >
@@ -217,35 +199,29 @@ conda install -y bwa
 > {: .bash}
 {: .solution}
 
-Test your installation by running:
+**Test your installation by running:**
 
 ~~~
 $ bwa
 ~~~
 {: .bash}
 
-You should see the following output:
+#### SAMtools
 
-~~~
-
-~~~
-{: .output}
-
-4) **SAMtools**
-
-To install SAMtools, type:
-
-~~~
-$ brew install samtools
-~~~
-{: .bash}
-
-or
-
-~~~
-$ conda install -y samtools
-~~~
-{: .bash}
+>## MacOS
+>
+>~~~
+>$ brew install samtools
+>~~~
+>{: .bash}
+>
+>or
+>
+>~~~
+>$ conda install -y samtools
+>~~~
+>{: .bash}
+{: solution}
 
 > ## SAMtools Versions
 > SAMtools has changed the command line invocation (for the better). But this means that most of the tutorials
@@ -276,36 +252,30 @@ $ conda install -y samtools
 > {: .bash}
 {: .solution}
 
-Test your installation by running:
+**Test your installation by running:**
 
 ~~~
 $ samtools
 ~~~
 {: .bash}
 
-You should see the following output:
 
-~~~
+#### BCFtools
 
-~~~
-{: .output}
-
-
-5) **BCFtools**
-
-To install BCFtools, type:
-
-~~~
-$ brew install bcftools
-~~~
-{: .bash}
-
-or
-
-~~~
-$ conda install bcftools
-~~~
-{: .bash}
+>## MacOS
+>
+>~~~
+>$ brew install bcftools
+>~~~
+>{: .bash}
+>
+>or
+>
+>~~~
+>$ conda install bcftools
+>~~~
+>{: .bash}
+{: solution}
 
 > ## BCF tools Source Code Installation
 >
@@ -329,18 +299,15 @@ $ conda install bcftools
 > {: .bash}
 {: .solution}
 
-Test your installation by running:
+**Test your installation by running:**
 
 ~~~
 $ bcftools
 ~~~
 {: .bash}
 
-You should see the following output:
 
-~~~
+#### IGV
 
-~~~
-{: .output}
-
-6) **IGV**
+- [Download the IGV installation files](https://software.broadinstitute.org/software/igv/download)
+- Install and run IGV using the [instructions for your operating system](https://software.broadinstitute.org/software/igv/download).
