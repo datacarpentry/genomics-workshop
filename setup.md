@@ -12,7 +12,7 @@ instances. All the software and data used in the workshop are hosted on an Amazo
 ## Option A: Using the lessons with Amazon Web Services (AWS)
 
 To run your own instance of the server used for this workshop, launch a t2.medium
-instance in the N. Virginia region with AMI `ami-aab445c7`, available under "Community
+instance in the N. Virginia region with AMI `ami-373ab74d`, available under "Community
 AMIs" in the Amazon EC2 Management Console. Information on how to launch an instance can be
 found on the [creating Amazon instances page](http://www.datacarpentry.org/cloud-genomics/02-logging-onto-cloud/).
 
