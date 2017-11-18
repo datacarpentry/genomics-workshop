@@ -13,8 +13,13 @@ instances. All the software and data used in the workshop are hosted on an Amazo
 
 To run your own instance of the server used for this workshop, launch a t2.medium
 instance in the N. Virginia region with AMI `ami-373ab74d`, available under "Community
-AMIs" in the Amazon EC2 Management Console. Information on how to launch an instance can be
-found on the [creating Amazon instances page](http://www.datacarpentry.org/cloud-genomics/02-logging-onto-cloud/).
+AMIs" in the Amazon EC2 Management Console. 
+
+If you are taking a Genomics Data Carpentry workshop, instances will be set up for you. Follow the instructions on [connecting to Data Carpentry Genomics Amazon instances](http://www.datacarpentry.org/cloud-genomics/02-logging-onto-cloud/) to connect to the instance.
+
+If you're an instructor or maintainer or want to contribute to these lessons, please get in touch with us [team@carpentries.org](mailto:team@carpentries.org) and we will start instances for you.
+
+You can also start your own instance if you're using these lessons for self-guided learning. Use the [information on creating an Amazon instance](http://www.datacarpentry.org/cloud-genomics/discuss/). The cost of using this AMI for a few days, with the t2.medium instance type is very low.
 
 ## Option B: Using the lessons on your local machine
 
