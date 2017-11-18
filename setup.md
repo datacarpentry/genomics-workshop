@@ -41,9 +41,9 @@ Instructions on getting data go here.
 
 These are the QuickStart installation instructions. They assume familiarity with the command line and with installation in general. As there are different operating systems and many different versions of operating systems and environments, these may not work on your computer. If an installation doesn't work for you, please refer to the installation instructions for that software, listed in the table above.
 
-#### FastQC
+### FastQC
 
->## MacOS
+> ## MacOS
 >
 >To install FastQC, type:
 >
@@ -91,16 +91,14 @@ These are the QuickStart installation instructions. They assume familiarity with
 
 **Test your installation by running:**
 
-Run
 ~~~
 $ fastqc -h
 ~~~
 {: .bash}
 
+### Trimmomatic
 
-#### Trimmomatic
-
->## MacOS
+> ## MacOS
 >
 >~~~
 >brew install trimmomatic
@@ -113,7 +111,7 @@ $ fastqc -h
 >conda install -y trimmomatic
 >~~~
 >{: .bash}
-{: solution}
+{: .solution}
 
 > ## Trimmomatic Source Code Installation
 >
@@ -148,6 +146,7 @@ $ java -jar ~/src/Trimmomatic-0.36/trimmomatic-0.36.jar
 ~~~
 {: .bash}
 
+
 > ## Simplify the Invocation
 >
 > To simplify the invocation you could also create a script in the ~/bin folder:
@@ -167,9 +166,9 @@ $ java -jar ~/src/Trimmomatic-0.36/trimmomatic-0.36.jar
 > {: .bash}
 {: .solution}
 
-#### BWA
+### BWA
 
->## MacOS
+> ## MacOS
 >
 >~~~
 >brew install bwa
@@ -182,7 +181,7 @@ $ java -jar ~/src/Trimmomatic-0.36/trimmomatic-0.36.jar
 >conda install -y bwa
 >~~~
 >{: .bash}
-{: solution}
+{: .solution}
 
 > ## BWA Source Code Installation
 >
@@ -206,9 +205,9 @@ $ bwa
 ~~~
 {: .bash}
 
-#### SAMtools
+### SAMtools
 
->## MacOS
+> ## MacOS
 >
 >~~~
 >$ brew install samtools
@@ -221,7 +220,7 @@ $ bwa
 >$ conda install -y samtools
 >~~~
 >{: .bash}
-{: solution}
+{: .solution}
 
 > ## SAMtools Versions
 > SAMtools has changed the command line invocation (for the better). But this means that most of the tutorials
@@ -260,9 +259,9 @@ $ samtools
 {: .bash}
 
 
-#### BCFtools
+### BCFtools
 
->## MacOS
+> ## MacOS
 >
 >~~~
 >$ brew install bcftools
@@ -275,7 +274,7 @@ $ samtools
 >$ conda install bcftools
 >~~~
 >{: .bash}
-{: solution}
+{: .solution}
 
 > ## BCF tools Source Code Installation
 >
@@ -307,7 +306,7 @@ $ bcftools
 {: .bash}
 
 
-#### IGV
+### IGV
 
 - [Download the IGV installation files](https://software.broadinstitute.org/software/igv/download)
 - Install and run IGV using the [instructions for your operating system](https://software.broadinstitute.org/software/igv/download).
