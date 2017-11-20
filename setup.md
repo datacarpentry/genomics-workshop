@@ -13,8 +13,13 @@ instances. All the software and data used in the workshop are hosted on an Amazo
 
 To run your own instance of the server used for this workshop, launch a t2.medium
 instance in the N. Virginia region with AMI `ami-373ab74d`, available under "Community
-AMIs" in the Amazon EC2 Management Console. Information on how to launch an instance can be
-found on the [creating Amazon instances page](http://www.datacarpentry.org/cloud-genomics/02-logging-onto-cloud/).
+AMIs" in the Amazon EC2 Management Console. 
+
+If you are taking a Genomics Data Carpentry workshop, instances will be set up for you. Follow the instructions on [connecting to Data Carpentry Genomics Amazon instances](http://www.datacarpentry.org/cloud-genomics/02-logging-onto-cloud/) to connect to the instance.
+
+If you're an instructor or maintainer or want to contribute to these lessons, please get in touch with us [team@carpentries.org](mailto:team@carpentries.org) and we will start instances for you.
+
+You can also start your own instance if you're using these lessons for self-guided learning. Use the [information on creating an Amazon instance](http://www.datacarpentry.org/cloud-genomics/discuss/). The cost of using this AMI for a few days, with the t2.medium instance type is very low.
 
 ## Option B: Using the lessons on your local machine
 
@@ -41,9 +46,9 @@ Instructions on getting data go here.
 
 These are the QuickStart installation instructions. They assume familiarity with the command line and with installation in general. As there are different operating systems and many different versions of operating systems and environments, these may not work on your computer. If an installation doesn't work for you, please refer to the installation instructions for that software, listed in the table above.
 
-#### FastQC
+### FastQC
 
->## MacOS
+> ## MacOS
 >
 >To install FastQC, type:
 >
@@ -91,16 +96,14 @@ These are the QuickStart installation instructions. They assume familiarity with
 
 **Test your installation by running:**
 
-Run
 ~~~
 $ fastqc -h
 ~~~
 {: .bash}
 
+### Trimmomatic
 
-#### Trimmomatic
-
->## MacOS
+> ## MacOS
 >
 >~~~
 >brew install trimmomatic
@@ -113,7 +116,7 @@ $ fastqc -h
 >conda install -y trimmomatic
 >~~~
 >{: .bash}
-{: solution}
+{: .solution}
 
 > ## Trimmomatic Source Code Installation
 >
@@ -148,6 +151,7 @@ $ java -jar ~/src/Trimmomatic-0.36/trimmomatic-0.36.jar
 ~~~
 {: .bash}
 
+
 > ## Simplify the Invocation
 >
 > To simplify the invocation you could also create a script in the ~/bin folder:
@@ -167,9 +171,9 @@ $ java -jar ~/src/Trimmomatic-0.36/trimmomatic-0.36.jar
 > {: .bash}
 {: .solution}
 
-#### BWA
+### BWA
 
->## MacOS
+> ## MacOS
 >
 >~~~
 >brew install bwa
@@ -182,7 +186,7 @@ $ java -jar ~/src/Trimmomatic-0.36/trimmomatic-0.36.jar
 >conda install -y bwa
 >~~~
 >{: .bash}
-{: solution}
+{: .solution}
 
 > ## BWA Source Code Installation
 >
@@ -206,9 +210,9 @@ $ bwa
 ~~~
 {: .bash}
 
-#### SAMtools
+### SAMtools
 
->## MacOS
+> ## MacOS
 >
 >~~~
 >$ brew install samtools
@@ -221,7 +225,7 @@ $ bwa
 >$ conda install -y samtools
 >~~~
 >{: .bash}
-{: solution}
+{: .solution}
 
 > ## SAMtools Versions
 > SAMtools has changed the command line invocation (for the better). But this means that most of the tutorials
@@ -260,9 +264,9 @@ $ samtools
 {: .bash}
 
 
-#### BCFtools
+### BCFtools
 
->## MacOS
+> ## MacOS
 >
 >~~~
 >$ brew install bcftools
@@ -275,7 +279,7 @@ $ samtools
 >$ conda install bcftools
 >~~~
 >{: .bash}
-{: solution}
+{: .solution}
 
 > ## BCF tools Source Code Installation
 >
@@ -307,7 +311,7 @@ $ bcftools
 {: .bash}
 
 
-#### IGV
+### IGV
 
 - [Download the IGV installation files](https://software.broadinstitute.org/software/igv/download)
 - Install and run IGV using the [instructions for your operating system](https://software.broadinstitute.org/software/igv/download).
