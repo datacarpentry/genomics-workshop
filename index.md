@@ -26,7 +26,7 @@ be taught over two full days of instruction.
 > 
 > This workshop uses data from a long term evolution experiment published in 2012: [Genomic analysis of a key innovation in an experimental Escherichia coli population](http://www.nature.com/nature/journal/v489/n7417/full/nature11514.html) by Blount ZD, Barrick JE, DAvidson CJ, and Lenski RE. (doi: 10.1038/nature11514)
 >
-> More information about these data will be presented in the [first lesson of the workshop](http://www.datacarpentry.org/organization-genomics/extras/data.html).
+> More information about these data will be presented in the [first lesson of the workshop](http://www.datacarpentry.org/organization-genomics/data/).
 {: .prereq} 
 
 # Workshop Overview 
