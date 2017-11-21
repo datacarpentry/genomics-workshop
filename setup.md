@@ -19,8 +19,7 @@ If you are taking a Genomics Data Carpentry workshop, instances will be set up f
 
 If you're an instructor or maintainer or want to contribute to these lessons, please get in touch with us [team@carpentries.org](mailto:team@carpentries.org) and we will start instances for you.
 
-You can also start your own instance if you're using these lessons for self-guided learning. Use the [information on creating an Amazon instance](http://www.datacarpentry.org/cloud-g\
-enomics/LaunchingInstances/). The cost of using this AMI for a few days, with the t2.medium instance type is very low.
+You can also start your own instance if you're using these lessons for self-guided learning. Use the [information on creating an Amazon instance](http://www.datacarpentry.org/cloud-genomics/LaunchingInstances/). The cost of using this AMI for a few days, with the t2.medium instance type is very low.
 
 ## Option B: Using the lessons on your local machine
 
