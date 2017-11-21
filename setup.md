@@ -19,7 +19,7 @@ If you are taking a Genomics Data Carpentry workshop, instances will be set up f
 
 If you're an instructor or maintainer or want to contribute to these lessons, please get in touch with us [team@carpentries.org](mailto:team@carpentries.org) and we will start instances for you.
 
-You can also start your own instance if you're using these lessons for self-guided learning. Use the [information on creating an Amazon instance](http://www.datacarpentry.org/cloud-genomics/discuss/). The cost of using this AMI for a few days, with the t2.medium instance type is very low.
+You can also start your own instance if you're using these lessons for self-guided learning. Use the [information on creating an Amazon instance](http://www.datacarpentry.org/cloud-genomics/LaunchingInstances/). The cost of using this AMI for a few days, with the t2.medium instance type is very low.
 
 ## Option B: Using the lessons on your local machine
 
@@ -29,7 +29,17 @@ dataset. Instructions for doing this are below.
 
 ### Data
 
-Instructions on getting data go here.
+The data used in this workshop is available on the Open Science Framework (OSF). Because this workshop works with real data, be aware that file sizes for the data are large. 
+
+[https://osf.io/ycu8j/](https://osf.io/ycu8j/)
+
+This includes the data used in the exercises, as well as solutions to the exercises. These solutions can be useful if you're working through the lessons, starting at a later module and need the solutions from previous exercises.
+
+There are two directories:  
+- dc_sample_data (124K)
+- .dc_sampledata_lite (51GB) 
+
+You can also access the data by [starting the Amazon AMI that has the data](http://www.datacarpentry.org/cloud-genomics/LaunchingInstances/).
 
 ### Software
 
