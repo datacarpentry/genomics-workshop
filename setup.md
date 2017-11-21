@@ -12,7 +12,7 @@ instances. All the software and data used in the workshop are hosted on an Amazo
 ## Option A: Using the lessons with Amazon Web Services (AWS)
 
 To run your own instance of the server used for this workshop, launch a t2.medium
-instance in the N. Virginia region with AMI `ami-373ab74d`, available under "Community
+instance in the N. Virginia region with AMI `ami-373ab74d` "Data Carpentry Genomics release 1.0", available under "Community
 AMIs" in the Amazon EC2 Management Console. 
 
 If you are taking a Genomics Data Carpentry workshop, instances will be set up for you. Follow the instructions on [connecting to Data Carpentry Genomics Amazon instances](http://www.datacarpentry.org/cloud-genomics/02-logging-onto-cloud/) to connect to the instance.
@@ -29,7 +29,17 @@ dataset. Instructions for doing this are below.
 
 ### Data
 
-Instructions on getting data go here.
+The data used in this workshop is available on the Open Science Framework (OSF). Because this workshop works with real data, be aware that file sizes for the data are large. 
+
+[https://osf.io/ycu8j/](https://osf.io/ycu8j/)
+
+This includes the data used in the exercises, as well as solutions to the exercises. These solutions can be useful if you're working through the lessons, starting at a later module and need the solutions from previous exercises.
+
+There are two directories:  
+- dc_sample_data (124K)
+- .dc_sampledata_lite (51GB) 
+
+You can also access the data by [starting the Amazon AMI that has the data](http://www.datacarpentry.org/cloud-genomics/LaunchingInstances/).
 
 ### Software
 
