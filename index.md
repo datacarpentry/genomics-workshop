@@ -24,7 +24,7 @@ be taught over two full days of instruction.
 
 > ## Data
 > 
-> This workshop uses data from a long term evolution experiment published in 2012: [Genomic analysis of a key innovation in an experimental Escherichia coli population](http://www.nature.com/nature/journal/v489/n7417/full/nature11514.html) by Blount ZD, Barrick JE, DAvidson CJ, and Lenski RE. (doi: 10.1038/nature11514)
+> This workshop uses data from a long term evolution experiment published in 2012: [Genomic analysis of a key innovation in an experimental *Escherichia coli* population](http://www.nature.com/nature/journal/v489/n7417/full/nature11514.html) by Blount ZD, Barrick JE, Davidson CJ, and Lenski RE. (doi: 10.1038/nature11514)
 >
 > More information about these data will be presented in the [first lesson of the workshop](http://www.datacarpentry.org/organization-genomics/data/).
 {: .prereq} 
@@ -33,7 +33,7 @@ be taught over two full days of instruction.
 
 | Lesson    | Overview |
 | ------- | ---------- |
-| [Project organization and management](https://datacarpentry.github.io/organization-genomics/) | Learn how to structure your metadata, organize and document your genomics data and bioinformatics workflow, and access data on the NCBI short read archive (SRA) database.|
+| [Project organization and management](https://datacarpentry.github.io/organization-genomics/) | Learn how to structure your metadata, organize and document your genomics data and bioinformatics workflow, and access data on the NCBI sequence read archive (SRA) database.|
 | [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/) |  Learn to navigate your file system, create, copy, move, and remove files and directories, and automate repetitive tasks using scripts and wildcards. |
 |[Data wrangling and processing](https://datacarpentry.github.io/wrangling-genomics/) | Use command-line tools to perform quality control, align reads to a reference genome, and identify and visualize between-sample variation. |
 |[Introduction to cloud computing for genomics](http://www.datacarpentry.org/cloud-genomics/) | Learn how to work with Amazon AWS cloud computing and how to transfer data between your local computer and cloud resources. |
