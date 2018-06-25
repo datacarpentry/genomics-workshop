@@ -18,7 +18,7 @@ be taught over two full days of instruction.
 > including nucleotide abbreviations and the 
 > concept of genomic variation within a population. Participants should bring their laptops and plan to participate actively. 
 > 
-> To get started, follow the directions in the [Setup](setup/) tab to 
+> To get started, follow the directions in the [Setup](setup.html) tab to 
 > get access to the required software and data for this workshop.
 > 
 > Please note that workshop materials for working with Genomics data in R are under development and will become available
