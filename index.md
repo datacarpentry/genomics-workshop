@@ -21,8 +21,6 @@ be taught over two full days of instruction.
 > To get started, follow the directions in the [Setup](setup.html) tab to 
 > get access to the required software and data for this workshop.
 > 
-> Please note that workshop materials for working with Genomics data in R are under development and will become available
-> in June 2018.
 {: .prereq}
 
 > ## Data
