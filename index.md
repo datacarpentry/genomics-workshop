@@ -23,6 +23,8 @@ be taught over two full days of instruction.
 > 
 {: .prereq}
 
+Please note that workshop materials for working with Genomics data in R are under development and will become available in late 2018.
+
 > ## Data
 > 
 > This workshop uses data from a long term evolution experiment published in 2012: [Genomic analysis of a key innovation in an experimental *Escherichia coli* population](http://www.nature.com/nature/journal/v489/n7417/full/nature11514.html) by Blount ZD, Barrick JE, Davidson CJ, and Lenski RE. (doi: 10.1038/nature11514)
