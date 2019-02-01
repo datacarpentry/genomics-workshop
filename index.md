@@ -23,7 +23,7 @@ be taught over two full days of instruction.
 > 
 {: .prereq}
 
-Please note that workshop materials for working with Genomics data in R are under development and will become available in late 2018.
+Please note that workshop materials for working with Genomics data in R are under development and will become available in mid 2019.
 
 > ## Data
 > 
