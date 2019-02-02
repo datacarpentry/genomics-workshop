@@ -27,7 +27,7 @@ Please note that workshop materials for working with Genomics data in R are unde
 
 > ## Data
 > 
-> This workshop uses data from a long term evolution experiment published in 2012: [Genomic analysis of a key innovation in an experimental *Escherichia coli* population](http://www.nature.com/nature/journal/v489/n7417/full/nature11514.html) by Blount ZD, Barrick JE, Davidson CJ, and Lenski RE. (doi: 10.1038/nature11514)
+> This workshop uses data from a long term evolution experiment published in 2016: [Tempo and mode of genome evolution in a 50,000-generation experiment](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/) by Tenaillon O, Barrick JE, Ribeck N, Deatherage DE, Blanchard JL, Dasgupta A, Wu GC, Wielgoss S, Cruveiller S, Médigue C, Schneider D, and Lenski RE. (doi: 10.1038/nature18959)
 >
 > More information about these data will be presented in the [first lesson of the workshop](http://www.datacarpentry.org/organization-genomics/data/).
 {: .prereq} 
