@@ -8,7 +8,7 @@ title: Setup
 This workshop is designed to be run on pre-imaged Amazon Web Services (AWS)
 instances. All the software and data used in the workshop are hosted on an Amazon Machine Image (AMI).
 
-## Option A: Using the lessons with Amazon Web Services (AWS)
+## Option A (**Recommended**): Using the lessons with Amazon Web Services (AWS)
 
 To run your own instance of the server used for this workshop, launch a t2.medium
 instance in the N. Virginia region with AMI `ami-0a1df21e109b3a6dd` "Data Carpentry Genomics Beta 2.0 (March 2019)", available under "Community
@@ -28,13 +28,13 @@ dataset. Instructions for doing this are below.
 
 ### Data
 
-The data used in this workshop is available on FigShare. Because this workshop works with real data, be aware that file sizes for the data are large. 
-
-Please read the FigShare page linked below for information about the data and access to the data files.
+The data used in this workshop is available on FigShare. Because this workshop works with real data, be aware that file sizes for the data are large. Please read the FigShare page linked below for information about the data and access to the data files.
 
 [FigShare Data Carpentry Genomics Beta 2.0](https://figshare.com/articles/Data_Carpentry_Genomics_beta_2_0/7726454)
 
 You can also access the data by [starting the Amazon AMI that has the data](http://www.datacarpentry.org/cloud-genomics/LaunchingInstances/).
+
+More information about these data will be presented in the [first lesson of the workshop](http://www.datacarpentry.org/organization-genomics/data/).
 
 ### Software
 
@@ -74,9 +74,9 @@ We have installed software using [miniconda](https://docs.conda.io/en/latest/min
 >
 >To install FastQC, type:
 >
->~~~
->$ conda install -c bioconda fastqc=0.11.7=5
->~~~
+> ~~~
+> $ conda install -c bioconda fastqc=0.11.7=5
+> ~~~
 >{: .bash}
 {: .solution}
 
@@ -120,9 +120,9 @@ $ fastqc -h
 
 > ## MacOS
 >
->~~~
->conda install -c bioconda trimmomatic=0.38=0
->~~~
+> ~~~
+> conda install -c bioconda trimmomatic=0.38=0
+> ~~~
 >{: .bash}
 {: .solution}
 

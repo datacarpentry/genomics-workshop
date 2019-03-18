@@ -11,6 +11,8 @@ utilities, use of command line tools to analyze sequence quality and
 perform variant calling, and connecting to and using cloud computing. This workshop is designed to 
 be taught over two full days of instruction.
 
+**Please note that workshop materials for working with Genomics data in R are under development and will become available in mid 2019.**
+
 > ## Getting Started
 >
 > This lesson assumes no prior experience with the tools covered in the workshop. 
@@ -22,8 +24,6 @@ be taught over two full days of instruction.
 > get access to the required software and data for this workshop.
 > 
 {: .prereq}
-
-Please note that workshop materials for working with Genomics data in R are under development and will become available in mid 2019.
 
 > ## Data
 > 
