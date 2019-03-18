@@ -18,22 +18,25 @@ be taught over two full days of instruction.
 > including nucleotide abbreviations and the 
 > concept of genomic variation within a population. Participants should bring their laptops and plan to participate actively. 
 > 
-> To get started, follow the directions in the [Setup](setup/) tab to 
+> To get started, follow the directions in the [Setup](setup.html) tab to 
 > get access to the required software and data for this workshop.
+> 
 {: .prereq}
+
+Please note that workshop materials for working with Genomics data in R are under development and will become available in mid 2019.
 
 > ## Data
 > 
-> This workshop uses data from a long term evolution experiment published in 2012: [Genomic analysis of a key innovation in an experimental Escherichia coli population](http://www.nature.com/nature/journal/v489/n7417/full/nature11514.html) by Blount ZD, Barrick JE, DAvidson CJ, and Lenski RE. (doi: 10.1038/nature11514)
+> This workshop uses data from a long term evolution experiment published in 2016: [Tempo and mode of genome evolution in a 50,000-generation experiment](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/) by Tenaillon O, Barrick JE, Ribeck N, Deatherage DE, Blanchard JL, Dasgupta A, Wu GC, Wielgoss S, Cruveiller S, Médigue C, Schneider D, and Lenski RE. (doi: 10.1038/nature18959)
 >
-> More information about these data will be presented in the [first lesson of the workshop](http://www.datacarpentry.org/organization-genomics/01-introduction/).
+> More information about these data will be presented in the [first lesson of the workshop](http://www.datacarpentry.org/organization-genomics/data/).
 {: .prereq} 
 
 # Workshop Overview 
 
 | Lesson    | Overview |
 | ------- | ---------- |
-| [Project organization and management](https://datacarpentry.github.io/organization-genomics/) | Learn how to structure your metadata, organize and document your genomics data and bioinformatics workflow, and access data on the NCBI short read archive (SRA) database.|
+| [Project organization and management](https://datacarpentry.github.io/organization-genomics/) | Learn how to structure your metadata, organize and document your genomics data and bioinformatics workflow, and access data on the NCBI sequence read archive (SRA) database.|
 | [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/) |  Learn to navigate your file system, create, copy, move, and remove files and directories, and automate repetitive tasks using scripts and wildcards. |
 |[Data wrangling and processing](https://datacarpentry.github.io/wrangling-genomics/) | Use command-line tools to perform quality control, align reads to a reference genome, and identify and visualize between-sample variation. |
 |[Introduction to cloud computing for genomics](http://www.datacarpentry.org/cloud-genomics/) | Learn how to work with Amazon AWS cloud computing and how to transfer data between your local computer and cloud resources. |
@@ -41,5 +44,5 @@ be taught over two full days of instruction.
 # Teaching Platform
 This workshop is designed to be run on pre-imaged Amazon Web Services (AWS)
 instances. All the software and data used in the workshop are hosted on an Amazon Machine Image (AMI).
-If you want to run your own instance of the server used for this workshop, follow the directions in the [Setup](setup/) tab. 
+If you want to run your own instance of the server used for this workshop, follow the directions in the [Setup](setup.html) tab. 
 
