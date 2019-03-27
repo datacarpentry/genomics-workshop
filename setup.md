@@ -6,7 +6,31 @@ title: Setup
 # Overview
 
 This workshop is designed to be run on pre-imaged Amazon Web Services (AWS)
-instances. All the software and data used in the workshop are hosted on an Amazon Machine Image (AMI).
+instances. With the exception of a spreadsheet program, all of the software and data used in the workshop are hosted on an Amazon 
+Machine Image (AMI). Please follow the instructions below to prepare your computer for the workshop:
+
+- Spreadsheet program + Option A   
+**OR**
+- Spreadsheet program + Option B
+
+## Spreadsheet program 
+
+This lesson requires a working spreadsheet program. If you don't have a spreadsheet program already, you can use LibreOffice. It's a free, open source spreadsheet program.
+
+> ## Windows
+> - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Windows should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.  
+> - Once the installer is downloaded, double click on it and LibreOffice should install.
+{: .solution}
+
+> ## Mac OS X
+> - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Mac should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.  
+> - Once the installer is downloaded, double click on it and LibreOffice should install.
+{: .solution}
+
+> ## Linux
+>  - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Linux should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.  
+> - Once the installer is downloaded, double click on it and LibreOffice should install.
+{: .solution}
 
 ## Option A (**Recommended**): Using the lessons with Amazon Web Services (AWS)
 
