@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Launching your own AMI instances
+permalink: /launching-instances/
 ---
 
 > ## Do I need to create my own instances?
