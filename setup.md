@@ -6,7 +6,33 @@ title: Setup
 # Overview
 
 This workshop is designed to be run on pre-imaged Amazon Web Services (AWS)
-instances. All the software and data used in the workshop are hosted on an Amazon Machine Image (AMI).
+instances. With the exception of a spreadsheet program, all of the software and data used in the workshop are hosted on an Amazon 
+Machine Image (AMI). Please follow the instructions below to prepare your computer for the workshop:
+
+- Required additional software + Option A   
+**OR**
+- Required additional software + Option B
+
+## Required additional software
+
+This lesson requires a working spreadsheet program. If you don't have a spreadsheet program already, you can use LibreOffice. It's a free, open source spreadsheet program.
+
+> ## Windows
+> - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Windows should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.  
+> - Once the installer is downloaded, double click on it and LibreOffice should install.
+{: .solution}
+
+> ## Mac OS X
+> - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Mac should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.  
+> - Once the installer is downloaded, double click on it and LibreOffice should install.
+{: .solution}
+
+> ## Linux
+>  - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Linux should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.  
+> - Once the installer is downloaded, double click on it and LibreOffice should install.
+{: .solution}
+
+Windows users should also download and install [PuTTY](http://www.putty.org/). 
 
 ## Option A (**Recommended**): Using the lessons with Amazon Web Services (AWS)
 
@@ -16,9 +42,10 @@ AMIs" in the Amazon EC2 Management Console.
 
 If you are taking a Genomics Data Carpentry workshop, instances will be set up for you. Follow the instructions on [connecting to Data Carpentry Genomics Amazon instances](http://www.datacarpentry.org/cloud-genomics/02-logging-onto-cloud/) to connect to the instance.
 
-If you're an instructor or maintainer or want to contribute to these lessons, please get in touch with us [team@carpentries.org](mailto:team@carpentries.org) and we will start instances for you.
+If you're an Instructor or Maintainer or want to contribute to these lessons, please get in touch with us [team@carpentries.org](mailto:team@carpentries.org) and we will start instances for you.
 
-You can also start your own instance if you're using these lessons for self-guided learning. Use the [information on creating an Amazon instance](http://www.datacarpentry.org/cloud-genomics/LaunchingInstances/). The cost of using this AMI for a few days, with the t2.medium instance type is very low.
+You can also start your own instance if you're using these lessons for self-guided learning. Use the [information on creating an Amazon instance](http://www.datacarpentry.org/cloud-genomics/LaunchingInstances/). The cost of using this AMI for a few days, with the t2.medium instance type is very low (about USD $1.50 per day). Data Carpentry has *no* control over AWS pricing structure and provides this
+cost estimate with no guarantees. Please read AWS documentation on pricing for up-to-date information. 
 
 ## Option B: Using the lessons on your local machine
 
@@ -31,8 +58,6 @@ dataset. Instructions for doing this are below.
 The data used in this workshop is available on FigShare. Because this workshop works with real data, be aware that file sizes for the data are large. Please read the FigShare page linked below for information about the data and access to the data files.
 
 [FigShare Data Carpentry Genomics Beta 2.0](https://figshare.com/articles/Data_Carpentry_Genomics_beta_2_0/7726454)
-
-You can also access the data by [starting the Amazon AMI that has the data](http://www.datacarpentry.org/cloud-genomics/LaunchingInstances/).
 
 More information about these data will be presented in the [first lesson of the workshop](http://www.datacarpentry.org/organization-genomics/data/).
 
