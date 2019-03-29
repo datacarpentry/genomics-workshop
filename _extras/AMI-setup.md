@@ -110,7 +110,7 @@ You instance will now be launched. You should follow the links to 'Create billin
 > 2. Log into your AWC EC2 Dashboard [https://console.aws.amazon.com/ec2/](https://console.aws.amazon.com/ec2/)
 > 
 > 3. You should see that you have one instance, make sure instance state is 'running' (if you just launched the instance it will take <5 min for the instance to start running)  
-
+>
 > <img src="../fig/logging-onto-cloud_5.png" width="500">
 > 
 > 4. At the bottom of the dashboard, you should see a **Public DNS** which will look something like *ec2.12.2.45.678.compute-1.amazonaws.com*. Copy that address (you may wish make a note of it as you will need this each time you connect.)  
