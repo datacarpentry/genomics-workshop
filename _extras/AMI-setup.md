@@ -22,7 +22,9 @@ Carpentry workshop,
 > - practicing your skills after a workshop, or
 > - using these lessons for a teaching demonstration as part of your Instructor checkout for The Carpentries,
 > 
-> you will need to create your own AMI instances using the instructions below.
+> you will need to create your own AMI instances using the instructions below. The cost of using this AMI for a few days, with the 
+> t2.medium instance type is very low (about USD $1.50 per day). Data Carpentry has no control over AWS pricing structure and provides 
+> this cost estimate with no guarantees. Please read [AWS documentation on pricing](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-getting-started.html) for up-to-date information.
 {: .callout}
 
 ### Launching an instance on Amazon Web Services
@@ -63,10 +65,10 @@ choose "sg-a5dba9ef" which has the name "to use with DC genomics AMI".
 
 <img src="../fig/logging-onto-cloud_4.png" width="500">
 
-You instance will now be launched. You should follow the links to 'Create billing alerts'.
+You instance will now be launched. You should follow the links to 'Create billing alerts' and then the instructions below
+for connecting to and terminating your Amazon Instance.
 
-> ## Instructions for Mac OS X
-> #### Connect to your Amazon instance
+> ## Connect to your Amazon Instance (Mac OS X)
 > 
 > 1. Log into your AWC EC2 Dashboard [https://console.aws.amazon.com/ec2/](https://console.aws.amazon.com/ec2/)
 > 
@@ -101,9 +103,7 @@ You instance will now be launched. You should follow the links to 'Create billin
 > ```
 {: .solution}
 
-
-> ## Instructions for Windows
-> #### Connect to your Amazon instance
+> ## Connect to your Amazon instance (Windows)
 > 
 > 1. Download the PuTTY application at: [http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe)
 > 
