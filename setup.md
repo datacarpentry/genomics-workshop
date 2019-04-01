@@ -36,16 +36,12 @@ Windows users should also download and install [PuTTY](http://www.putty.org/).
 
 ## Option A (**Recommended**): Using the lessons with Amazon Web Services (AWS)
 
-To run your own instance of the server used for this workshop, launch a t2.medium
-instance in the N. Virginia region with AMI `ami-0a1df21e109b3a6dd` "Data Carpentry Genomics Beta 2.0 (March 2019)", available under "Community
-AMIs" in the Amazon EC2 Management Console. 
+To run your own instance of the server used for this workshop, follow these [instructions on creating an Amazon instance](https://datacarpentry.org/genomics-workshop/AMI-setup/). The cost of using this AMI for a few days, with the t2.medium instance type is very low (about USD $1.50 per day). Data Carpentry has *no* control over AWS pricing structure and provides this
+cost estimate with no guarantees. Please read AWS documentation on pricing for up-to-date information.
 
 If you are taking a Genomics Data Carpentry workshop, instances will be set up for you. Follow the instructions on [connecting to Data Carpentry Genomics Amazon instances](http://www.datacarpentry.org/cloud-genomics/02-logging-onto-cloud/) to connect to the instance.
 
-If you're an Instructor or Maintainer or want to contribute to these lessons, please get in touch with us [team@carpentries.org](mailto:team@carpentries.org) and we will start instances for you.
-
-You can also start your own instance if you're using these lessons for self-guided learning. Use the [information on creating an Amazon instance](http://www.datacarpentry.org/cloud-genomics/LaunchingInstances/). The cost of using this AMI for a few days, with the t2.medium instance type is very low (about USD $1.50 per day). Data Carpentry has *no* control over AWS pricing structure and provides this
-cost estimate with no guarantees. Please read AWS documentation on pricing for up-to-date information. 
+If you're an Instructor or Maintainer or want to contribute to these lessons, please get in touch with us [team@carpentries.org](mailto:team@carpentries.org) and we will start instances for you. 
 
 ## Option B: Using the lessons on your local machine
 
