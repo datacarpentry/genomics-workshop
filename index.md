@@ -44,7 +44,7 @@ be taught over two full days of instruction.
 # Optional Additional Lessons
 | Lesson | Overview | 
 | -------| -------- |
-| [Intro to R and RStudio for Genomics](https://datacarpentry.org/genomics-r-intro/) | Use R to analyze and visualize between-sample variation. 
+| [Intro to R and RStudio for Genomics](https://datacarpentry.org/genomics-r-intro/) | Use R to analyze and visualize between-sample variation. |
 
 # Teaching Platform
 This workshop is designed to be run on pre-imaged Amazon Web Services (AWS)
