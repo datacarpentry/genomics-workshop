@@ -42,8 +42,9 @@ be taught over two full days of instruction.
 |[Introduction to cloud computing for genomics](http://www.datacarpentry.org/cloud-genomics/) | Learn how to work with Amazon AWS cloud computing and how to transfer data between your local computer and cloud resources. 
 
 # Optional Additional Lessons
-| Lesson | Overview | 
-| -------| -------- |
+
+| Lesson | Overview |
+| ------- | -------- |
 | [Intro to R and RStudio for Genomics](https://datacarpentry.org/genomics-r-intro/) | Use R to analyze and visualize between-sample variation. |
 
 # Teaching Platform
