@@ -17,7 +17,7 @@ be taught over two full days of instruction.
 >
 > This lesson assumes no prior experience with the tools covered in the workshop. 
 > However, learners are expected to have some familiarity with biological concepts,
-> including nucleotide abbreviations and the 
+> including the 
 > concept of genomic variation within a population. Participants should bring their laptops and plan to participate actively. 
 > 
 > To get started, follow the directions in the [Setup](setup.html) tab to 
