@@ -4,7 +4,7 @@ Overview of the Genomics workshop.
 
 ## Code of Conduct
 
-All participants should agree to abide by the [Software Carpentry Code of Conduct](http://software-carpentry.org/conduct/).
+All participants should agree to abide by [The Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/index_coc.html).
 
 ## Authors
 
