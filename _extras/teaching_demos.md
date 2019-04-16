@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Teaching Demos
+title: Teaching Demonstrations
 ---
 
 If you are an instructor in training and wish to use lessons from Data Carpentry's Genomics curriculum for your teaching demo, please read the instructions below to be sure you are prepared.
