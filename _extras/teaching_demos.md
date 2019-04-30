@@ -3,7 +3,7 @@ layout: page
 title: Teaching Demonstrations
 ---
 
-If you are an instructor in training and wish to use lessons from Data Carpentry's Genomics curriculum for your teaching demo, please read the instructions below to be sure you are prepared.
+If you are an instructor in training and wish to use lessons from Data Carpentry's Genomics curriculum for your teaching demo, please read the instructions below to be sure you are prepared. You must follow these steps *before* your teaching demo, or you will be asked to reschedule. 
 <hr>
 
 #### [Project Organization and Management for Genomics](https://datacarpentry.org/organization-genomics/)
