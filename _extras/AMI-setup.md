@@ -51,17 +51,22 @@ Carpentry workshop,
 
 <img src="../fig/logging-onto-cloud_2.png" width="500">
 
-4. For 'Choose and Instance Type' select **t2.medium**; then click 'Review and Launch'  
+4. For 'Choose an Instance Type' select **t2.medium**; then click 'Review and Launch'  
 
 <img src="../fig/logging-onto-cloud_3.png" width="500">  
 
-5. Click on "6. Configure Security Group" in the top navigation menu. Choose
-"select an existing security group" under "assign a security group", and
-choose "sg-a5dba9ef" which has the name "to use with DC genomics AMI".
+5. Click on "6. Configure Security Group" in the top navigation menu. If this is your first time working with this AMI on your
+AWS account, choose "create a new security group". Name your security group something descriptive (for example "DC-genomics-AMI") 
+and enter a description into the description box (for example "to use with DC genomics AMI"). 
 
-6. For the 'Review Instance Launch' step, click 'Launch'
+Your security group should automatically now look like this: 
 
-7. You will be asked to select an existing key pair or create a new key pair. Select 'Proceed without a key pair' and select the acknowledgement you are given. Then click 'Launch Instances'  
+Click "Add Rule". A new row will appear. Select "Custom TCP Rule" and enter "8787" into box labeled "Port Range". Under the
+"Source" box, select "Anywhere" for both security rules. Click "Review and Launch". You should now see a screen that looks like this:
+
+Click "Launch".
+
+7. You will be asked to select an existing key pair or create a new key pair. Select "Create a new key pair" and enter a name for your key pair. Then click "Download Key Pair" and click "Launch Instance". 
 
 <img src="../fig/logging-onto-cloud_4.png" width="500">
 
