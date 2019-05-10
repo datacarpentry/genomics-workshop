@@ -76,8 +76,6 @@ Your security group should now look like this:
 computer. For these instructions, we will move it to our Desktop. You can do this by dragging and dropping the file from your Downloads
 folder to your desktop. Then click "Launch Instance".
 
-<img src="../fig/logging-onto-cloud_4.png" width="500">
-
 You instance will now be launched. You should follow the links to 'Create billing alerts' and then the instructions below
 for connecting to and terminating your Amazon Instance.
 
