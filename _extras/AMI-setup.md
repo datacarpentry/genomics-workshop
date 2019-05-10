@@ -63,18 +63,18 @@ Your security group should now look like this:
 
 <img src="../fig/logging-onto-cloud-security-group-1.png" width="500">
 
-Click "Add Rule". A new row will appear. Select "Custom TCP Rule" and enter "8787" into box labeled "Port Range". Under the
+6\. Click "Add Rule". A new row will appear. Select "Custom TCP Rule" and enter "8787" into box labeled "Port Range". Under the
 "Source" box, select "Anywhere" for both security rules. Click "Review and Launch". You should now see a screen that looks like this:
 
 <img src="../fig/logging-onto-cloud-security-group-2.png" width="500">
 
-Click "Launch".
-
-7. You will be asked to select an existing key pair or create a new key pair. Select "Create a new key pair" and enter a name for your key pair. 
+7\. Click "Launch". You will be asked to select an existing key pair or create a new key pair. Select "Create a new key pair" and enter a name for your key pair. 
 
 <img src="../fig/logging-onto-cloud-new-key-pair.png" width="500">
 
-Then click "Download Key Pair" and click "Launch Instance". 
+8\. Then click "Download Key Pair". Your key pair file ends in `.pem`. Move it from your Downloads folder to a stable location on your 
+computer. For these instructions, we will move it to our Desktop. You can do this by dragging and dropping the file from your Downloads
+folder to your desktop. Then click "Launch Instance".
 
 <img src="../fig/logging-onto-cloud_4.png" width="500">
 
@@ -83,34 +83,43 @@ for connecting to and terminating your Amazon Instance.
 
 > ## Connect to your Amazon Instance (Mac OS X)
 > 
-> 1. Log into your AWC EC2 Dashboard [https://console.aws.amazon.com/ec2/](https://console.aws.amazon.com/ec2/)
+> 1\. Log into your AWC EC2 Dashboard [https://console.aws.amazon.com/ec2/](https://console.aws.amazon.com/ec2/)
 > 
-> 2. You should see that you have one instance. To proceed, the instance state must be 'running' (if you just launched the instance it will take <5 min for the instance to start running).
+> 2\. You should see that you have one instance. To proceed, the instance state must be 'running' (if you just launched the instance it will take <5 min for the instance to start running).
 > 
 > <img src="../fig/logging-onto-cloud_5.png" width="500">
 > 
-> 3. At the bottom of the dashboard, you should see a **Public DNS** which will look something like *ec2.12.2.45.678.compute-1.amazonaws.com*. Copy that address (you may wish make a note of it as you will need this each time you connect.)  
+> 3\. At the bottom of the dashboard, you should see a **Public DNS** which will look something like *ec2.12.2.45.678.compute-1.amazonaws.com*. Copy that address (you may wish make a note of it as you will need this each time you connect.)  
 > 
 > <img src="../fig/logging-onto-cloud_6.png" width="500">
 > 
-> 4. Open the terminal application on your Mac and use 'ssh' to connect. Your command will be something like:
+> 4\. Open the terminal application on your Mac. Use the following commands to navigate to your Desktop and modify the file
+> permissions for your key pair file. 
 > 
 > ```bash
-> $ ssh dcuser@ec2.12.2.45.678.compute-1.amazonaws.com
+> $ cd ~/Desktop
+> $ chmod 700 *.pem
 > ```
-> 
-> Be sure to replace `ec2.12.2.45.678.compute-1.amazonaws.com` above with the DNS for your image.
-> 
-> 5. Your computer will be unable to verify the authenticity of the host; type **yes** to continue connecting
-> 
-> 6. Then enter the password for this computer. 
-> 
-> You should now be connected to your personal instance. You can confirm this with the following commands; ``whoami`` and ``pwd``, which should yield the following results:
+> 5\. You can now connect to your instance using 'ssh'. Your command will be something like this:
 > 
 > ```bash
-> Last login: Thu Jul 30 13:21:08 2015 from 8.sub-70-197-200.myvzw.com
+> $ ssh -i testing-DC-AMI.pem ubuntu@ec2-3-89-254-171.compute-1.amazonaws.com
+> ```
+>
+> Be sure to replace `testing-DC-AMI.pem` with the name of your .pem file and to replace `ec2-3-89-254-171.compute-1.amazonaws.com` 
+> with the DNS for your image.
+> 
+> You should now be connected to your personal instance. To navigate to the appropriate starting point for the lessons, use
+> the following command:
+> 
+> ```bash
+> $ cd ../dcuser/
+> ```
+> You can confirm that you are in the correct location by using the ``whoami`` and ``pwd`` commands, which should yield the following results:
+> 
+> ```bash
 > $ whoami
-> dcuser
+> ubuntu
 > $ pwd
 > /home/dcuser
 > ```
