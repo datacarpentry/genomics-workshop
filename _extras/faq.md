@@ -24,7 +24,7 @@ This lesson assumes no prior experience with the tools covered in the workshop. 
 
 Learners will need to bring a laptop (not a tablet) with any spreadsheet program installed (e.g. LibreOffice, Microsoft Excel). Learners using a Windows machine will also need to download and install [PuTTY](https://www.putty.org/). There are no other hardware or software requirements. Learners will need a stable, strong internet connection in order to work on the remote computing system used for this workshop.
 
-My institution has its own compute cluster, or our research group uses a different cloud computing resource. Can we deliver the workshop using that system?
+### My institution has its own compute cluster, or our research group uses a different cloud computing resource. Can we deliver the workshop using that system?
 
 To ensure a consistent workshop experience for learners and Instructors, all workshops organized by The Carpentries (“centrally-organized workshops”) use our stable, community-tested curriculum and technical set-up. Currently, all centrally-organized Genomics workshops are taught using AWS, although we are interested in supporting other systems in the future. If you are interested in using a different platform to teach this curriculum in a self-organized workshop, all of our materials are publicly available and licensed [CC-BY](https://creativecommons.org/licenses/by/4.0/). For information about the difference between centrally-organized and self-organized workshops, and limitations on use of “The Carpentries” brand name and logo, see the [Teaching and Hosting](https://docs.carpentries.org/topic_folders/hosts_instructors/index.html) section of The Carpentries Handbook.
 
