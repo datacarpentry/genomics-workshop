@@ -5,7 +5,10 @@ title: Frequently Asked Questions
 
 Thank you for your interest in hosting or teaching a Genomics workshop. Below you will find answers to some frequently asked questions about this curriculum. If the answer to your question doesn’t appear, please contact [team@carpentries.org](mailto:team@carpentries.org). 
 
-## Hosts
+* [For Hosts](#hosts)
+* [For Instructors](#instructors)
+
+## <a id="hosts"></a> Hosts
 
 ### What does this workshop cover? 
 
@@ -42,7 +45,7 @@ We have run this workshop in locations across the United States and Europe with 
 ### Where can I find more information about this workshop?
 For a full description of this workshop, including what content is covered, and what dataset we use to teach, visit the [Genomics Workshop Overview](https://datacarpentry.org/genomics-workshop/) page. 
 
-## Instructors
+## <a id="instructors"></a> Instructors
 
 ### What background and technological skills do I need to have to teach this workshop?
 
