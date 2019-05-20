@@ -13,6 +13,11 @@ be taught over two full days of instruction.
 
 **Please note that workshop materials for working with Genomics data in R in “alpha” development. These lessons are available for review and for informal teaching experiences, but are not yet part of The Carpentries’ official lesson offerings.**
 
+
+> ## Frequently Asked Questions
+> Read our [FAQ](/faq/) to learn more about Data Carpentry's Genomics workshop, as an instructor or a workshop host.
+{: .callout}
+
 > ## Getting Started
 >
 > This lesson assumes no prior experience with the tools covered in the workshop. 
