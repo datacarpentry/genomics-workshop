@@ -3,7 +3,7 @@ layout: page
 title: Frequently Asked Questions
 ---
 
-Thank you for your interest in hosting or teaching a Genomics workshop. Below you will find answers to some frequently asked questions about this curriculum. If the answer to your question doesn’t appear, please contact team@carpentries.org. 
+Thank you for your interest in hosting or teaching a Genomics workshop. Below you will find answers to some frequently asked questions about this curriculum. If the answer to your question doesn’t appear, please contact [team@carpentries.org](mailto:team@carpentries.org). 
 
 ## Hosts
 
