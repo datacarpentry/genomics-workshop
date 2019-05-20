@@ -50,7 +50,7 @@ You will need experience using a bash shell (the default shell on Mac OS and mos
 
 #### How can I prepare to teach this material? 
 
-Each lesson has a set of Instructor Notes that provide information about the design of the lesson, commonly encountered problems, and technical tips and tricks. You can access Instructor Notes through the main lessons page (linked through the plus icon in the lesson table) or in the “Extras” menu on each individual lesson page. Instructor Notes are written collaboratively by our Instructors, so please contribute your own notes after your workshop!
+Each lesson has a set of Instructor Notes that provide information about the design of the lesson, commonly encountered problems, and technical tips and tricks. You can access Instructor Notes through the [main lessons page](https://datacarpentry.org/lessons/#genomics-workshop) (linked through the plus icon in the lesson table) or in the “Extras” menu on each individual lesson page. Instructor Notes are written collaboratively by our Instructors, so please contribute your own notes after your workshop!
 
 #### When will I have access to an AWS image to practice on?
 
@@ -62,7 +62,7 @@ The Carpentries Workshop and Logistics Manager will provide Instructors with con
 
 #### I want to teach the optional R lesson. Can I do that? 
 
-To ensure a consistent workshop experience for learners and Instructors, all workshops organized by The Carpentries (“centrally-organized workshops”) use our stable, community-tested curriculum. The Genomics R lesson is still under development and we cannot guarantee that it will meet our high curricular standards. If you are interested in using this lesson in a self-organized workshop, all of our materials are publicly available and licensed CC-BY. For information about the difference between centrally-organized and self-organized workshops, and limitations on use of “The Carpentries” brand name and logo, see ...
+To ensure a consistent workshop experience for learners and Instructors, all workshops organized by The Carpentries (“centrally-organized workshops”) use our stable, community-tested curriculum. The Genomics R lesson is still under development and we cannot guarantee that it will meet our high curricular standards. If you are interested in using this lesson in a self-organized workshop, all of our materials are publicly available and licensed CC-BY. For information about the difference between centrally-organized and self-organized workshops, and limitations on use of “The Carpentries” brand name and logo, see the [Teaching and Hosting](https://docs.carpentries.org/topic_folders/hosts_instructors/index.html) section of The Carpentries Handbook.
 
 #### Is there anything special I need to do if I’m teaching the optional R lesson?
 
