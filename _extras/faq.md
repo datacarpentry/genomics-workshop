@@ -49,7 +49,7 @@ For a full description of this workshop, including what content is covered, and 
 
 ### What background and technological skills do I need to have to teach this workshop?
 
-You will need experience using a bash shell (the default shell on Mac OS and most Linux systems), including writing your own small bash scripts and running programs written by others from the command line. You do not need to have specifically used the command-line programs that are used in these lessons. You do not need to have prior experience working with Amazon Web Services (AWS), but some experience logging on to remote computers would be useful. You should have experience working with genomic sequences in FASTA format. 
+You will need experience using a bash shell (the default shell on Mac OS and most Linux systems), including writing your own small bash scripts and running programs written by others from the command line. You do not need to have specifically used the command-line programs that are used in these lessons. You do not need to have prior experience working with Amazon Web Services (AWS), but some experience logging on to remote computers would be useful. You should have experience working with genomic sequences in FASTQ format. 
 
 ### How can I prepare to teach this material? 
 
@@ -69,7 +69,7 @@ To ensure a consistent workshop experience for learners and Instructors, all wor
 
 ### Is there anything special I need to do if I’m teaching the optional R lesson?
 
-Nope! The AMI that we use for the standard lessons can also be used to teach the optional R lessons. 
+Nope! The AMI that we use for the standard lessons can also be used to teach the optional R lesson. 
 
 ### What are common problems that arise during this workshop?
 
