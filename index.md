@@ -15,7 +15,7 @@ be taught over two full days of instruction.
 
 
 > ## Frequently Asked Questions
-> Read our [FAQ](/faq/) to learn more about Data Carpentry's Genomics workshop, as an instructor or a workshop host.
+> Read our [FAQ](/faq/) to learn more about Data Carpentry's Genomics workshop, as an Instructor or a workshop host.
 {: .callout}
 
 > ## Getting Started
