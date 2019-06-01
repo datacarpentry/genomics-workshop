@@ -34,7 +34,8 @@ be taught over two full days of instruction.
 > 
 > This workshop uses data from a long term evolution experiment published in 2016: [Tempo and mode of genome evolution in a 50,000-generation experiment](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/) by Tenaillon O, Barrick JE, Ribeck N, Deatherage DE, Blanchard JL, Dasgupta A, Wu GC, Wielgoss S, Cruveiller S, Médigue C, Schneider D, and Lenski RE. (doi: 10.1038/nature18959)
 >
-> More information about this data will be presented in the [first lesson of the workshop](http://www.datacarpentry.org/organization-genomics/data/).
+> All of the data used in this workshop can be [downloaded from Figshare](https://figshare.com/articles/Data_Carpentry_Genomics_beta_2_0/7726454). 
+> More information about this data is available on the [Data page](https://datacarpentry.org/organization-genomics/data/).
 {: .prereq} 
 
 # Workshop Overview 
