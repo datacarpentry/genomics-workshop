@@ -288,7 +288,7 @@ $ samtools
 > ## MacOS
 >
 >~~~
->$ conda install bcftools=1.8=h4da6232_3 
+>$ conda install -c bioconda bcftools=1.8=h4da6232_3 
 >~~~
 >{: .bash}
 {: .solution}
