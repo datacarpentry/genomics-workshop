@@ -4,8 +4,9 @@ title: "Instructor Notes"
 ---
 
 ## Resouces for Instructors
-We are preparing an onboarding video to prepare Instructors to teach this workshop. A link to this video will be added here
-by mid-June 2019. After watching this video, please contact [team@carpentries.org](mailto: team@carpentries.org) so that we can record 
+We have an [onboarding video](https://www.youtube.com/watch?v=zgdutO5tejo) available to prepare Instructors to teach these lessons. 
+The slides presented in this video are available: https://tinyurl.com/y27swdvo. 
+After watching this video, please contact [team@carpentries.org](mailto: team@carpentries.org) so that we can record 
 your status as an onboarded Instructor. Instructors who have completed onboarding will be given priority status for teaching at 
 centrally-organized Carpentries workshops.
 
