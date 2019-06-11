@@ -24,4 +24,17 @@ teaching these lessons, and would like an AWS instance to practice on, please co
 
 ## Common problems
 
-[Instructors, please add notes on your experience with common workshop problems here.]
+This workshop introduces an analysis pipeline, where each step in that pipeline is dependent on the previous step.
+If a learner gets behind, or one of the steps doesn't work for them, they may not be able to catch up with the rest of the class. 
+To help ensure that all learners are able to work through the whole process, we provide the solution files. This includes all
+of the output files for each step in the data processing pipeline, as well as the scripts that the learners write collaboratively
+with the Instructors throughout the workshop. These files are available on the AMI in `dcuser/.solutions`. 
+
+Similarly, if the learners aren't able to pull the data files that are pulled in the lesson directly from the SRA (e.g. due to
+unstable internet), those files are available in the hidden backup directory (`dcuser/.backup`).
+
+Make sure to tell your helpers about the `.solutions` and `.backup` directories so that they can use these resources to help
+learners catch up during the workshop. 
+
+
+
