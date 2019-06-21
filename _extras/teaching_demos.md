@@ -24,7 +24,7 @@ tar -xzf shell_data.tar.gz
 
 Use [these instructions](https://datacarpentry.org/genomics-workshop/AMI-setup/index.html) to launch and connect to your own instance of the Data Carpentry Genomics AMI. This instance should cost you approximately US $1.20 per day. (This cost estimate is provided without any guarantee of accuracy and Data Carpentry assumes no liability for costs associated with your AMI instance(s).)
 
-Follow the shell commands below to ensure that the data directory is created,
+Once you have connected to your AWS instance, use the shell commands below to ensure that the data directory is created,
 that the data is placed into the data directory, and that you are in the data directory before
 starting to operate on the data.
 
