@@ -12,12 +12,11 @@ No special instructions.
 
 #### [Introduction to the Command Line for Genomics](https://datacarpentry.org/shell-genomics/)
 
-Use the following shell commands to download and unzip the necessary data files.
+Use the following shell commands to download and unzip the necessary data files from FigShare.
 
 ```
-wget https://ndownloader.figshare.com/files/14417834 # download file from FigShare
-mv 14417834 shell_data.tar.gz # rename file
-tar -xzf shell_data.tar.gz # unzip file
+wget --output-document = shell_data.tar.gz https://ndownloader.figshare.com/files/14417834
+tar -xzf shell_data.tar.gz
 ```
 <hr>
 
@@ -25,12 +24,14 @@ tar -xzf shell_data.tar.gz # unzip file
 
 Use [these instructions](https://datacarpentry.org/genomics-workshop/AMI-setup/index.html) to launch and connect to your own instance of the Data Carpentry Genomics AMI. This instance should cost you approximately US $1.20 per day. (This cost estimate is provided without any guarantee of accuracy and Data Carpentry assumes no liability for costs associated with your AMI instance(s).)
 
-Follow the shell commands below to navigate to the data directory.
+Follow the shell commands below to ensure that the data directory is created,
+that the data is placed into the data directory, and that you are in the data directory before
+starting to operate on the data.
 
 ```
-mkdir -p ~/dc_workshop/data/untrimmed_fastq/ # create directory
-mv  ~/.backup/untrimmed_fastq/* ~/dc_workshop/data/untrimmed_fastq/ # move data
-cd ~/dc_workshop/data/untrimmed_fastq # move to data directory
+mkdir -p ~/dc_workshop/data/untrimmed_fastq/
+mv  ~/.backup/untrimmed_fastq/* ~/dc_workshop/data/untrimmed_fastq/
+cd ~/dc_workshop/data/untrimmed_fastq
 ```
 <hr>
 
