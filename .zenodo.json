@@ -1,0 +1,57 @@
+{
+  "contributors": [
+    {
+      "type": "Editor",
+      "name": "Erin Alison Becker",
+      "orcid": "0000-0002-6832-0233"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Erin Alison Becker",
+      "orcid": "0000-0002-6832-0233"
+    },
+    {
+      "name": "Tracy Teal",
+      "orcid": "0000-0002-9180-9598"
+    },
+    {
+      "name": "François Michonneau",
+      "orcid": "0000-0002-9092-966X"
+    },
+    {
+      "name": "Maneesha Sane",
+      "orcid": "0000-0003-0726-5696"
+    },
+    {
+      "name": "Taylor Reiter",
+      "orcid": "0000-0002-7388-421X"
+    },
+    {
+      "name": "Jason Williams",
+      "orcid": "0000-0003-3049-2010"
+    },
+    {
+      "name": "Amanda Charbonneau",
+      "orcid": "0000-0001-7376-7702"
+    },
+    {
+      "name": "Matthew Kweskin"
+    },
+    {
+      "name": "Muhammad Zohaib Anwar",
+      "orcid": "0000-0001-8236-485X"
+    },
+    {
+      "name": "Murray Cadzow",
+      "orcid": "0000-0002-2299-4136"
+    },
+    {
+      "name": "Paula Andrea Martinez",
+      "orcid": "0000-0002-8990-1985"
+    }
+  ],
+  "license": {
+    "id": "CC-BY-4.0"
+  }
+}
