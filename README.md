@@ -14,5 +14,5 @@ The Genomics workshop overview is authored and maintained by the [community](htt
 
 ## Citation
 
-Please cite as: 
+Please cite as:   
 Erin Alison Becker, Tracy Teal, François Michonneau, Maneesha Sane, Taylor Reiter, Jason Williams, et al. (2019, June). datacarpentry/genomics-workshop: Data Carpentry: Genomics Workshop Overview, June 2019 (Version v2019.06.1). Zenodo. http://doi.org/10.5281/zenodo.3260309
