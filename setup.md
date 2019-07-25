@@ -21,6 +21,7 @@ This lesson requires a working spreadsheet program. If you don't have a spreadsh
 > - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Windows should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.  
 > - Once the installer is downloaded, double click on it and LibreOffice should install.
 > - Install PuTTY by going to [the installation page](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). For most newer computers, click on putty-64bit-X.XX-installer.msi to download the 64-bit version. If you have an older laptop, you may need to get the 32-bit version putty-X.XX-installer.msi. If you aren't sure whether you need the 64 or 32 bit version, you can check your laptop version by following [the instructions here](https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq)
+> - A better alternative for PuTTY is [mobaXterm](https://mobaxterm.mobatek.net/) which supports tabs, save remote hosts, integrated FTPS client, etc.
 > - Once the installer is downloaded, double click on it, and PuTTY should install.
 {: .solution}
 
