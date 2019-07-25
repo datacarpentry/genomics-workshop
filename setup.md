@@ -34,8 +34,6 @@ This lesson requires a working spreadsheet program. If you don't have a spreadsh
 > - Once the installer is downloaded, double click on it and LibreOffice should install.
 {: .solution}
 
-Windows users should also download and install [PuTTY](http://www.putty.org/). 
-
 ## Option A (**Recommended**): Using the lessons with Amazon Web Services (AWS)
 
 To run your own instance of the server used for this workshop, follow these [instructions on creating an Amazon instance](https://datacarpentry.org/genomics-workshop/AMI-setup/). Use the AMI `ami-0985860a69ae4cb3d` (Data Carpentry Genomics Beta 2.0 (April 2019)) listed on the Community AMIs page. Please note that you must set your location as `N. Virginia` in order to access this community AMI. You can change your location in the upper right corner of the main AWS menu bar. 
