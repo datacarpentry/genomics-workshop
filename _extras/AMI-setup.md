@@ -133,7 +133,7 @@ for connecting to and terminating your Amazon Instance.
 >
 > <img src="../fig/logging-onto-cloud_5.png" width="500">
 > 
-> 4. At the bottom of the dashboard, you should see a **Public DNS** which will look something like *ec2.12.2.45.678.compute-1.amazonaws.com*. Copy that address (you may wish make a note of it as you will need this each time you connect.)  
+> 4. At the bottom of the dashboard, you should see a **Public DNS** which will look something like *ec2.12.2.45.678.compute-1.amazonaws.com*. Copy that address (you may wish to make a note of it as you will need this each time you connect.)  
 > 
 > <img src="../fig/logging-onto-cloud_6.png" width="500">
 > 
