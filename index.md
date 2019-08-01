@@ -20,7 +20,7 @@ Interested in teaching these materials? We have an [onboarding video](https://ww
 
 > ## Getting Started
 >
-> This lesson assumes learner has no prior experience with the tools covered in the workshop. 
+> This lesson assumes that learners have no prior experience with the tools covered in the workshop. 
 > However, learners are expected to have some familiarity with biological concepts,
 > including the 
 > concept of genomic variation within a population. Participants should bring their own laptops and plan to participate actively. 
