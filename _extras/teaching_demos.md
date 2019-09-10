@@ -15,7 +15,7 @@ No special instructions.
 Use the following shell commands to download and unzip the necessary data files from FigShare.
 
 ```
-wget --output-document = shell_data.tar.gz https://ndownloader.figshare.com/files/14417834
+wget --output-document shell_data.tar.gz https://ndownloader.figshare.com/files/14417834
 tar -xzf shell_data.tar.gz
 ```
 <hr>
