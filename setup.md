@@ -20,8 +20,22 @@ This lesson requires a working spreadsheet program. If you don't have a spreadsh
 > ## Windows
 > - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Windows should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.  
 > - Once the installer is downloaded, double click on it and LibreOffice should install.
-> - Install PuTTY by going to [the installation page](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). For most newer computers, click on putty-64bit-X.XX-installer.msi to download the 64-bit version. If you have an older laptop, you may need to get the 32-bit version putty-X.XX-installer.msi. If you aren't sure whether you need the 64 or 32 bit version, you can check your laptop version by following [the instructions here](https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq)
-> - Once the installer is downloaded, double click on it, and PuTTY should install.
+> - Download the [Git for Windows installer](https://git-for-windows.github.io/). Run the installer and follow the steps below:
+>   + Click on "Next" four times (two times if you've previously installed Git). You don't need to change anything in the Information, location, components, and start menu screens.
+>   + Select "Use the nano editor by default" and click on "Next".
+>   + Keep "Use Git from the Windows Command Prompt" selected and click on "Next". If you forgot to do this programs that you need for the workshop will not work properly. If this happens rerun the installer and select the appropriate option.
+>   + Click on "Next".
+>   + Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
+>   + Select "Use Windows' default console window" and click on "Next".
+>   + Click on "Install".
+>   + Click on "Finish".
+>   + If your "HOME" environment variable is not set (or you don't know what this is):
+>   + Open command prompt (Open Start Menu then type `cmd` and press [Enter])
+>   + Type the following line into the command prompt window exactly as shown: `setx HOME "%USERPROFILE%"`
+>   + Press [Enter], you should see `SUCCESS: Specified value was saved.`
+>   + Quit command prompt by typing `exit` then pressing [Enter]
+> - An **alternative option** is to install PuTTY by going to the [the installation page](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). For most newer computers, click on putty-64bit-X.XX-installer.msi to download the 64-bit version. If you have an older laptop, you may need to get the 32-bit version putty-X.XX-installer.msi. If you aren't sure whether you need the 64 or 32 bit version, you can check your laptop version by following [the instructions here](https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq). Once the installer is downloaded, double click on it, and PuTTY should install.
+> - **Another alternative option** is to use the Ubuntu Subsystem for Windows. This option is only available for Windows 10 - detailed [instructions are available here](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 {: .solution}
 
 > ## Mac OS X
@@ -33,8 +47,6 @@ This lesson requires a working spreadsheet program. If you don't have a spreadsh
 >  - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Linux should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.  
 > - Once the installer is downloaded, double click on it and LibreOffice should install.
 {: .solution}
-
-Windows users should also download and install [PuTTY](http://www.putty.org/). 
 
 ## Option A (**Recommended**): Using the lessons with Amazon Web Services (AWS)
 
