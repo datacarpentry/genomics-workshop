@@ -34,6 +34,8 @@ This lesson requires a working spreadsheet program. If you don't have a spreadsh
 >   + Type the following line into the command prompt window exactly as shown: `setx HOME "%USERPROFILE%"`
 >   + Press [Enter], you should see `SUCCESS: Specified value was saved.`
 >   + Quit command prompt by typing `exit` then pressing [Enter]
+> - An **alternative option** is to install PuTTY by going to the [the installation page](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). For most newer computers, click on putty-64bit-X.XX-installer.msi to download the 64-bit version. If you have an older laptop, you may need to get the 32-bit version putty-X.XX-installer.msi. If you aren't sure whether you need the 64 or 32 bit version, you can check your laptop version by following [the instructions here](https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq). Once the installer is downloaded, double click on it, and PuTTY should install.
+> - **Another alternative option** is to use the Ubuntu Subsystem for Windows. This option is only available for Windows 10 - detailed [instructions are available here](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 {: .solution}
 
 > ## Mac OS X
