@@ -38,7 +38,9 @@ Carpentry workshop,
 #### Create an AWS account
 
 1\. Go to Amazon Web Services [https://aws.amazon.com/](https://aws.amazon.com/)
+
 2\. Follow the button to sign up for an account - you will need to agree to Amazon's terms and conditions and provide credit card information.
+
 
 #### Sign into AWS and Launch an Instance
 1\. Sign into the AWS EC2 Dashboard: [https://console.aws.amazon.com/ec2/](https://console.aws.amazon.com/ec2/)
