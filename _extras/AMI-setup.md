@@ -81,45 +81,42 @@ folder to your desktop. Then click "Launch Instance".
 You instance will now be launched. You should follow the links to 'Create billing alerts' and then the instructions below
 for connecting to and terminating your Amazon Instance.
 
-> ## Connect to your Amazon Instance (Mac OS X)
+> ## Connect to your Amazon Instance (MacOS/Linux)
 > 
-> 1\. Log into your AWC EC2 Dashboard [https://console.aws.amazon.com/ec2/](https://console.aws.amazon.com/ec2/)
+> 1. Log into your AWC EC2 Dashboard [https://console.aws.amazon.com/ec2/](https://console.aws.amazon.com/ec2/)
 > 
-> 2\. You should see that you have one instance. To proceed, the instance state must be 'running' (if you just launched the instance it will take <5 min for the instance to start running).
+> 2. You should see that you have one instance. To proceed, the instance state must be 'running' (if you just launched the instance it will take <5 min for the instance to start running).
 > 
 > <img src="../fig/logging-onto-cloud_5.png" width="500">
 > 
-> 3\. At the bottom of the dashboard, you should see a **Public DNS** which will look something like *ec2.12.2.45.678.compute-1.amazonaws.com*. Copy that address (you may wish make a note of it as you will need this each time you connect.)  
+> 3. At the bottom of the dashboard, you should see a **Public DNS** which will look something like *ec2.12.2.45.678.compute-1.amazonaws.com*. Copy that address (you may wish make a note of it as you will need this each time you connect.)  
 > 
 > <img src="../fig/logging-onto-cloud_6.png" width="500">
 > 
-> 4\. Open the terminal application on your Mac. Use the following commands to navigate to your Desktop and modify the file
+> 4. Open the terminal application on your computer. Use the following commands to navigate to your Desktop and modify the file
 > permissions for your key pair file. 
 > 
 > ```bash
 > $ cd ~/Desktop
 > $ chmod 700 *.pem
 > ```
-> 5\. You can now connect to your instance using 'ssh'. Your command will be something like this:
+> 5. You can now connect to your instance using 'ssh'. Your command will be something like this:
 > 
 > ```bash
-> $ ssh -i testing-DC-AMI.pem ubuntu@ec2-3-89-254-171.compute-1.amazonaws.com
+> $ ssh dcuser@ec2-3-89-254-171.compute-1.amazonaws.com
 > ```
 >
-> Be sure to replace `testing-DC-AMI.pem` with the name of your .pem file and to replace `ec2-3-89-254-171.compute-1.amazonaws.com` 
-> with the DNS for your image.
+> Be sure to replace `ec2-3-89-254-171.compute-1.amazonaws.com` with the DNS for your image. 
+> You may be notified that the authenticity of the host cannot be verified - if so, ignore the warning an continue connecting
+>
+> 6. When prompted, enter your password.
 > 
-> You should now be connected to your personal instance. To navigate to the appropriate starting point for the lessons, use
-> the following command:
-> 
-> ```bash
-> $ cd ../dcuser/
-> ```
-> You can confirm that you are in the correct location by using the ``whoami`` and ``pwd`` commands, which should yield the following results:
+> You should now be connected to your personal instance. You can confirm that you are in the correct location 
+> by using the ``whoami`` and ``pwd`` commands, which should yield the following results:
 > 
 > ```bash
 > $ whoami
-> ubuntu
+> dcuser
 > $ pwd
 > /home/dcuser
 > ```
