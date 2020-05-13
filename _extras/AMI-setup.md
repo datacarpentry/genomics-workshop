@@ -109,7 +109,7 @@ for connecting to and terminating your Amazon Instance.
 > Be sure to replace `ec2-3-89-254-171.compute-1.amazonaws.com` with the DNS for your image. 
 > You may be notified that the authenticity of the host cannot be verified - if so, ignore the warning an continue connecting
 >
-> 6. When prompted, enter your password.
+> 6. When prompted, enter the password `data4Carp`
 > 
 > You should now be connected to your personal instance. You can confirm that you are in the correct location 
 > by using the ``whoami`` and ``pwd`` commands, which should yield the following results:
@@ -140,7 +140,7 @@ for connecting to and terminating your Amazon Instance.
 > 
 > 6. When prompted to login as, enter 'dcuser'; you may be notified that the authenticity of the host cannot be verified - if so, ignore the warning an continue connecting
 > 
-> 7. When prompted, enter your password.
+> 7. When prompted, enter the password `data4Carp`
 > 
 > You should now be connected to your personal instance. You can confirm this with the following commands; ``whoami`` and ``pwd``, which should yield the following results:
 > 
