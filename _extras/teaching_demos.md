@@ -12,6 +12,9 @@ No special instructions.
 
 #### [Introduction to the Command Line for Genomics](https://datacarpentry.org/shell-genomics/)
 
+For your teaching demo, you may follow this lesson locally without an AMI instance. Note that this will
+require some changes to paths throughout the lesson.
+
 Use the following shell commands to download and unzip the necessary data files from FigShare.
 
 ```
