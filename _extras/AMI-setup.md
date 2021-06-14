@@ -51,13 +51,14 @@ Carpentry workshop,
 
 3\. In 'Step 1' you will be asked to choose an Amazon Machine Image (AMI), on the lefthand side, look for 'Community AMIs' and then search for the AMI listed on this curriculum's [Setup page](https://datacarpentry.org/genomics-workshop/setup.html); select that image
 
-> ##### Note
-> The Data Carpentries' images are hosted and can only be accessed on US East, N.Virginia (`us-east-1`).
-> If you cannot find the Carptentries' "Community AMIs", make sure that you have launched your
-> instance on the right server.
+<img src="../fig/logging-onto-cloud_2.png" width="500" alt="Screenshot of AMI launch wizard showing search function.">
+
+> ## If you cannot find the Community Image
+> The Data Carpentry's AMIs are hosted on US East, N.Virginia (`us-east-1`) and can only be accessed
+> by instances running on the same server. If you cannot find the AMI, check if the
+> correct server was selected when you launched the instance.
 {: .callout}
 
-<img src="../fig/logging-onto-cloud_2.png" width="500" alt="Screenshot of AMI launch wizard showing search function.">
 
 4\. For 'Choose an Instance Type' select **t2.medium**; then click 'Review and Launch'
 
