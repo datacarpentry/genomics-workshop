@@ -53,10 +53,10 @@ Carpentry workshop,
 
 <img src="../fig/logging-onto-cloud_2.png" width="500" alt="Screenshot of AMI launch wizard showing search function.">
 
-> ## If you cannot find the Community Image
+> ## If you cannot find the Community AMI
 > The Data Carpentry's AMIs are hosted on US East, N.Virginia (`us-east-1`) and can only be accessed
-> by instances running on the same server. If you cannot find the AMI, check if the
-> correct server was selected when you launched the instance.
+> by instances running on the same server. If you cannot find the AMI, make sure that the
+> `us-east-1` server was selected when you launched the instance.
 {: .callout}
 
 
