@@ -6,8 +6,11 @@ title: Setup
 # Overview
 
 This workshop is designed to be run on pre-imaged Amazon Web Services (AWS)
-instances. With the exception of a spreadsheet program, all of the software and data used in the workshop are hosted on an Amazon 
-Machine Image (AMI). Please follow the instructions below to prepare your computer for the workshop:
+instances. All of the data and most of the software used
+in the workshop are hosted on an Amazon 
+Machine Image (AMI). Some additional software, detailed below, must be installed on your computer.
+
+Please follow the instructions below to prepare your computer for the workshop:
 
 - Required additional software + Option A   
 **OR**
@@ -15,7 +18,7 @@ Machine Image (AMI). Please follow the instructions below to prepare your comput
 
 ## Required additional software
 
-This lesson requires a working spreadsheet program. If you don't have a spreadsheet program already, you can use LibreOffice. It's a free, open source spreadsheet program.  Directions to install are included for each Windows, Mac OS X, and Linux systems below. For Windows, you will also need to install Git Bash, PuTTY, or the Ubuntu Subsystem.
+This lesson requires a working spreadsheet program. If you don't have a spreadsheet program already, you can use LibreOffice. It's a free, open source spreadsheet program.  Directions to install are included for each Windows, Mac OS X, and Linux systems below. For Windows, you will also need to install either Git Bash, PuTTY, or the Ubuntu Subsystem.
 
 > ## Windows
 > - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Windows should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.  
