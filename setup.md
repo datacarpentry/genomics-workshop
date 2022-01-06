@@ -151,13 +151,21 @@ operating systems and environments, these may not work on your computer.
 If an installation doesn't work for you, please refer to the user guide for the tool,
 listed in the table above.
 
-We have installed software using [miniconda](https://docs.conda.io/en/latest/miniconda.html).
-Miniconda is a package manager that simplifies the installation process.
-Please first install miniconda3 (installation instructions below),
-and then proceed to the installation of individual tools.
+We have installed software using [miniconda](https://docs.conda.io/en/latest/miniconda.html). Miniconda is a package manager that simplifies the installation process. Please first install miniconda3 (installation instructions below), and then proceed to the installation of individual tools. For more information on installing miniconda3, please reference the [conda documentation](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
 ### Miniconda3
 
+> ## Linux
+>
+>To install miniconda3, type:
+>
+>~~~
+>$ curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+>$ bash Miniconda3-latest-Linux-x86_64.sh
+>~~~
+>{: .bash}
+> Then, follow the instructions that you are prompted with on the screen to install Miniconda3.
+{: .solution}
 > ## MacOS
 >
 >To install miniconda3, type:
