@@ -5,10 +5,10 @@ title: Setup
 
 # Overview
 
-This workshop is designed to be run on pre-imaged Amazon Web Services (AWS)
-instances. All of the data and most of the software used
-in the workshop are hosted on an Amazon
-Machine Image (AMI). Some additional software, detailed below, must be installed on your computer.
+This workshop is designed to be run on pre-imaged Amazon Web Services (AWS) instances.
+All of the data and most of the software used in the workshop are hosted on an
+Amazon Machine Image (AMI).
+Some additional software, detailed below, must be installed on your computer.
 
 Please follow the instructions below to prepare your computer for the workshop:
 
@@ -18,16 +18,35 @@ Please follow the instructions below to prepare your computer for the workshop:
 
 ## Required additional software
 
-This lesson requires a working spreadsheet program. If you don't have a spreadsheet program already, you can use LibreOffice. It's a free, open source spreadsheet program.  Directions to install are included for each Windows, Mac OS X, and Linux systems below. For Windows, you will also need to install either Git Bash, PuTTY, or the Ubuntu Subsystem.
+This lesson requires a working spreadsheet program.
+If you don't have a spreadsheet program already, you can use LibreOffice.
+It's a free, open source spreadsheet program.
+Directions to install are included for each Windows, Mac OS X, and Linux systems below.
+For Windows, you will also need to install either Git Bash, PuTTY, or the Ubuntu Subsystem.
 
 > ## Windows
-> - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Windows should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.
+> - Install LibreOffice by going to
+>   [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/).
+>   The version for Windows should automatically be selected.
+>   Click Download Version X.X.X (whichever is the most recent version).
+>   You will go to a page that asks about a donation, but you don't need to make one.
+>   Your download should begin automatically.
 > - Once the installer is downloaded, double click on it and LibreOffice should install.
-> - Download the [Git for Windows installer](https://git-for-windows.github.io/). Run the installer and follow the steps below:
->   + Click on "Next" four times (two times if you've previously installed Git). You don't need to change anything in the Information, location, components, and start menu screens.
->   + **From the dropdown menu select "Use the Nano editor by default" (NOTE: you will need to scroll up to find it) and click on "Next".**
->   + On the page that says "Adjusting the name of the initial branch in new repositories", ensure that "Let Git decide" is selected. This will ensure the highest level of compatibility for our lessons.
->   + Ensure that "Git from the command line and also from 3rd-party software" is selected and click on "Next". (If you don't do this Git Bash will not work properly, requiring you to remove the Git Bash installation, re-run the installer and to select the "Git from the command line and also from 3rd-party software" option.)
+> - Download the [Git for Windows installer](https://git-for-windows.github.io/).
+>   Run the installer and follow the steps below:
+>   + Click on "Next" four times (two times if you've previously installed Git).
+>     You don't need to change anything in the Information, location, components, and start menu screens.
+>   + **From the dropdown menu select "Use the Nano editor by default"
+>     (NOTE: you will need to scroll up to find it) and click on "Next".**
+>   + On the page that says "Adjusting the name of the initial branch in new repositories",
+>     ensure that "Let Git decide" is selected.
+>     This will ensure the highest level of compatibility for our lessons.
+>   + Ensure that "Git from the command line and also from 3rd-party software"
+>     is selected and click on "Next".
+>     (If you don't do this Git Bash will not work properly,
+>     requiring you to remove the Git Bash installation,
+>     re-run the installer and to select the
+>     "Git from the command line and also from 3rd-party software" option.)
 >   + Ensure that "Use the native Windows Secure Channel Library" is selected and click on "Next".
 >   + Ensure that "Checkout Windows-style, commit Unix-style line endings" is selected and click on "Next".
 >   + **Ensure that "Use Windows' default console window" is selected and click on "Next".**
@@ -42,44 +61,80 @@ This lesson requires a working spreadsheet program. If you don't have a spreadsh
 >     - Type the following line into the command prompt window exactly as shown: `setx HOME "%USERPROFILE%"`
 >     - Press [Enter], you should see `SUCCESS: Specified value was saved.`
 >     - Quit command prompt by typing `exit` then pressing [Enter]
-> - An **alternative option** is to install PuTTY by going to the [the installation page](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). For most newer computers, click on putty-64bit-X.XX-installer.msi to download the 64-bit version. If you have an older laptop, you may need to get the 32-bit version putty-X.XX-installer.msi. If you aren't sure whether you need the 64 or 32 bit version, you can check your laptop version by following [the instructions here](https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq). Once the installer is downloaded, double click on it, and PuTTY should install.
-> - **Another alternative option** is to use the Ubuntu Subsystem for Windows. This option is only available for Windows 10 - detailed [instructions are available here](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+> - An **alternative option** is to install PuTTY by going to
+>   [the installation page](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
+>   For most newer computers, click on putty-64bit-X.XX-installer.msi to download the 64-bit version.
+>   If you have an older laptop, you may need to get the 32-bit version putty-X.XX-installer.msi.
+>   If you aren't sure whether you need the 64 or 32 bit version,
+>   you can check your laptop version by following
+>   [the instructions here](https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq).
+>   Once the installer is downloaded, double click on it, and PuTTY should install.
+> - **Another alternative option** is to use the Ubuntu Subsystem for Windows.
+>   This option is only available for Windows 10 -
+>   detailed [instructions are available here](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 {: .solution}
 
 > ## Mac OS X
-> - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Mac should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.
+> - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/).
+>   The version for Mac should automatically be selected.
+>   Click Download Version X.X.X (whichever is the most recent version).
+>   You will go to a page that asks about a donation, but you don't need to make one.
+>   Your download should begin automatically.
 > - Once the installer is downloaded, double click on it and LibreOffice should install.
 {: .solution}
 
 > ## Linux
->  - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Linux should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.
+>  - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/).
+>   The version for Linux should automatically be selected.
+>   Click Download Version X.X.X (whichever is the most recent version).
+>   You will go to a page that asks about a donation, but you don't need to make one.
+>   Your download should begin automatically.
 > - Once the installer is downloaded, double click on it and LibreOffice should install.
 {: .solution}
 
 ## Option A (**Recommended**): Using the lessons with Amazon Web Services (AWS)
 
-If you are signed up to take a Genomics Data Carpentry workshop, you do *not* need to worry about setting up an AMI instance. The Carpentries
-staff will create an instance for you and this will be provided to you at no cost. This is true for both self-organized and centrally-organized workshops. Your Instructor will provide instructions for connecting to the AMI instance at the workshop.
+If you are signed up to take a Genomics Data Carpentry workshop,
+you do *not* need to worry about setting up an AMI instance.
+The Carpentries staff will create an instance for you and this will be provided to you at no cost.
+This is true for both self-organized and centrally-organized workshops.
+Your Instructor will provide instructions for connecting to the AMI instance at the workshop.
 
-If you would like to work through these lessons independently, outside of a workshop, you will need to start your own AMI instance.
-Follow these [instructions on creating an Amazon instance](https://datacarpentry.org/genomics-workshop/AMI-setup/). Use the AMI `ami-0a60aaff4478b8fda` (Data Carpentry Genomics with R 4.0) listed on the Community AMIs page. Please note that you must set your location as `N. Virginia` in order to access this community AMI. You can change your location in the upper right corner of the main AWS menu bar. The cost of using this AMI for a few days, with the t2.medium instance type is very low (about USD $1.50 per user, per day). Data Carpentry has *no* control over AWS pricing structure and provides this
-cost estimate with no guarantees. Please read AWS documentation on pricing for up-to-date information.
+If you would like to work through these lessons independently, outside of a workshop,
+you will need to start your own AMI instance.
+Follow these [instructions on creating an Amazon instance](https://datacarpentry.org/genomics-workshop/AMI-setup/).
+Use the AMI `ami-0a60aaff4478b8fda` (Data Carpentry Genomics with R 4.0)
+listed on the Community AMIs page.
+Please note that you must set your location as `N. Virginia` in order to access this community AMI.
+You can change your location in the upper right corner of the main AWS menu bar.
+The cost of using this AMI for a few days,
+with the t2.medium instance type is very low (about USD $1.50 per user, per day).
+Data Carpentry has *no* control over AWS pricing structure and provides this
+cost estimate with no guarantees.
+Please read AWS documentation on pricing for up-to-date information.
 
-If you're an Instructor or Maintainer or want to contribute to these lessons, please get in touch with us [team@carpentries.org](mailto:team@carpentries.org) and we will start instances for you.
+If you're an Instructor or Maintainer or want to contribute to these lessons,
+please get in touch with us [team@carpentries.org](mailto:team@carpentries.org)
+and we will start instances for you.
 
 ## Option B: Using the lessons on your local machine
 
-While not recommended, it is possible to work through the lessons on your local machine (i.e. without using
-AWS). To do this, you will need to install all of the software used in the workshop and obtain a copy of the
-dataset. Instructions for doing this are below.
+While not recommended, it is possible to work through the lessons on your local machine
+(i.e. without using AWS).
+To do this, you will need to install all of the software used in the workshop
+and obtain a copy of the dataset.
+Instructions for doing this are below.
 
 ### Data
 
-The data used in this workshop is available on FigShare. Because this workshop works with real data, be aware that file sizes for the data are large. Please read the FigShare page linked below for information about the data and access to the data files.
+The data used in this workshop is available on FigShare.
+Because this workshop works with real data, be aware that file sizes for the data are large.
+Please read the FigShare page linked below for information about the data and access to the data files.
 
 [FigShare Data Carpentry Genomics Beta 2.0](https://figshare.com/articles/Data_Carpentry_Genomics_beta_2_0/7726454)
 
-More information about these data will be presented in the [first lesson of the workshop](http://www.datacarpentry.org/organization-genomics/data/).
+More information about these data will be presented in
+[the first lesson of the workshop](http://www.datacarpentry.org/organization-genomics/data/).
 
 ### Software
 
@@ -94,9 +149,17 @@ More information about these data will be presented in the [first lesson of the 
 
 ### QuickStart Software Installation Instructions
 
-These are the QuickStart installation instructions. They assume familiarity with the command line and with installation in general. As there are different operating systems and many different versions of operating systems and environments, these may not work on your computer. If an installation doesn't work for you, please refer to the user guide for the tool, listed in the table above.
+These are the QuickStart installation instructions.
+They assume familiarity with the command line and with installation in general.
+As there are different operating systems and many different versions of
+operating systems and environments, these may not work on your computer.
+If an installation doesn't work for you, please refer to the user guide for the tool,
+listed in the table above.
 
-We have installed software using [miniconda](https://docs.conda.io/en/latest/miniconda.html). Miniconda is a package manager that simplifies the installation process. Please first install miniconda3 (installation instructions below), and then proceed to the installation of individual tools.
+We have installed software using [miniconda](https://docs.conda.io/en/latest/miniconda.html).
+Miniconda is a package manager that simplifies the installation process.
+Please first install miniconda3 (installation instructions below),
+and then proceed to the installation of individual tools.
 
 ### Miniconda3
 
@@ -267,8 +330,8 @@ $ bwa
 {: .solution}
 
 > ## SAMtools Versions
-> SAMtools has changed the command line invocation (for the better). But this means that most of the tutorials
-> on the web indicate an older and obsolete usage.
+> SAMtools has changed the command line invocation (for the better).
+> But this means that most of the tutorials on the web indicate an older and obsolete usage.
 >
 > Using SAMtools version 1.9 is important to work with the commands we present in these lessons.
 {: .callout}
