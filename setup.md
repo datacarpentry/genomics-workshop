@@ -25,8 +25,7 @@ Directions to install are included for each Windows, Mac OS X, and Linux systems
 For Windows, you will also need to install either Git Bash, PuTTY, or the Ubuntu Subsystem.
 
 > ## Windows
-> - Install LibreOffice by going to
->   [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/).
+> - Visit [the LibreOffice installation page](https://www.libreoffice.org/download/libreoffice-fresh/).
 >   The version for Windows should automatically be selected.
 >   Click Download Version X.X.X (whichever is the most recent version).
 >   You will go to a page that asks about a donation, but you don't need to make one.
@@ -61,21 +60,19 @@ For Windows, you will also need to install either Git Bash, PuTTY, or the Ubuntu
 >     - Type the following line into the command prompt window exactly as shown: `setx HOME "%USERPROFILE%"`
 >     - Press [Enter], you should see `SUCCESS: Specified value was saved.`
 >     - Quit command prompt by typing `exit` then pressing [Enter]
-> - An **alternative option** is to install PuTTY by going to
->   [the installation page](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
+> - An **alternative option** is to [install PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
 >   For most newer computers, click on putty-64bit-X.XX-installer.msi to download the 64-bit version.
 >   If you have an older laptop, you may need to get the 32-bit version putty-X.XX-installer.msi.
 >   If you aren't sure whether you need the 64 or 32 bit version,
->   you can check your laptop version by following
->   [the instructions here](https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq).
+>   you can [check your laptop version](https://support.microsoft.com/en-us/help/15056/windows-32-64-bit-faq).
 >   Once the installer is downloaded, double click on it, and PuTTY should install.
 > - **Another alternative option** is to use the Ubuntu Subsystem for Windows.
->   This option is only available for Windows 10 -
->   detailed [instructions are available here](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+>   This option is only available for Windows 10 - the Microsoft documentation provides
+>   [detailed instructions for installing Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 {: .solution}
 
 > ## Mac OS X
-> - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/).
+> - Visit [the LibreOffice installation page](https://www.libreoffice.org/download/libreoffice-fresh/).
 >   The version for Mac should automatically be selected.
 >   Click Download Version X.X.X (whichever is the most recent version).
 >   You will go to a page that asks about a donation, but you don't need to make one.
@@ -84,7 +81,7 @@ For Windows, you will also need to install either Git Bash, PuTTY, or the Ubuntu
 {: .solution}
 
 > ## Linux
->  - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/).
+> - Visit [the LibreOffice installation page](https://www.libreoffice.org/download/libreoffice-fresh/).
 >   The version for Linux should automatically be selected.
 >   Click Download Version X.X.X (whichever is the most recent version).
 >   You will go to a page that asks about a donation, but you don't need to make one.
@@ -114,7 +111,7 @@ cost estimate with no guarantees.
 Please read AWS documentation on pricing for up-to-date information.
 
 If you're an Instructor or Maintainer or want to contribute to these lessons,
-please get in touch with us [team@carpentries.org](mailto:team@carpentries.org)
+please [get in touch with us](mailto:team@carpentries.org)
 and we will start instances for you.
 
 ## Option B: Using the lessons on your local machine
@@ -127,11 +124,9 @@ Instructions for doing this are below.
 
 ### Data
 
-The data used in this workshop is available on FigShare.
+[The data used in this workshop is available on FigShare](https://figshare.com/articles/Data_Carpentry_Genomics_beta_2_0/7726454).
 Because this workshop works with real data, be aware that file sizes for the data are large.
-Please read the FigShare page linked below for information about the data and access to the data files.
-
-[FigShare Data Carpentry Genomics Beta 2.0](https://figshare.com/articles/Data_Carpentry_Genomics_beta_2_0/7726454)
+Please read the FigShare page for information about the data and access to the data files.
 
 More information about these data will be presented in
 [the first lesson of the workshop](http://www.datacarpentry.org/organization-genomics/data/).
@@ -409,4 +404,4 @@ $ bcftools
 ### IGV
 
 - [Download the IGV installation files](https://software.broadinstitute.org/software/igv/download)
-- Install and run IGV using the [instructions for your operating system](https://software.broadinstitute.org/software/igv/download).
+- [Install and run IGV using the instructions for your operating system](https://software.broadinstitute.org/software/igv/download).
