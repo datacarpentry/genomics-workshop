@@ -7,12 +7,12 @@ title: Setup
 
 This workshop is designed to be run on pre-imaged Amazon Web Services (AWS)
 instances. All of the data and most of the software used
-in the workshop are hosted on an Amazon 
+in the workshop are hosted on an Amazon
 Machine Image (AMI). Some additional software, detailed below, must be installed on your computer.
 
 Please follow the instructions below to prepare your computer for the workshop:
 
-- Required additional software + Option A   
+- Required additional software + Option A
 **OR**
 - Required additional software + Option B
 
@@ -21,7 +21,7 @@ Please follow the instructions below to prepare your computer for the workshop:
 This lesson requires a working spreadsheet program. If you don't have a spreadsheet program already, you can use LibreOffice. It's a free, open source spreadsheet program.  Directions to install are included for each Windows, Mac OS X, and Linux systems below. For Windows, you will also need to install either Git Bash, PuTTY, or the Ubuntu Subsystem.
 
 > ## Windows
-> - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Windows should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.  
+> - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Windows should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.
 > - Once the installer is downloaded, double click on it and LibreOffice should install.
 > - Download the [Git for Windows installer](https://git-for-windows.github.io/). Run the installer and follow the steps below:
 >   + Click on "Next" four times (two times if you've previously installed Git). You don't need to change anything in the Information, location, components, and start menu screens.
@@ -47,12 +47,12 @@ This lesson requires a working spreadsheet program. If you don't have a spreadsh
 {: .solution}
 
 > ## Mac OS X
-> - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Mac should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.  
+> - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Mac should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.
 > - Once the installer is downloaded, double click on it and LibreOffice should install.
 {: .solution}
 
 > ## Linux
->  - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Linux should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.  
+>  - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Linux should automatically be selected. Click Download Version X.X.X (whichever is the most recent version). You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.
 > - Once the installer is downloaded, double click on it and LibreOffice should install.
 {: .solution}
 
@@ -61,11 +61,11 @@ This lesson requires a working spreadsheet program. If you don't have a spreadsh
 If you are signed up to take a Genomics Data Carpentry workshop, you do *not* need to worry about setting up an AMI instance. The Carpentries
 staff will create an instance for you and this will be provided to you at no cost. This is true for both self-organized and centrally-organized workshops. Your Instructor will provide instructions for connecting to the AMI instance at the workshop.
 
-If you would like to work through these lessons independently, outside of a workshop, you will need to start your own AMI instance. 
-Follow these [instructions on creating an Amazon instance](https://datacarpentry.org/genomics-workshop/AMI-setup/). Use the AMI `ami-04b3bc83255f918b0` (Data Carpentry Genomics with R 4.0) listed on the Community AMIs page. Please note that you must set your location as `N. Virginia` in order to access this community AMI. You can change your location in the upper right corner of the main AWS menu bar. The cost of using this AMI for a few days, with the t2.medium instance type is very low (about USD $1.50 per user, per day). Data Carpentry has *no* control over AWS pricing structure and provides this
+If you would like to work through these lessons independently, outside of a workshop, you will need to start your own AMI instance.
+Follow these [instructions on creating an Amazon instance](https://datacarpentry.org/genomics-workshop/AMI-setup/). Use the AMI `ami-0a60aaff4478b8fda` (Data Carpentry Genomics with R 4.0) listed on the Community AMIs page. Please note that you must set your location as `N. Virginia` in order to access this community AMI. You can change your location in the upper right corner of the main AWS menu bar. The cost of using this AMI for a few days, with the t2.medium instance type is very low (about USD $1.50 per user, per day). Data Carpentry has *no* control over AWS pricing structure and provides this
 cost estimate with no guarantees. Please read AWS documentation on pricing for up-to-date information.
 
-If you're an Instructor or Maintainer or want to contribute to these lessons, please get in touch with us [team@carpentries.org](mailto:team@carpentries.org) and we will start instances for you. 
+If you're an Instructor or Maintainer or want to contribute to these lessons, please get in touch with us [team@carpentries.org](mailto:team@carpentries.org) and we will start instances for you.
 
 ## Option B: Using the lessons on your local machine
 
@@ -96,12 +96,12 @@ More information about these data will be presented in the [first lesson of the 
 
 These are the QuickStart installation instructions. They assume familiarity with the command line and with installation in general. As there are different operating systems and many different versions of operating systems and environments, these may not work on your computer. If an installation doesn't work for you, please refer to the user guide for the tool, listed in the table above.
 
-We have installed software using [miniconda](https://docs.conda.io/en/latest/miniconda.html). Miniconda is a package manager that simplifies the installation process. Please first install miniconda3 (installation instructions below), and then proceed to the installation of individual tools. 
+We have installed software using [miniconda](https://docs.conda.io/en/latest/miniconda.html). Miniconda is a package manager that simplifies the installation process. Please first install miniconda3 (installation instructions below), and then proceed to the installation of individual tools.
 
 ### Miniconda3
 
 > ## MacOS
-> 
+>
 >To install miniconda3, type:
 >
 >~~~
@@ -109,7 +109,7 @@ We have installed software using [miniconda](https://docs.conda.io/en/latest/min
 >$ bash Miniconda3-latest-MacOSX-x86_64.sh
 >~~~
 >{: .bash}
-> Then, follow the instructions that you are prompted with on the screen to install Miniconda3. 
+> Then, follow the instructions that you are prompted with on the screen to install Miniconda3.
 {: .solution}
 
 
@@ -308,7 +308,7 @@ $ samtools
 > ## MacOS
 >
 >~~~
->$ conda install -c bioconda bcftools=1.8=h4da6232_3 
+>$ conda install -c bioconda bcftools=1.8=h4da6232_3
 >~~~
 >{: .bash}
 {: .solution}
