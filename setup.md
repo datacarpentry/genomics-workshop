@@ -100,7 +100,7 @@ Your Instructor will provide instructions for connecting to the AMI instance at 
 If you would like to work through these lessons independently, outside of a workshop,
 you will need to start your own AMI instance.
 Follow these [instructions on creating an Amazon instance](https://datacarpentry.org/genomics-workshop/AMI-setup/).
-Use the AMI `ami-0a60aaff4478b8fda` (Data Carpentry Genomics with R 4.0)
+Use the AMI `ami-04dd77cd58b3ec654` (Data Carpentry Genomics with R 4.2)
 listed on the Community AMIs page.
 Please note that you must set your location as `N. Virginia` in order to access this community AMI.
 You can change your location in the upper right corner of the main AWS menu bar.
@@ -135,11 +135,11 @@ More information about these data will be presented in
 
 | Software | Version | Manual | Available for | Description |
 | -------- | ------------ | ------ | ------------- | ----------- |
-| [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) | 0.11.7 | [Link](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/)| Linux, MacOS, Windows | Quality control tool for high throughput sequence data. |
-| [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic) | 0.38 | [Link](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf) | Linux, MacOS, Windows | A flexible read trimming tool for Illumina NGS data. |
+| [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) | 0.11.9 | [Link](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/)| Linux, MacOS, Windows | Quality control tool for high throughput sequence data. |
+| [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic) | 0.39 | [Link](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf) | Linux, MacOS, Windows | A flexible read trimming tool for Illumina NGS data. |
 | [BWA](http://bio-bwa.sourceforge.net/) | 0.7.17 | [Link](http://bio-bwa.sourceforge.net/bwa.shtml) | Linux, MacOS | Mapping DNA sequences against reference genome. |
 | [SAMtools](http://samtools.sourceforge.net/) | 1.9 | [Link](http://www.htslib.org/doc/samtools.html) | Linux, MacOS | Utilities for manipulating alignments in the SAM format. |
-| [BCFtools](https://samtools.github.io/bcftools/) | 1.8 | [Link](https://samtools.github.io/bcftools/bcftools.html) | Linux, MacOS | Utilities for variant calling and manipulating VCFs and BCFs. |
+| [BCFtools](https://samtools.github.io/bcftools/) | 1.9 | [Link](https://samtools.github.io/bcftools/bcftools.html) | Linux, MacOS | Utilities for variant calling and manipulating VCFs and BCFs. |
 | [IGV](http://software.broadinstitute.org/software/igv/home) | [Link](https://software.broadinstitute.org/software/igv/download) | [Link](https://software.broadinstitute.org/software/igv/UserGuide) | Linux, MacOS, Windows | Visualization and interactive exploration of large genomics datasets. |
 
 ### QuickStart Software Installation Instructions
@@ -178,7 +178,7 @@ and then proceed to the installation of individual tools.
 >To install FastQC, type:
 >
 > ~~~
-> $ conda install -c bioconda fastqc=0.11.7=5
+> $ conda install -c bioconda fastqc=0.11.9
 > ~~~
 >{: .bash}
 {: .solution}
@@ -189,8 +189,8 @@ and then proceed to the installation of individual tools.
 >
 > ~~~
 > $ cd ~/src
-> $ curl -O http://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.7.zip
-> $ unzip fastqc_v0.11.7.zip
+> $ curl -O http://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.9.zip
+> $ unzip fastqc_v0.11.9.zip
 > ~~~
 > {: .bash}
 >
@@ -224,7 +224,7 @@ $ fastqc -h
 > ## MacOS
 >
 > ~~~
-> conda install -c bioconda trimmomatic=0.38=0
+> conda install -c bioconda trimmomatic=0.39
 > ~~~
 >{: .bash}
 {: .solution}
@@ -235,22 +235,22 @@ $ fastqc -h
 >
 > ~~~
 > $ cd ~/src
-> $ curl -O http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.38.zip
-> $ unzip Trimmomatic-0.38.zip
+> $ curl -O http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.39.zip
+> $ unzip Trimmomatic-0.39.zip
 > ~~~
 > {: .bash}
 >
 > The program can be invoked via:
 >
 > ~~~
-> $ java -jar ~/src/Trimmomatic-0.38/trimmomatic-0.38.jar
+> $ java -jar ~/src/Trimmomatic-0.39/trimmomatic-0.39.jar
 > ~~~
 >
-> The ~/src/Trimmomatic-0.38/adapters/ directory contains
+> The ~/src/Trimmomatic-0.39/adapters/ directory contains
 > Illumina specific adapter sequences.
 >
 > ~~~
-> $ ls ~/src/Trimmomatic-0.38/adapters/
+> $ ls ~/src/Trimmomatic-0.39/adapters/
 > ~~~
 > {: .bash}
 {: .solution}
@@ -258,7 +258,7 @@ $ fastqc -h
 **Test your installation by running:** (assuming things are installed in ~/src)
 
 ~~~
-$ java -jar ~/src/Trimmomatic-0.38/trimmomatic-0.38.jar
+$ java -jar ~/src/Trimmomatic-0.39/trimmomatic-0.39.jar
 ~~~
 {: .bash}
 
@@ -269,7 +269,7 @@ $ java -jar ~/src/Trimmomatic-0.38/trimmomatic-0.38.jar
 >
 > ~~~
 > $ echo '#!/bin/bash' > ~/bin/trimmomatic
-> $ echo 'java -jar ~/src/Trimmomatic-0.36/trimmomatic-0.36.jar $@' >> ~/bin/trimmomatic
+> $ echo 'java -jar ~/src/Trimmomatic-0.39/trimmomatic-0.39.jar $@' >> ~/bin/trimmomatic
 > $ chmod +x ~/bin/trimmomatic
 > ~~~
 > {: .bash}
@@ -366,7 +366,7 @@ $ samtools
 > ## MacOS
 >
 >~~~
->$ conda install -c bioconda bcftools=1.8=h4da6232_3
+>$ conda install -c bioconda bcftools=1.9
 >~~~
 >{: .bash}
 {: .solution}
@@ -377,9 +377,9 @@ $ samtools
 >
 > ~~~
 > $ cd ~/src
-> $ curl -OkL https://github.com/samtools/bcftools/releases/download/1.8/bcftools-1.8.tar.bz2
-> $ tar jxvf bcftools-1.8.tar.bz2
-> $ cd bcftools-1.8
+> $ curl -OkL https://github.com/samtools/bcftools/releases/download/1.9/bcftools-1.9.tar.bz2
+> $ tar jxvf bcftools-1.9.tar.bz2
+> $ cd bcftools-1.9
 > $ make
 > ~~~
 > {: .bash}
@@ -387,7 +387,7 @@ $ samtools
 > Add directory to the path if necessary:
 >
 > ~~~
-> $ echo export `PATH=~/src/bcftools-1.8:$PATH` >> ~/.bashrc
+> $ echo export `PATH=~/src/bcftools-1.9:$PATH` >> ~/.bashrc
 > $ source ~/.bashrc
 > ~~~
 > {: .bash}
