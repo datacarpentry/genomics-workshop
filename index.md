@@ -61,7 +61,7 @@ If you want to run your own instance of the server used for this workshop, follo
 
 # Common Schedules
 
-### Schedule A(2 days OR 4 half days)
+### Schedule A (2 days OR 4 half days)
 
 Half-day 1: [Project organization and management](https://datacarpentry.github.io/organization-genomics/) & [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/)
 Half-day 2: [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/) (continued)
