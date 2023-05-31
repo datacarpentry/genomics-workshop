@@ -71,7 +71,7 @@ Half-day 3 & 4 : [Data wrangling and processing](https://datacarpentry.github.io
 
 Half-day 1: [Project organization and management](https://datacarpentry.github.io/organization-genomics/) & [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/)
 Half-day 2: [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/) (continued)
-Half-day 3 &4: [Intro to R and RStudio for Genomics](https://datacarpentry.org/genomics-r-intro/)
+Half-day 3 & 4: [Intro to R and RStudio for Genomics](https://datacarpentry.org/genomics-r-intro/)
 
 ### Schedule C (3 days OR 6 half days)
 
