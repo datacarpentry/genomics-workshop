@@ -117,10 +117,10 @@ and we will start instances for you.
 ## Option B: Using the lessons on your local machine
 
 While not recommended, it is possible to work through the lessons on your local machine
-(i.e. without using AWS).
+(i.e. without having to use AWS).
 To do this, you will need to install all of the software used in the workshop
 and obtain a copy of the dataset.
-Instructions for doing this are below.
+Instructions for doing this are listed below.
 
 ### Data
 
