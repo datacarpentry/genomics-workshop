@@ -49,34 +49,51 @@ Carpentry workshop,
 
 <img src="../fig/logging-onto-cloud_1.png" width="500" alt="Screenshot of AWS EC2 dashboard showing location of launch instance button.">
 
-3\. In 'Step 1' you will be asked to choose an Amazon Machine Image (AMI), on the lefthand side, look for 'Community AMIs' and then search for the AMI listed on this curriculum's [Setup page](https://datacarpentry.org/genomics-workshop/setup.html); select that image  
+3\. Under 'Application and OS Images (Amazon Machine Image)' search for the AMI listed on this curriculum's [Setup page](https://datacarpentry.org/genomics-workshop/setup.html)
 
-<img src="../fig/logging-onto-cloud_2.png" width="500" alt="Screenshot of AMI launch wizard showing search function.">
+<img src="../fig/logging-onto-cloud_1b.png" width="500" alt="Screenshot of AMI launch wizard showing search function.">
 
-4\. For 'Choose an Instance Type' select **t2.medium**; then click 'Review and Launch'  
+4\. Click "Community AMIs", and then select that image
+
+<img src="../fig/logging-onto-cloud_2.png" width="500" alt="Screenshot of AMI launch wizard showing Community AMI tab.">
+
+5\. Under 'Instance type' click "Compare instance types" and and then select **t2.medium**; click "Select instance type"
 
 <img src="../fig/logging-onto-cloud_3.png" width="500" alt="Screenshot of AMI launch wizard showing choosing t2.medium image type.">  
 
-5\. Click on "6. Configure Security Group" in the top navigation menu. If this is your first time working with this AMI on your
-AWS account, choose "create a new security group". Name your security group something descriptive (for example "DC-genomics-AMI") 
+<img src="../fig/logging-onto-cloud_3b.png" width="500" alt="Screenshot of AMI compare instance type page.">  
+
+6\. Under 'Key pair (login)' click "Create a new key pair" 
+
+<img src="../fig/logging-onto-cloud-new-key-pair_1.png" width="500" alt="Screenshot showing key pair settings box.">
+
+7\. Enter a name for your key pair. Select "RSA" under 'Key pair type' and ".pem" under 'Private key file format'. Click "Create key pair"; this will download your key pair file, which ends in `.pem`. Move it from your Downloads folder to a stable location on your computer. For these instructions, we will move it to our Desktop. You can do this by dragging and dropping the file from your Downloads
+folder to your desktop.
+
+<img src="../fig/logging-onto-cloud-new-key-pair_2.png" width="500" alt="Screenshot showing dialogue box for creating a new key pair.">
+
+
+8\. Scroll down to 'Network settings'. If this is your first time working with this AMI on your
+AWS account, choose "create a new security group". Click "Edit".
+
+<img src="../fig/logging-onto-cloud-security-group_1.png" width="500" alt="Screenshot of AMI launch wizard showing network settings box with 'Create security group' selected.">
+
+9\. Name your security group something descriptive (for example "DC-genomics-AMI") 
 and enter a description into the description box (for example "to use with DC genomics AMI"). 
 
 Your security group should now look like this: 
 
-<img src="../fig/logging-onto-cloud-security-group-1.png" width="500" alt="Screenshot of AMI launch wizard showing creating a new security group.">
+<img src="../fig/logging-onto-cloud-security-group_2.png" width="500" alt="Screenshot of AMI launch wizard showing creating a new security group.">
 
-6\. Click "Add Rule". A new row will appear. Select "Custom TCP Rule" and enter "8787" into box labeled "Port Range". Under the
-"Source" box, select "Anywhere" for both security rules. Click "Review and Launch". You should now see a screen that looks like this:
+10\. Click "Add security group rule". A new row will appear. Under 'Type' select "Custom TCP" and enter "8787" into box labeled "Port Range". Under
+"Source type", select "Anywhere". You should now see a screen that looks like this:
 
-<img src="../fig/logging-onto-cloud-security-group-2.png" width="500" alt="Screenshot of AMI launch wizard showing review page for launching new instance.">
+<img src="../fig/logging-onto-cloud-security-group_3.png" width="500" alt="Screenshot of AMI launch wizard showing security group rules.">
 
-7\. Click "Launch". You will be asked to select an existing key pair or create a new key pair. Select "Create a new key pair" and enter a name for your key pair. 
 
-<img src="../fig/logging-onto-cloud-new-key-pair.png" width="500" alt="Screenshot showing dialogue box for creating a new key pair.">
+11\. Under 'Summary' on the right side of the screen, you should now see a screen that looks like this. Click "Launch Instance".
 
-8\. Then click "Download Key Pair". Your key pair file ends in `.pem`. Move it from your Downloads folder to a stable location on your 
-computer. For these instructions, we will move it to our Desktop. You can do this by dragging and dropping the file from your Downloads
-folder to your desktop. Then click "Launch Instance".
+<img src="../fig/logging-onto-cloud-summary.png" width="250" alt="Screenshot of AMI launch wizard showing security group rules.">
 
 You instance will now be launched. You should follow the links to 'Create billing alerts' and then the instructions below
 for connecting to and terminating your Amazon Instance.
@@ -89,7 +106,7 @@ for connecting to and terminating your Amazon Instance.
 > 
 > <img src="../fig/logging-onto-cloud_5.png" width="500" alt="Screenshot of AWS EC2 dashboard showing number of running instances.">
 > 
-> 3. At the bottom of the dashboard, you should see a **Public DNS** which will look something like *ec2.12.2.45.678.compute-1.amazonaws.com*. Copy that address (you may wish make a note of it as you will need this each time you connect.)  
+> 3. At the bottom of the dashboard, you should see a **Public IPv4 DNS** which will look something like *ec2-18-212-60-130.compute-1.amazonaws.com*. Copy that address (you may wish make a note of it as you will need this each time you connect.)  
 > 
 > <img src="../fig/logging-onto-cloud_6.png" width="500" alt="Screenshot of AWS EC2 dashboard showing instance state as running.">
 > 
@@ -103,10 +120,10 @@ for connecting to and terminating your Amazon Instance.
 > 5. You can now connect to your instance using 'ssh'. Your command will be something like this:
 > 
 > ```bash
-> $ ssh dcuser@ec2-3-89-254-171.compute-1.amazonaws.com
+> $ ssh dcuser@ec2-18-212-60-130.compute-1.amazonaws.com
 > ```
 >
-> Be sure to replace `ec2-3-89-254-171.compute-1.amazonaws.com` with the DNS for your image. 
+> Use `dcuser` as the username, but be sure to replace `ec2-18-212-60-130.compute-1.amazonaws.com` with the DNS for your image. 
 > You may be notified that the authenticity of the host cannot be verified - if so, ignore the warning an continue connecting
 >
 > 6. When prompted, enter the password `data4Carp`
@@ -132,7 +149,7 @@ for connecting to and terminating your Amazon Instance.
 >
 > <img src="../fig/logging-onto-cloud_5.png" width="500" alt="Screenshot of AWS EC2 dashboard showing number of running instances.">
 > 
-> 4. At the bottom of the dashboard, you should see a **Public DNS** which will look something like *ec2.12.2.45.678.compute-1.amazonaws.com*. Copy that address (you may wish to make a note of it as you will need this each time you connect.)  
+> 4. At the bottom of the dashboard, you should see a **Public IPv4 DNS** which will look something like *ec2-18-212-60-130.compute-1.amazonaws.com*. Copy that address (you may wish make a note of it as you will need this each time you connect.) 
 > 
 > <img src="../fig/logging-onto-cloud_6.png" width="500" alt="Screenshot of AWS EC2 dashboard showing instance state as running.">
 > 
@@ -167,14 +184,12 @@ When you are finished with your instance, you must terminate it to avoid unwante
 
 1. Sign into AWS and go to the EC2 Dashboard: [https://console.aws.amazon.com/ec2/](https://console.aws.amazon.com/ec2/)
 2. Under 'Resources' select 'Running Instances'
-3. Select the instance you wish to terminate, then click 'Actions'  
+3. Select the instance you wish to terminate, then click 'Instance state' and select 'Terminate instance'
 
 <img src="../fig/logging-onto-cloud_7.png" width="500" alt="Screenshot of AWS EC2 dashboard showing drop-down menu for terminating an instance.">
-
-4. Under 'Instance State' select terminate.
 
 > ## Warning
 > Terminating an instance will delete any data on this instance, so you must move any data you wish to save off the instance.
 {: .callout}
 
-5. Select 'Yes, Terminate' to terminate the instance.
+5. Select 'Terminate' to terminate the instance.
