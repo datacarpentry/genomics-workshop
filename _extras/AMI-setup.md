@@ -23,8 +23,8 @@ Carpentry workshop,
 > - using these lessons for a teaching demonstration as part of your Instructor checkout for The Carpentries,
 > 
 > you will need to create your own AMI instances using the instructions below. The cost of using this AMI for a few days, with the 
-> t2.medium instance type is very low (about USD $1.50 per day). Data Carpentry has no control over AWS pricing structure and provides 
-> this cost estimate with no guarantees. Please read [AWS documentation on pricing](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-getting-started.html) for up-to-date information.
+> t2.medium instance type is about USD $1.20 per day. Data Carpentry has no control over AWS pricing structure and provides
+> this cost estimate with no guarantees. Please see the [EC2 pricing page](https://aws.amazon.com/ec2/pricing/on-demand) for up-to-date information.
 {: .callout}
 
 ### Launching an instance on Amazon Web Services
