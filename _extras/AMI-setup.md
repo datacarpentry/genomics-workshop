@@ -9,15 +9,15 @@ title: Launching your own AMI instances
 > 
 > - teaching at or attending a centrally organized Data 
 Carpentry workshop, 
-> - a Maintainer for one of the Genomics lessons, or
-> - contributing to the Genomics lessons,
+> - a Maintainer for one of the Genomics lessons,
+> - contributing to the Genomics lessons, or
+> - teaching at a self-organized workshop
 > 
 > The Carpentries staff will create AMI instances for you. Please contact
 > team@carpentries.org. 
 > 
 > **If you are:**
 > 
-> - teaching at a self-organized workshop, 
 > - working through these lessons on your own outside of a workshop, 
 > - practicing your skills after a workshop, or
 > - using these lessons for a teaching demonstration as part of your Instructor checkout for The Carpentries,
