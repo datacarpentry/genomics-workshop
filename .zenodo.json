@@ -2,8 +2,11 @@
   "contributors": [
     {
       "type": "Editor",
-      "name": "Erin Alison Becker",
-      "orcid": "0000-0002-6832-0233"
+      "name": "Anuj Guruacharya"
+    },
+    {
+      "type": "Editor",
+      "name": "Travis Wrightsman"
     }
   ],
   "creators": [
@@ -12,43 +15,56 @@
       "orcid": "0000-0002-6832-0233"
     },
     {
-      "name": "Tracy Teal",
-      "orcid": "0000-0002-9180-9598"
+      "name": "Sarah LR Stevens",
+      "orcid": "0000-0002-7040-548X"
     },
     {
-      "name": "François Michonneau",
-      "orcid": "0000-0002-9092-966X"
+      "name": "Bianca Peterson"
     },
     {
-      "name": "Maneesha Sane",
-      "orcid": "0000-0003-0726-5696"
+      "name": "Jake Cowper Szamosi",
+      "orcid": "0000-0003-2106-0072"
     },
     {
-      "name": "Taylor Reiter",
-      "orcid": "0000-0002-7388-421X"
+      "name": "Fotis E. Psomopoulos",
+      "orcid": "0000-0002-0222-4273"
     },
     {
-      "name": "Jason Williams",
-      "orcid": "0000-0003-3049-2010"
-    },
-    {
-      "name": "Amanda Charbonneau",
-      "orcid": "0000-0001-7376-7702"
-    },
-    {
-      "name": "Matthew Kweskin"
-    },
-    {
-      "name": "Muhammad Zohaib Anwar",
-      "orcid": "0000-0001-8236-485X"
+      "name": "Karen Word",
+      "orcid": "0000-0002-7294-7231"
     },
     {
       "name": "Murray Cadzow",
       "orcid": "0000-0002-2299-4136"
     },
     {
-      "name": "Paula Andrea Martinez",
-      "orcid": "0000-0002-8990-1985"
+      "name": "Sam Nooij",
+      "orcid": "0000-0001-5892-5637"
+    },
+    {
+      "name": "Sangram Keshari Sahu",
+      "orcid": "0000-0001-5010-9539"
+    },
+    {
+      "name": "Sarah M Brown",
+      "orcid": "0000-0001-5728-0822"
+    },
+    {
+      "name": "Travis Wrightsman"
+    },
+    {
+      "name": "Valerie Gartner"
+    },
+    {
+      "name": "Annajiat Alim Rasel",
+      "orcid": "0000-0003-0198-3734"
+    },
+    {
+      "name": "Daniel Kerchner",
+      "orcid": "0000-0002-5921-2193"
+    },
+    {
+      "name": "rosemm"
     }
   ],
   "license": {
