@@ -120,7 +120,7 @@ While not recommended, it is possible to work through the lessons on your local 
 (i.e. without using AWS).
 To do this, you will need to install all of the software used in the workshop
 and obtain a copy of the dataset.
-Instructions for doing this are below.
+Instructions for doing this are listed below.
 
 ### Data
 
