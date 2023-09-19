@@ -120,7 +120,7 @@ While not recommended, it is possible to work through the lessons on your local 
 (i.e. without using AWS).
 To do this, you will need to install all of the software used in the workshop
 and obtain a copy of the dataset.
-Instructions for doing this are below.
+Instructions for doing this are listed below.
 
 ### Data
 
@@ -151,23 +151,35 @@ operating systems and environments, these may not work on your computer.
 If an installation doesn't work for you, please refer to the user guide for the tool,
 listed in the table above.
 
-We have installed software using [miniconda](https://docs.conda.io/en/latest/miniconda.html).
-Miniconda is a package manager that simplifies the installation process.
-Please first install miniconda3 (installation instructions below),
-and then proceed to the installation of individual tools.
+We have installed software using [Conda](https://conda.io).
+Conda is a package manager that simplifies the installation process.
+Please first install Conda through the Miniconda installer (see below) before proceeding to the installation of individual tools.
+For more information on Miniconda, please refer to the Conda [documentation](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
-### Miniconda3
+### Conda
+
+> ## Linux
+>
+>To install Conda, type:
+>
+>~~~
+>$ curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+>$ bash Miniconda3-latest-Linux-x86_64.sh
+>~~~
+>{: .bash}
+> Then, follow the instructions that you are prompted with on the screen to install Conda.
+{: .solution}
 
 > ## MacOS
->
->To install miniconda3, type:
+> 
+>To install Conda, type:
 >
 >~~~
 >$ curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 >$ bash Miniconda3-latest-MacOSX-x86_64.sh
 >~~~
 >{: .bash}
-> Then, follow the instructions that you are prompted with on the screen to install Miniconda3.
+> Then, follow the instructions that you are prompted with on the screen to install Conda.
 {: .solution}
 
 
