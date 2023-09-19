@@ -14,7 +14,7 @@ carpentry: 'dc'
 title: 'Genomics Workshop Overview'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # FIXME
+created: '2015-06-03'
 
 # Comma-separated list of keywords for the lesson
 keywords: 'software, data, lesson, The Carpentries' # FIXME

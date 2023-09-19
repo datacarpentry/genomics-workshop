@@ -12,8 +12,8 @@ license][cc-by-legal].
 
 You are free:
 
-- to **Share**---copy and redistribute the material in any medium or format
-- to **Adapt**---remix, transform, and build upon the material
+- to **Share**\---copy and redistribute the material in any medium or format
+- to **Adapt**\---remix, transform, and build upon the material
 
 for any purpose, even commercially.
 
@@ -22,30 +22,30 @@ terms.
 
 Under the following terms:
 
-- **Attribution**---You must give appropriate credit (mentioning that your work
+- **Attribution**\---You must give appropriate credit (mentioning that your work
   is derived from work that is Copyright (c) The Carpentries and, where
-  practical, linking to <https://carpentries.org/>), provide a [link to the
+  practical, linking to [https://carpentries.org/](https://carpentries.org/)), provide a [link to the
   license][cc-by-human], and indicate if changes were made. You may do so in
   any reasonable manner, but not in any way that suggests the licensor endorses
   you or your use.
 
-- **No additional restrictions**---You may not apply legal terms or
+- **No additional restrictions**\---You may not apply legal terms or
   technological measures that legally restrict others from doing anything the
   license permits.  With the understanding that:
 
 Notices:
 
-* You do not have to comply with the license for elements of the material in
+- You do not have to comply with the license for elements of the material in
   the public domain or where your use is permitted by an applicable exception
   or limitation.
-* No warranties are given. The license may not give you all of the permissions
+- No warranties are given. The license may not give you all of the permissions
   necessary for your intended use. For example, other rights such as publicity,
   privacy, or moral rights may limit how you use the material.
 
 ## Software
 
 Except where otherwise noted, the example programs and other software provided
-by The Carpentries are made available under the [OSI][osi]-approved [MIT
+by The Carpentries are made available under the [OSI][osi]\-approved [MIT
 license][mit-license].
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
@@ -74,6 +74,9 @@ Initiatives][ci].
 
 [cc-by-human]: https://creativecommons.org/licenses/by/4.0/
 [cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode
+[osi]: https://opensource.org
 [mit-license]: https://opensource.org/licenses/mit-license.html
 [ci]: https://communityin.org/
-[osi]: https://opensource.org
+
+
+

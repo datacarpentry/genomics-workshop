@@ -23,7 +23,7 @@ It's a free, open source spreadsheet program.
 Directions to install are included for each Windows, Mac OS X, and Linux systems below.
 For Windows, you will also need to install either Git Bash, PuTTY, or the Ubuntu Subsystem.
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## Windows
 
@@ -71,11 +71,10 @@ For Windows, you will also need to install either Git Bash, PuTTY, or the Ubuntu
 - **Another alternative option** is to use the Ubuntu Subsystem for Windows.
   This option is only available for Windows 10 - the Microsoft documentation provides
   [detailed instructions for installing Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-  
 
 :::::::::::::::::::::::::
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## Mac OS X
 
@@ -85,11 +84,10 @@ For Windows, you will also need to install either Git Bash, PuTTY, or the Ubuntu
   You will go to a page that asks about a donation, but you don't need to make one.
   Your download should begin automatically.
 - Once the installer is downloaded, double click on it and LibreOffice should install.
-  
 
 :::::::::::::::::::::::::
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## Linux
 
@@ -99,7 +97,6 @@ For Windows, you will also need to install either Git Bash, PuTTY, or the Ubuntu
   You will go to a page that asks about a donation, but you don't need to make one.
   Your download should begin automatically.
 - Once the installer is downloaded, double click on it and LibreOffice should install.
-  
 
 :::::::::::::::::::::::::
 
@@ -172,7 +169,7 @@ For more information on Miniconda, please refer to the Conda [documentation](htt
 
 ### Conda
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## Linux
 
@@ -185,10 +182,9 @@ $ bash Miniconda3-latest-Linux-x86_64.sh
 
 Then, follow the instructions that you are prompted with on the screen to install Conda.
 
-
 :::::::::::::::::::::::::
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## MacOS
 
@@ -201,12 +197,11 @@ $ bash Miniconda3-latest-MacOSX-x86_64.sh
 
 Then, follow the instructions that you are prompted with on the screen to install Conda.
 
-
 :::::::::::::::::::::::::
 
 ### FastQC
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## MacOS
 
@@ -218,7 +213,7 @@ $ conda install -c bioconda fastqc=0.11.9
 
 :::::::::::::::::::::::::
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## FastQC Source Code Installation
 
@@ -255,7 +250,7 @@ $ fastqc -h
 
 ### Trimmomatic
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## MacOS
 
@@ -265,7 +260,7 @@ conda install -c bioconda trimmomatic=0.39
 
 :::::::::::::::::::::::::
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## Trimmomatic Source Code Installation
 
@@ -298,7 +293,7 @@ $ ls ~/src/Trimmomatic-0.39/adapters/
 $ java -jar ~/src/Trimmomatic-0.39/trimmomatic-0.39.jar
 ```
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## Simplify the Invocation, or to Test your installation if you installed with miniconda3:
 
@@ -320,7 +315,7 @@ $ trimmomatic
 
 ### BWA
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## MacOS
 
@@ -330,7 +325,7 @@ conda install -c bioconda bwa=0.7.17=ha92aebf_3
 
 :::::::::::::::::::::::::
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## BWA Source Code Installation
 
@@ -355,7 +350,7 @@ $ bwa
 
 ### SAMtools
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## MacOS
 
@@ -374,10 +369,9 @@ But this means that most of the tutorials on the web indicate an older and obsol
 
 Using SAMtools version 1.9 is important to work with the commands we present in these lessons.
 
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## SAMtools Source Code Installation
 
@@ -408,7 +402,7 @@ $ samtools
 
 ### BCFtools
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## MacOS
 
@@ -418,7 +412,7 @@ $ conda install -c bioconda bcftools=1.9
 
 :::::::::::::::::::::::::
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## BCF tools Source Code Installation
 

@@ -19,7 +19,7 @@ centrally-organized Carpentries workshops.
 #### Installation
 
 This workshop is designed to be run on pre-imaged Amazon Web Services (AWS) instances. See the
-[Setup page](https://datacarpentry.org/genomics-workshop/setup.html) for complete setup instructions. If you are
+[Setup page](https://datacarpentry.org/genomics-workshop/index.html#setup) for complete setup instructions. If you are
 teaching these lessons, and would like an AWS instance to practice on, please contact [[team@carpentries.org](mailto:team@carpentries.org)](mailto: [team@carpentries.org](mailto:team@carpentries.org)).
 
 ## Common problems

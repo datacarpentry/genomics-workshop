@@ -20,7 +20,6 @@ Interested in teaching these materials? We have an [onboarding video](https://ww
 
 Read our [FAQ](/genomics-workshop/faq) to learn more about Data Carpentry's Genomics workshop, as an Instructor or a workshop host.
 
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::  prereq
@@ -46,13 +45,12 @@ This workshop uses data from a long term evolution experiment published in 2016:
 All of the data used in this workshop can be [downloaded from Figshare](https://figshare.com/articles/Data_Carpentry_Genomics_beta_2_0/7726454).
 More information about this data is available on the [Data page](https://datacarpentry.org/organization-genomics/data/).
 
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 # Workshop Overview
 
 | Lesson | Overview                                                                                                                                                                      | 
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | [Project organization and management](https://datacarpentry.github.io/organization-genomics/)       | Learn how to structure your metadata, organize and document your genomics data and bioinformatics workflow, and access data on the NCBI sequence read archive (SRA) database. | 
 | [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/)       | Learn to navigate your file system, create, copy, move, and remove files and directories, and automate repetitive tasks using scripts and wildcards.                          | 
 | [Data wrangling and processing](https://datacarpentry.github.io/wrangling-genomics/)       | Use command-line tools to perform quality control, align reads to a reference genome, and identify and visualize between-sample variation.                                    | 
@@ -61,7 +59,7 @@ More information about this data is available on the [Data page](https://datacar
 # Optional Additional Lessons
 
 | Lesson | Overview                                                                                                                                                                      | 
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | [Intro to R and RStudio for Genomics](https://datacarpentry.org/genomics-r-intro/)       | Use R to analyze and visualize between-sample variation.                                                                                                                      | 
 
 # Teaching Platform

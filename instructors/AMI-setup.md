@@ -27,7 +27,6 @@ you will need to create your own AMI instances using the instructions below. The
 t2.medium instance type is about USD $1.20 per day. Data Carpentry has no control over AWS pricing structure and provides
 this cost estimate with no guarantees. Please see the [EC2 pricing page](https://aws.amazon.com/ec2/pricing/on-demand) for up-to-date information.
 
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Launching an instance on Amazon Web Services
@@ -38,8 +37,7 @@ this cost estimate with no guarantees. Please see the [EC2 pricing page](https:/
 
 - Form of payment (credit card)
 - Understanding of Amazon's billing and payment (See: [Getting started with AWS Billing and Cost Management](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-getting-started.html))
-- You can use some of Amazon Web Services for free, or see if you qualify for an AWS Grant (See: [https://aws.amazon.com/grants/](https://aws.amazon.com/grants/) ) if you are using AWS for education. The free level of service *will not* be sufficient for working with the amount of data we are using for our lessons.  
-  
+- You can use some of Amazon Web Services for free, or see if you qualify for an AWS Grant (See: [https://aws.amazon.com/grants/](https://aws.amazon.com/grants/) ) if you are using AWS for education. The free level of service *will not* be sufficient for working with the amount of data we are using for our lessons.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -57,7 +55,7 @@ this cost estimate with no guarantees. Please see the [EC2 pricing page](https:/
 
 <img src="fig/logging-onto-cloud_1.png" width="500" alt="Screenshot of AWS EC2 dashboard showing location of launch instance button.">
 
-3\. Under 'Application and OS Images (Amazon Machine Image)' search for the AMI listed on this curriculum's [Setup page](https://datacarpentry.org/genomics-workshop/setup.html)
+3\. Under 'Application and OS Images (Amazon Machine Image)' search for the AMI listed on this curriculum's [Setup page](https://datacarpentry.org/genomics-workshop/index.html#setup)
 
 <img src="fig/logging-onto-cloud_1b.png" width="500" alt="Screenshot of AMI launch wizard showing search function.">
 
@@ -104,7 +102,7 @@ Your security group should now look like this:
 You instance will now be launched. You should follow the links to 'Create billing alerts' and then the instructions below
 for connecting to and terminating your Amazon Instance.
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## Connect to your Amazon Instance (MacOS/Linux)
 
@@ -149,7 +147,7 @@ $ pwd
 
 :::::::::::::::::::::::::
 
-:::::::::::::::  solution
+:::::::::::::::: spoiler
 
 ## Connect to your Amazon instance (Windows)
 
@@ -195,7 +193,6 @@ charge from your AWS EC2 dashboard by clicking your name (Account
 name) on the upper right of the dashboard and selecting 'Billing
 \& Cost Management'. **DO NOT FORGET TO TERMINATE YOUR INSTANCE WHEN YOU ARE DONE**
 
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 When you are finished with your instance, you must terminate it to avoid unwanted charges. Follow the following steps.
@@ -211,7 +208,6 @@ When you are finished with your instance, you must terminate it to avoid unwante
 ## Warning
 
 Terminating an instance will delete any data on this instance, so you must move any data you wish to save off the instance.
-
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 

@@ -21,18 +21,18 @@ mistake, some awkward wording, or a factual error. This is a good way to
 introduce yourself and to meet some of our community members.
 
 1. If you do not have a [GitHub][github] account, you can [send us comments by
-   email][contact]. However, we will be able to respond more quickly if you use
-   one of the other methods described below.
+  email][contact]. However, we will be able to respond more quickly if you use
+  one of the other methods described below.
 
 2. If you have a [GitHub][github] account, or are willing to [create
-   one][github-join], but do not know how to use Git, you can report problems
-   or suggest improvements by [creating an issue][repo-issues]. This allows us
-   to assign the item to someone and to respond to it in a threaded discussion.
+  one][github-join], but do not know how to use Git, you can report problems
+  or suggest improvements by [creating an issue][repo-issues]. This allows us
+  to assign the item to someone and to respond to it in a threaded discussion.
 
 3. If you are comfortable with Git, and would like to add or change material,
-   you can submit a pull request (PR). Instructions for doing this are
-   [included below](#using-github). For inspiration about changes that need to
-   be made, check out the [list of open issues][issues] across the Carpentries.
+  you can submit a pull request (PR). Instructions for doing this are
+  [included below](#using-github). For inspiration about changes that need to
+  be made, check out the [list of open issues][issues] across the Carpentries.
 
 Note: if you want to build the website locally, please refer to [The Workbench
 documentation][template-doc].
@@ -41,8 +41,7 @@ documentation][template-doc].
 
 1. If you wish to change this lesson, add issues and pull requests here.
 2. If you wish to change the template used for workshop websites, please refer
-   to [The Workbench documentation][template-doc].
-
+  to [The Workbench documentation][template-doc].
 
 ### What to Contribute
 
@@ -80,12 +79,12 @@ Contribute to an Open Source Project on GitHub][how-contribute]. In brief, we
 use [GitHub flow][github-flow] to manage changes:
 
 1. Create a new branch in your desktop copy of this repository for each
-   significant change.
+  significant change.
 2. Commit the change in that branch.
 3. Push that branch to your fork of this repository on GitHub.
 4. Submit a pull request from that branch to the [upstream repository][repo].
 5. If you receive feedback, make changes on your desktop and push to your
-   branch on GitHub: the pull request will update automatically.
+  branch on GitHub: the pull request will update automatically.
 
 NB: The published copy of the lesson is usually in the `main` branch.
 
@@ -98,26 +97,26 @@ final say over what gets merged into the lesson.
 The Carpentries is a global organisation with volunteers and learners all over
 the world. We share values of inclusivity and a passion for sharing knowledge,
 teaching and learning. There are several ways to connect with The Carpentries
-community listed at <https://carpentries.org/connect/> including via social
+community listed at [https://carpentries.org/connect/](https://carpentries.org/connect/) including via social
 media, slack, newsletters, and email lists. You can also [reach us by
 email][contact].
 
-[repo]: https://example.com/FIXME
-[repo-issues]: https://example.com/FIXME/issues
-[contact]: mailto:team@carpentries.org
 [cp-site]: https://carpentries.org/
-[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry
-[dc-lessons]: https://datacarpentry.org/lessons/
+[swc-site]: https://software-carpentry.org/
 [dc-site]: https://datacarpentry.org/
-[discuss-list]: https://carpentries.topicbox.com/groups/discuss
+[lc-site]: https://librarycarpentry.org/
 [github]: https://github.com
-[github-flow]: https://guides.github.com/introduction/flow/
+[contact]: mailto:team@carpentries.org
 [github-join]: https://github.com/join
-[how-contribute]: https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github
+[repo-issues]: https://github.com/datacarpentry/genomics-workshop/issues
 [issues]: https://carpentries.org/help-wanted-issues/
+[template-doc]: https://carpentries.github.io/workbench/
+[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry
 [lc-issues]: https://github.com/issues?q=user%3ALibraryCarpentry
 [swc-issues]: https://github.com/issues?q=user%3Aswcarpentry
-[swc-lessons]: https://software-carpentry.org/lessons/
-[swc-site]: https://software-carpentry.org/
-[lc-site]: https://librarycarpentry.org/
-[template-doc]: https://carpentries.github.io/workbench/
+[how-contribute]: https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github
+[github-flow]: https://guides.github.com/introduction/flow/
+[repo]: https://github.com/datacarpentry/genomics-workshop
+
+
+
