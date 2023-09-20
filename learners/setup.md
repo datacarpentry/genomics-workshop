@@ -146,12 +146,12 @@ More information about these data will be presented in
 
 | Software | Version | Manual | Available for         | Description                                                           | 
 | -------- | ------- | ------ | --------------------- | --------------------------------------------------------------------- |
-| [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)         | 0\.11.9  | [Link](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/)       | Linux, MacOS, Windows | Quality control tool for high throughput sequence data.               | 
-| [Trimmomatic](https://www.usadellab.org/cms/?page=trimmomatic)         | 0\.39    | [Link](https://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf)       | Linux, MacOS, Windows | A flexible read trimming tool for Illumina NGS data.                  | 
-| [BWA](https://bio-bwa.sourceforge.net/)         | 0\.7.17  | [Link](https://bio-bwa.sourceforge.net/bwa.shtml)       | Linux, MacOS          | Mapping DNA sequences against reference genome.                       | 
-| [SAMtools](https://samtools.sourceforge.net/)         | 1\.9     | [Link](https://www.htslib.org/doc/samtools.html)       | Linux, MacOS          | Utilities for manipulating alignments in the SAM format.              | 
-| [BCFtools](https://samtools.github.io/bcftools/)         | 1\.9     | [Link](https://samtools.github.io/bcftools/bcftools.html)       | Linux, MacOS          | Utilities for variant calling and manipulating VCFs and BCFs.         | 
-| [IGV](https://software.broadinstitute.org/software/igv/home)         | [Link](https://software.broadinstitute.org/software/igv/download)        | [Link](https://software.broadinstitute.org/software/igv/UserGuide)       | Linux, MacOS, Windows | Visualization and interactive exploration of large genomics datasets. | 
+| [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)         | 0\.11.7  | [Documentation](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/)       | Linux, MacOS, Windows | Quality control tool for high throughput sequence data.               | 
+| [Trimmomatic](https://www.usadellab.org/cms/?page=trimmomatic)         | 0\.38    | [Documentation](https://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf)       | Linux, MacOS, Windows | A flexible read trimming tool for Illumina NGS data.                  | 
+| [BWA](https://bio-bwa.sourceforge.net/)         | 0\.7.17  | [Documentation](https://bio-bwa.sourceforge.net/bwa.shtml)       | Linux, MacOS          | Mapping DNA sequences against reference genome.                       | 
+| [SAMtools](https://samtools.sourceforge.net/)         | 1\.9     | [Documentation](https://www.htslib.org/doc/samtools.html)       | Linux, MacOS          | Utilities for manipulating alignments in the SAM format.              | 
+| [BCFtools](https://samtools.github.io/bcftools/)         | 1\.8     | [Documentation](https://samtools.github.io/bcftools/bcftools.html)       | Linux, MacOS          | Utilities for variant calling and manipulating VCFs and BCFs.         | 
+| [IGV](https://software.broadinstitute.org/software/igv/home)         | [Latest](https://software.broadinstitute.org/software/igv/download)        | [Documentation](https://software.broadinstitute.org/software/igv/UserGuide)       | Linux, MacOS, Windows | Visualization and interactive exploration of large genomics datasets. | 
 
 ### QuickStart Software Installation Instructions
 
