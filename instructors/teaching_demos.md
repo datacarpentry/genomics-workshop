@@ -28,7 +28,7 @@ tar -xzf shell_data.tar.gz
 
 #### [Data Wrangling and Processing for Genomics](https://datacarpentry.org/wrangling-genomics/)
 
-Use [these instructions](https://datacarpentry.org/genomics-workshop/AMI-setup/index.html) to launch and connect to your own instance of the Data Carpentry Genomics AMI. This instance should cost you approximately US $1.20 per day. (This cost estimate is provided without any guarantee of accuracy and Data Carpentry assumes no liability for costs associated with your AMI instance(s).)
+Use [these instructions](https://datacarpentry.org/genomics-workshop/AMI-setup) to launch and connect to your own instance of the Data Carpentry Genomics AMI. This instance should cost you approximately US $1.20 per day. (This cost estimate is provided without any guarantee of accuracy and Data Carpentry assumes no liability for costs associated with your AMI instance(s).)
 
 Once you have connected to your AWS instance, use the shell commands below to ensure that the data directory is created,
 that the data is placed into the data directory, and that you are in the data directory before
@@ -44,7 +44,7 @@ cd ~/dc_workshop/data/untrimmed_fastq
 
 #### [Introduction to Cloud Computing for Genomics](https://datacarpentry.org/cloud-genomics/)
 
-Use [these instructions](https://datacarpentry.org/genomics-workshop/AMI-setup/index.html) to launch and connect to your own instance of the Data Carpentry Genomics AMI. This instance should cost you approximately US $1.20 per day. (This cost estimate is provided without any guarantee of accuracy and Data Carpentry assumes no liability for costs associated with your AMI instance(s).)
+Use [these instructions](https://datacarpentry.org/genomics-workshop/AMI-setup) to launch and connect to your own instance of the Data Carpentry Genomics AMI. This instance should cost you approximately US $1.20 per day. (This cost estimate is provided without any guarantee of accuracy and Data Carpentry assumes no liability for costs associated with your AMI instance(s).)
 
 <hr>
 
