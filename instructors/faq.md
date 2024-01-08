@@ -78,6 +78,6 @@ The best place to get information about common problems that arise during worksh
 
 ### Does the AWS image location matter? Do I need to set up an AMI in a different region if my workshop will be held outside of the Eastern US?
 
-We have run this workshop in locations across the United States and Europe with no noticeable difference in instance speed. If you experience any issues, please [let us know](team@carpentries.org).
+We have run this workshop in locations across the United States and Europe with no noticeable difference in instance speed. If you experience any issues, please [let us know](mailto:team@carpentries.org).
 
 
