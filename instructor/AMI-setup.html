@@ -172,13 +172,12 @@
 
         
 
-<div id="do-i-need-to-create-my-own-instances" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="do-i-need-to-create-my-own-instances" class="callout-inner">
-<h3 class="callout-title">Do I need to create my own instances?<a class="anchor" aria-label="anchor" href="#do-i-need-to-create-my-own-instances"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="do-i-need-to-create-my-own-instances">Do I need to create my own instances?<a class="anchor" aria-label="anchor" href="#do-i-need-to-create-my-own-instances"></a></h3>
 <div class="callout-content">
 <p><strong>If you are:</strong></p>
 <ul><li>teaching at or attending a centrally organized Data Carpentry
@@ -271,7 +270,7 @@ to and terminating your Amazon Instance.</p>
   <h3 class="accordion-header" id="headingSpoiler1">
 <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>Connect to your Amazon Instance (MacOS/Linux)</h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal"><li><p>Log into your AWC EC2 Dashboard <a href="https://console.aws.amazon.com/ec2/" class="external-link">https://console.aws.amazon.com/ec2/</a></p></li>
 <li><p>You should see that you have one instance. To proceed, the
@@ -288,15 +287,15 @@ your key pair file.</li>
 </ol><div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> cd ~/Desktop</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> chmod 700 <span class="pp">*</span>.pem</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="ex">$</span> cd ~/Desktop</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="ex">$</span> chmod 700 <span class="pp">*</span>.pem</span></code></pre>
 </div>
 <ol start="5" style="list-style-type: decimal"><li>You can now connect to your instance using ‘ssh’. Your command will
 be something like this:</li>
 </ol><div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> ssh dcuser@ec2-18-212-60-130.compute-1.amazonaws.com</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="ex">$</span> ssh dcuser@ec2-18-212-60-130.compute-1.amazonaws.com</span></code></pre>
 </div>
 <p>Use <code>dcuser</code> as the username, but be sure to replace
 <code>ec2-18-212-60-130.compute-1.amazonaws.com</code> with the DNS for
@@ -311,10 +310,10 @@ the following results:</p>
 <div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> whoami</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">dcuser</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> pwd</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="ex">/home/dcuser</span></span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="ex">$</span> whoami</span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a><span class="ex">dcuser</span></span>
+<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a><span class="ex">$</span> pwd</span>
+<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a><span class="ex">/home/dcuser</span></span></code></pre>
 </div>
 </div>
 </div>
@@ -326,7 +325,7 @@ the following results:</p>
   <h3 class="accordion-header" id="headingSpoiler2">
 <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>Connect to your Amazon instance (Windows)</h3>
 </button>
-<div id="collapseSpoiler2" class="accordion-collapse collapse" aria-labelledby="headingSpoiler2" data-bs-parent="#accordionSpoiler2">
+<div id="collapseSpoiler2" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler2" aria-labelledby="headingSpoiler2">
 <div class="accordion-body">
 <ol style="list-style-type: decimal"><li><p>Download the PuTTY application at: <a href="https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe" class="external-link">http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe</a></p></li>
 <li><p>Log into your AWC EC2 Dashboard <a href="https://console.aws.amazon.com/ec2/" class="external-link">https://console.aws.amazon.com/ec2/</a></p></li>
@@ -351,11 +350,11 @@ confirm this with the following commands; <code>whoami</code> and
 <div class="codewrapper sourceCode" id="cb4">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">Last</span> login: Thu Jul 30 13:21:08 2015 from 8.sub-70-197-200.myvzw.com</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> whoami</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">dcuser</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> pwd</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="ex">/home/dcuser</span></span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="ex">Last</span> login: Thu Jul 30 13:21:08 2015 from 8.sub-70-197-200.myvzw.com</span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a><span class="ex">$</span> whoami</span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a><span class="ex">dcuser</span></span>
+<span id="cb4-4"><a href="#cb4-4" tabindex="-1"></a><span class="ex">$</span> pwd</span>
+<span id="cb4-5"><a href="#cb4-5" tabindex="-1"></a><span class="ex">/home/dcuser</span></span></code></pre>
 </div>
 </div>
 </div>
@@ -364,14 +363,13 @@ confirm this with the following commands; <code>whoami</code> and
 </div>
 <div class="section level4">
 <h4 id="terminating-your-instance">Terminating your instance<a class="anchor" aria-label="anchor" href="#terminating-your-instance"></a></h4>
-<div id="very-important-warning---avoid-unwanted-charges" class="callout callout">
+<div id="callout2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="very-important-warning---avoid-unwanted-charges" class="callout-inner">
-<h3 class="callout-title">Very Important Warning - Avoid Unwanted
-Charges<a class="anchor" aria-label="anchor" href="#very-important-warning---avoid-unwanted-charges"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="very-important-warning---avoid-unwanted-charges">Very Important Warning - Avoid Unwanted
+Charges<a class="anchor" aria-label="anchor" href="#very-important-warning---avoid-unwanted-charges"></a></h3>
 <div class="callout-content">
 <p>Please remember, for as long as this instance is running, you will be
 charged for your usage. You can see an estimate of the current charge
@@ -389,13 +387,12 @@ avoid unwanted charges. Follow the following steps.</p>
 <li>Under ‘Resources’ select ‘Running Instances’</li>
 <li>Select the instance you wish to terminate, then click ‘Instance
 state’ and select ‘Terminate instance’</li>
-</ol><figure><img src="../fig/logging-onto-cloud_7.png" width="500" alt="Screenshot of AWS EC2 dashboard showing drop-down menu for terminating an instance." class="figure mx-auto d-block"></figure><div id="warning" class="callout callout">
+</ol><figure><img src="../fig/logging-onto-cloud_7.png" width="500" alt="Screenshot of AWS EC2 dashboard showing drop-down menu for terminating an instance." class="figure mx-auto d-block"></figure><div id="callout3" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="warning" class="callout-inner">
-<h3 class="callout-title">Warning<a class="anchor" aria-label="anchor" href="#warning"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="warning">Warning<a class="anchor" aria-label="anchor" href="#warning"></a></h3>
 <div class="callout-content">
 <p>Terminating an instance will delete any data on this instance, so you
 must move any data you wish to save off the instance.</p>
@@ -467,7 +464,7 @@ must move any data you wish to save off the instance.</p>
   "identifier": "https://datacarpentry.github.io/genomics-workshop/instructor/AMI-setup.html",
   "dateCreated": "2015-06-03",
   "dateModified": "2023-09-19",
-  "datePublished": "2024-02-27"
+  "datePublished": "2024-03-05"
 }
 
   </script><script>
