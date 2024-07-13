@@ -62,7 +62,7 @@ Each Instructor will receive connection information for an AMI instance approxim
 
 ### How will my learners get connection and log-in information?
 
-The Carpentries Workshop and Logistics Manager will provide Instructors with connection information for AMI instances the day before the workshop. Enough instances will be provided for each learner, and if requested, for each workshop helper, to have their own individual instance. Instructors can make connection information available to learners through the workshop Etherpad.
+The Carpentries Workshops and Instruction Team will provide Instructors with connection information for AMI instances the day before the workshop. Enough instances will be provided for each learner, and if requested, for each workshop helper, to have their own individual instance. Instructors can make connection information available to learners through the workshop Etherpad.
 
 ### I want to teach the optional R lesson. Can I do that?
 
