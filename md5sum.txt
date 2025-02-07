@@ -8,5 +8,5 @@
 "instructors/instructor-notes.md" "b963ac0859abcde3d03bb7c14fa38f69" "site/built/instructor-notes.md" "2023-09-19"
 "instructors/teaching_demos.md" "473ee41718bdc0fa0650372444851365" "site/built/teaching_demos.md" "2023-10-02"
 "learners/reference.md" "28853696c21dd22dfb883e9c241e95fb" "site/built/reference.md" "2023-09-19"
-"learners/setup.md" "63e02ff026156496b8b57e4170847887" "site/built/setup.md" "2023-10-02"
+"learners/setup.md" "ed2639803a0edf0cbd96a8fd726fd45c" "site/built/setup.md" "2025-02-07"
 "profiles/learner-profiles.md" "60b93493cf1da06dfd63255d73854461" "site/built/learner-profiles.md" "2023-09-19"

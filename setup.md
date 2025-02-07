@@ -111,7 +111,7 @@ Your Instructor will provide instructions for connecting to the AMI instance at 
 If you would like to work through these lessons independently, outside of a workshop,
 you will need to start your own AMI instance.
 Follow these [instructions on creating an Amazon instance](https://datacarpentry.org/genomics-workshop/AMI-setup).
-Use the AMI `ami-04dd77cd58b3ec654` (Data Carpentry Genomics with R 4.2)
+Use the AMI `ami-07196848f138b4f29` (Data Carpentry Genomics with R 4.4)
 listed on the Community AMIs page.
 Please note that you must set your location as `N. Virginia` in order to access this community AMI.
 You can change your location in the upper right corner of the main AWS menu bar.
