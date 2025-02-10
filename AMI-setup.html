@@ -220,7 +220,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Launching your own AMI instances</h1>
-        <p>Last updated on 2023-09-19 |
+        <p>Last updated on 2025-02-10 |
 
         <a href="https://github.com/datacarpentry/genomics-workshop/edit/main/instructors/AMI-setup.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -299,26 +299,25 @@ page</a></p>
 <figure><img src="fig/logging-onto-cloud_1b.png" width="500" alt="Screenshot of AMI launch wizard showing search function." class="figure mx-auto d-block"></figure><p>4. Click “Community AMIs”, and then select that image</p>
 <figure><img src="fig/logging-onto-cloud_2.png" width="500" alt="Screenshot of AMI launch wizard showing Community AMI tab." class="figure mx-auto d-block"></figure><p>5. Under ‘Instance type’ click “Compare instance types” and and then
 select <strong>t2.medium</strong>; click “Select instance type”</p>
-<figure><img src="fig/logging-onto-cloud_3.png" width="500" alt="Screenshot of AMI launch wizard showing choosing t2.medium image type." class="figure mx-auto d-block"></figure><figure><img src="fig/logging-onto-cloud_3b.png" width="500" alt="Screenshot of AMI compare instance type page." class="figure mx-auto d-block"></figure><p>6. Under ‘Key pair (login)’ click “Create a new key pair”</p>
-<figure><img src="fig/logging-onto-cloud-new-key-pair_1.png" width="500" alt="Screenshot showing key pair settings box." class="figure mx-auto d-block"></figure><p>7. Enter a name for your key pair. Select “RSA” under ‘Key pair type’
-and “.pem” under ‘Private key file format’. Click “Create key pair”;
-this will download your key pair file, which ends in <code>.pem</code>.
-Move it from your Downloads folder to a stable location on your
-computer. For these instructions, we will move it to our Desktop. You
-can do this by dragging and dropping the file from your Downloads folder
-to your desktop.</p>
-<figure><img src="fig/logging-onto-cloud-new-key-pair_2.png" width="500" alt="Screenshot showing dialogue box for creating a new key pair." class="figure mx-auto d-block"></figure><p>8. Scroll down to ‘Network settings’. If this is your first time
+<figure><img src="fig/logging-onto-cloud_3.png" width="500" alt="Screenshot of AMI launch wizard showing choosing t2.medium image type." class="figure mx-auto d-block"></figure><figure><img src="fig/logging-onto-cloud_3b.png" width="500" alt="Screenshot of AMI compare instance type page." class="figure mx-auto d-block"></figure><p>6. Under ‘Key pair (login)’ click “Proceed without a key pair (not
+recommended)”. A key pair is not necessary for this use case, as you
+will be using an account that is set up with limited access for
+learners. If you want to make changes to the instance (for example,
+installing additional software), you will need administrative access and
+will need to set up a key pair. Refer to <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html" class="external-link">Amazon’s
+user manual</a> for information on key pair usage.</p>
+<figure><img src="fig/logging-onto-cloud-new-key-pair_1.png" width="500" alt="Screenshot showing key pair settings box." class="figure mx-auto d-block"></figure><p>7. Scroll down to ‘Network settings’. If this is your first time
 working with this AMI on your AWS account, choose “create a new security
 group”. Click “Edit”.</p>
-<figure><img src="fig/logging-onto-cloud-security-group_1.png" width="500" alt="Screenshot of AMI launch wizard showing network settings box with 'Create security group' selected." class="figure mx-auto d-block"></figure><p>9. Name your security group something descriptive (for example
+<figure><img src="fig/logging-onto-cloud-security-group_1.png" width="500" alt="Screenshot of AMI launch wizard showing network settings box with 'Create security group' selected." class="figure mx-auto d-block"></figure><p>8. Name your security group something descriptive (for example
 “DC-genomics-AMI”) and enter a description into the description box (for
 example “to use with DC genomics AMI”).</p>
 <p>Your security group should now look like this:</p>
-<figure><img src="fig/logging-onto-cloud-security-group_2.png" width="500" alt="Screenshot of AMI launch wizard showing creating a new security group." class="figure mx-auto d-block"></figure><p>10. Click “Add security group rule”. A new row will appear. Under
+<figure><img src="fig/logging-onto-cloud-security-group_2.png" width="500" alt="Screenshot of AMI launch wizard showing creating a new security group." class="figure mx-auto d-block"></figure><p>9. Click “Add security group rule”. A new row will appear. Under
 ‘Type’ select “Custom TCP” and enter “8787” into box labeled “Port
 Range”. Under “Source type”, select “Anywhere”. You should now see a
 screen that looks like this:</p>
-<figure><img src="fig/logging-onto-cloud-security-group_3.png" width="500" alt="Screenshot of AMI launch wizard showing security group rules." class="figure mx-auto d-block"></figure><p>11. Under ‘Summary’ on the right side of the screen, you should now
+<figure><img src="fig/logging-onto-cloud-security-group_3.png" width="500" alt="Screenshot of AMI launch wizard showing security group rules." class="figure mx-auto d-block"></figure><p>10. Under ‘Summary’ on the right side of the screen, you should now
 see a screen that looks like this. Click “Launch Instance”.</p>
 <figure><img src="fig/logging-onto-cloud-summary.png" width="250" alt="Screenshot of AMI launch wizard showing security group rules." class="figure mx-auto d-block"></figure><p>You instance will now be launched. You should follow the links to
 ‘Create billing alerts’ and then the instructions below for connecting
@@ -342,39 +341,31 @@ DNS</strong> which will look something like
 <em>ec2-18-212-60-130.compute-1.amazonaws.com</em>. Copy that address
 (you may wish make a note of it as you will need this each time you
 connect.)</li>
-</ol><figure><img src="fig/logging-onto-cloud_6.png" width="500" alt="Screenshot of AWS EC2 dashboard showing instance state as running." class="figure mx-auto d-block"></figure><ol start="4" style="list-style-type: decimal"><li>Open the terminal application on your computer. Use the following
-commands to navigate to your Desktop and modify the file permissions for
-your key pair file.</li>
+</ol><figure><img src="fig/logging-onto-cloud_6.png" width="500" alt="Screenshot of AWS EC2 dashboard showing instance state as running." class="figure mx-auto d-block"></figure><ol start="4" style="list-style-type: decimal"><li>You can now connect to your instance using ‘ssh’. Your command will
+be something like this:</li>
 </ol><div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="ex">$</span> cd ~/Desktop</span>
-<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="ex">$</span> chmod 700 <span class="pp">*</span>.pem</span></code></pre>
-</div>
-<ol start="5" style="list-style-type: decimal"><li>You can now connect to your instance using ‘ssh’. Your command will
-be something like this:</li>
-</ol><div class="codewrapper sourceCode" id="cb2">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="ex">$</span> ssh dcuser@ec2-18-212-60-130.compute-1.amazonaws.com</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="ex">$</span> ssh dcuser@ec2-18-212-60-130.compute-1.amazonaws.com</span></code></pre>
 </div>
 <p>Use <code>dcuser</code> as the username, but be sure to replace
 <code>ec2-18-212-60-130.compute-1.amazonaws.com</code> with the DNS for
 your image. You may be notified that the authenticity of the host cannot
-be verified - if so, ignore the warning an continue connecting</p>
-<ol start="6" style="list-style-type: decimal"><li>When prompted, enter the password <code>data4Carp</code>
+be verified - if so, type ‘yes’ into the prompt to bypass the warning
+and continue connecting.</p>
+<ol start="5" style="list-style-type: decimal"><li>When prompted, enter the password <code>data4Carp</code>
 </li>
 </ol><p>You should now be connected to your personal instance. You can
 confirm that you are in the correct location by using the
 <code>whoami</code> and <code>pwd</code> commands, which should yield
 the following results:</p>
-<div class="codewrapper sourceCode" id="cb3">
+<div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="ex">$</span> whoami</span>
-<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a><span class="ex">dcuser</span></span>
-<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a><span class="ex">$</span> pwd</span>
-<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a><span class="ex">/home/dcuser</span></span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="ex">$</span> whoami</span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a><span class="ex">dcuser</span></span>
+<span id="cb2-3"><a href="#cb2-3" tabindex="-1"></a><span class="ex">$</span> pwd</span>
+<span id="cb2-4"><a href="#cb2-4" tabindex="-1"></a><span class="ex">/home/dcuser</span></span></code></pre>
 </div>
 </div>
 </div>
@@ -403,21 +394,21 @@ connect.)</li>
 </ol><figure><img src="fig/logging-onto-cloud_6.png" width="500" alt="Screenshot of AWS EC2 dashboard showing instance state as running." class="figure mx-auto d-block"></figure><ol start="5" style="list-style-type: decimal"><li><p>Start PuTTY. In the section ‘Specify the destination you want to
 connect to’ for ‘Host Name (or IP address)’ paste in the DNS address and
 click ‘Open’</p></li>
-<li><p>When prompted to login as, enter ‘dcuser’; you may be notified
-that the authenticity of the host cannot be verified - if so, ignore the
-warning an continue connecting</p></li>
+<li><p>When prompted to login, enter ‘dcuser’; you may be notified that
+the authenticity of the host cannot be verified - if so select “Yes” to
+bypass the warning and continue connecting</p></li>
 <li><p>When prompted, enter the password <code>data4Carp</code></p></li>
 </ol><p>You should now be connected to your personal instance. You can
 confirm this with the following commands; <code>whoami</code> and
 <code>pwd</code>, which should yield the following results:</p>
-<div class="codewrapper sourceCode" id="cb4">
+<div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="ex">Last</span> login: Thu Jul 30 13:21:08 2015 from 8.sub-70-197-200.myvzw.com</span>
-<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a><span class="ex">$</span> whoami</span>
-<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a><span class="ex">dcuser</span></span>
-<span id="cb4-4"><a href="#cb4-4" tabindex="-1"></a><span class="ex">$</span> pwd</span>
-<span id="cb4-5"><a href="#cb4-5" tabindex="-1"></a><span class="ex">/home/dcuser</span></span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="ex">Last</span> login: Thu Jul 30 13:21:08 2015 from 8.sub-70-197-200.myvzw.com</span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a><span class="ex">$</span> whoami</span>
+<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a><span class="ex">dcuser</span></span>
+<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a><span class="ex">$</span> pwd</span>
+<span id="cb3-5"><a href="#cb3-5" tabindex="-1"></a><span class="ex">/home/dcuser</span></span></code></pre>
 </div>
 </div>
 </div>
@@ -526,8 +517,8 @@ must move any data you wish to save off the instance.</p>
   "url": "https://datacarpentry.github.io/genomics-workshop/AMI-setup.html",
   "identifier": "https://datacarpentry.github.io/genomics-workshop/AMI-setup.html",
   "dateCreated": "2015-06-03",
-  "dateModified": "2023-09-19",
-  "datePublished": "2025-02-07"
+  "dateModified": "2025-02-10",
+  "datePublished": "2025-02-10"
 }
 
   </script><script>
