@@ -58,7 +58,9 @@ More information about this data is available on the [Data page](https://datacar
 
 | Lesson | Overview                                                                                                                                                                      | 
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| [Intro to R and RStudio for Genomics](https://datacarpentry.org/genomics-r-intro/)       | Use R to analyze and visualize between-sample variation.                                                                                                                      | 
+| [Intro to R and RStudio for Genomics](https://datacarpentry.org/genomics-r-intro/)       | Use R to analyze and visualize between-sample variation.  
+
+**Please note that lesson [Intro to R and RStudio for Genomics](https://datacarpentry.org/genomics-r-intro/) is in "beta" development, which means that it is currently being piloted by instructors, but is not yet part of The Carpentries' official lesson offerings.**                                                                                                                    | 
 
 # Teaching Platform
 
