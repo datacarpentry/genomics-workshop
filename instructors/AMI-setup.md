@@ -13,7 +13,7 @@ title: Launching your own AMI instances
 - a Maintainer for one of the Genomics lessons, or
 - contributing to the Genomics lessons
 
-The Carpentries staff can create AMI instances for you. Please contact
+The Carpentries staff will create AMI instances for you. Please contact
 [team@carpentries.org](mailto:team@carpentries.org).
 
 **If you are:** 
