@@ -10,8 +10,6 @@ utilities, use of command-line tools to analyze sequence quality and
 perform variant calling, and connecting to and using cloud computing. This workshop is designed to
 be taught over two full days of instruction.
 
-**Please note that workshop materials for working with Genomics data in R are in "alpha" development. These lessons are available for review and for informal teaching experiences, but are not yet part of The Carpentries' official lesson offerings.**
-
 Interested in teaching these materials? We have an [onboarding video](https://www.youtube.com/watch?v=zgdutO5tejo) and accompanying [slides](https://docs.google.com/presentation/d/1fLlT2lPv32DqCFpRPPdHZBNHiQTpK79wd5Z3nsFwL3s/edit#slide=id.p) available to prepare Instructors to teach these lessons. After watching this video, please contact [team@carpentries.org](mailto:team@carpentries.org) so that we can record your status as an onboarded Instructor. Instructors who have completed onboarding will be given priority status for teaching at centrally-organized Data Carpentry Genomics workshops.
 
 :::::::::::::::::::::::::::::::::::::::::  callout
@@ -62,6 +60,8 @@ More information about this data is available on the [Data page](https://datacar
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | [Intro to R and RStudio for Genomics](https://datacarpentry.org/genomics-r-intro/)       | Use R to analyze and visualize between-sample variation.                                                                                                                      | 
 
+**Please note that lesson [Intro to R and RStudio for Genomics](https://datacarpentry.org/genomics-r-intro/) is in "beta" development, which means that it is currently being piloted by instructors, but is not yet part of The Carpentries' official lesson offerings.**    
+
 # Teaching Platform
 
 This workshop is designed to be run on pre-imaged Amazon Web Services (AWS)
@@ -88,5 +88,4 @@ If you want to run your own instance of the server used for this workshop, follo
 - Half-day 2: [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/) (continued)
 - Half-day 3 \& 4 : [Data wrangling and processing](https://datacarpentry.github.io/wrangling-genomics/)
 - Half-day 5 \& 6: [Intro to R and RStudio for Genomics](https://datacarpentry.org/genomics-r-intro/)
-
 
