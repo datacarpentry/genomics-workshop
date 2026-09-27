@@ -49,10 +49,10 @@ More information about this data is available on the [Data page](https://datacar
 
 | Lesson | Overview                                                                                                                                                                      | 
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| [Project organization and management](https://datacarpentry.github.io/organization-genomics/)       | Learn how to structure your metadata, organize and document your genomics data and bioinformatics workflow, and access data on the NCBI sequence read archive (SRA) database. | 
-| [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/)       | Learn to navigate your file system, create, copy, move, and remove files and directories, and automate repetitive tasks using scripts and wildcards.                          | 
-| [Data wrangling and processing](https://datacarpentry.github.io/wrangling-genomics/)       | Use command-line tools to perform quality control, align reads to a reference genome, and identify and visualize between-sample variation.                                    | 
-| [Introduction to cloud computing for genomics](https://www.datacarpentry.org/cloud-genomics/)       | Learn how to work with Amazon AWS cloud computing and how to transfer data between your local computer and cloud resources.                                                   | 
+| [Project organization and management](https://datacarpentry.org/organization-genomics/)       | Learn how to structure your metadata, organize and document your genomics data and bioinformatics workflow, and access data on the NCBI sequence read archive (SRA) database. | 
+| [Introduction to cloud computing for genomics](https://datacarpentry.org/cloud-genomics/)       | Learn how to work with Amazon AWS cloud computing and how to transfer data between your local computer and cloud resources.                                                   | 
+| [Introduction to the command line](https://datacarpentry.org/shell-genomics/)       | Learn to navigate your file system, create, copy, move, and remove files and directories, and automate repetitive tasks using scripts and wildcards.                          | 
+| [Data wrangling and processing](https://datacarpentry.org/wrangling-genomics/)       | Use command-line tools to perform quality control, align reads to a reference genome, and identify and visualize between-sample variation.                                    | 
 
 # Optional Additional Lessons
 
@@ -72,20 +72,22 @@ If you want to run your own instance of the server used for this workshop, follo
 
 ### Schedule A (2 days OR 4 half days)
 
-- Half-day 1: [Project organization and management](https://datacarpentry.github.io/organization-genomics/) \& [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/)
-- Half-day 2: [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/) (continued).
-- Half-day 3 \& 4 : [Data wrangling and processing](https://datacarpentry.github.io/wrangling-genomics/)
+- Half-day 1: [Project organization and management](https://datacarpentry.org/organization-genomics/) \& [Introduction to cloud computing for genomics](https://datacarpentry.org/cloud-genomics/)
+- Half-day 2: [Introduction to the command line](https://datacarpentry.org/shell-genomics/)
+- Half-day 3 : [Introduction to the command line](https://datacarpentry.org/shell-genomics/) (continued) \& [Data wrangling and processing](https://datacarpentry.org/wrangling-genomics/)
+- Half-day 4 : [Data wrangling and processing](https://datacarpentry.org/wrangling-genomics/) (continued)
 
 ### Schedule B (2 days OR 4 half days)
 
-- Half-day 1: [Project organization and management](https://datacarpentry.github.io/organization-genomics/) \& [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/)
-- Half-day 2: [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/) (continued)
+- Half-day 1: [Project organization and management](https://datacarpentry.org/organization-genomics/) \& [Introduction to cloud computing for genomics](https://datacarpentry.org/cloud-genomics/)
+- Half-day 2: [Introduction to the command line](https://datacarpentry.org/shell-genomics/)
 - Half-day 3 \& 4: [Intro to R and RStudio for Genomics](https://datacarpentry.org/genomics-r-intro/)
 
 ### Schedule C (3 days OR 6 half days)
-
-- Half-day 1: [Project organization and management](https://datacarpentry.github.io/organization-genomics/) \& [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/)
-- Half-day 2: [Introduction to the command line](https://datacarpentry.github.io/shell-genomics/) (continued)
-- Half-day 3 \& 4 : [Data wrangling and processing](https://datacarpentry.github.io/wrangling-genomics/)
+ 
+- Half-day 1: [Project organization and management](https://datacarpentry.org/organization-genomics/) \& [Introduction to cloud computing for genomics](https://datacarpentry.org/cloud-genomics/)
+- Half-day 2: [Introduction to the command line](https://datacarpentry.org/shell-genomics/)
+- Half-day 3 : [Introduction to the command line](https://datacarpentry.org/shell-genomics/) (continued) \& [Data wrangling and processing](https://datacarpentry.org/wrangling-genomics/)
+- Half-day 4 : [Data wrangling and processing](https://datacarpentry.org/wrangling-genomics/) (continued)
 - Half-day 5 \& 6: [Intro to R and RStudio for Genomics](https://datacarpentry.org/genomics-r-intro/)
 
