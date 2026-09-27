@@ -27,9 +27,12 @@ For Windows, you will also need to install either Git Bash, PuTTY, or the Ubuntu
 
 ## Windows
 
-- Visit [the LibreOffice installation page](https://www.libreoffice.org/download/libreoffice-fresh/).
+- Visit [the LibreOffice installation page](https://www.libreoffice.org/download/).
   The version for Windows should automatically be selected.
-  Click Download Version X.X.X (whichever is the most recent version).
+  Click the download button for Version X.X.X (whichever is the most recent version)
+  and whichever type of processor you have.
+  If you aren't sure, open your computer's Settings application, click on System, and click on the About page.
+  Under the device info, you will see the type of processor under "System type".
   You will go to a page that asks about a donation, but you don't need to make one.
   Your download should begin automatically.
 - Once the installer is downloaded, double click on it and LibreOffice should install.
@@ -78,9 +81,13 @@ For Windows, you will also need to install either Git Bash, PuTTY, or the Ubuntu
 
 ## Mac OS X
 
-- Visit [the LibreOffice installation page](https://www.libreoffice.org/download/libreoffice-fresh/).
+- Visit [the LibreOffice installation page](https://www.libreoffice.org/download/).
   The version for Mac should automatically be selected.
-  Click Download Version X.X.X (whichever is the most recent version).
+  Click the download button for Version X.X.X (whichever is the most recent version)
+  and whichever type of processor your computer has.
+  If you aren't sure, click the Apple logo in the top left menu bar on your computer and select "About This Mac".
+  If there is an entry for "Chip" that shows "Apple" with anything else, choose "Apple Silicon".
+  If there is an entry with "Processor" that shows something containing "Intel", choose "Intel".
   You will go to a page that asks about a donation, but you don't need to make one.
   Your download should begin automatically.
 - Once the installer is downloaded, double click on it and LibreOffice should install.
@@ -91,9 +98,10 @@ For Windows, you will also need to install either Git Bash, PuTTY, or the Ubuntu
 
 ## Linux
 
-- Visit [the LibreOffice installation page](https://www.libreoffice.org/download/libreoffice-fresh/).
+- Visit [the LibreOffice installation page](https://www.libreoffice.org/download/).
   The version for Linux should automatically be selected.
-  Click Download Version X.X.X (whichever is the most recent version).
+  Click the download button for Version X.X.X (whichever is the most recent version)
+  and whichever type of Linux distribution you have installed.
   You will go to a page that asks about a donation, but you don't need to make one.
   Your download should begin automatically.
 - Once the installer is downloaded, double click on it and LibreOffice should install.
