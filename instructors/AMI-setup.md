@@ -10,12 +10,16 @@ title: Launching your own AMI instances
 
 - teaching at or attending a centrally organized Data
   Carpentry workshop,
-- a Maintainer for one of the Genomics lessons,
-- contributing to the Genomics lessons, or
-- teaching at a self-organized workshop
+- a Maintainer for one of the Genomics lessons, or
+- contributing to the Genomics lessons
 
 The Carpentries staff will create AMI instances for you. Please contact
 [team@carpentries.org](mailto:team@carpentries.org).
+
+**If you are:** 
+- hosting a self-organised Data Carpentry Genomics workshop:
+
+You have two options for setting up AWS instances: you can either set them up yourself, or request that The Carpentries provide them. If you choose the latter, pricing will depend on the number of instances required and the duration of the workshop. Pricing details and conditions are outlined in the [Genomics Policy](https://docs.carpentries.org/resources/workshops/genomics_policy.html). Read this carefully as this document is updated from time to time.
 
 **If you are:**
 
